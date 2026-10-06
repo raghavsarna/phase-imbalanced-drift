@@ -1,11 +1,11 @@
 """Write the LaTeX tables of the letter from results/runs/*.json.
 
-    python make_tables.py  ->  ../SPL_submission/tables/tab_main.tex
-                               ../SPL_submission/tables/tab_ablation.tex
-                               ../SPL_submission/tables/numbers.tex  (\\newcommand macros used in the text)
+    python make_tables.py  ->  <paper>/tables/{tab_main,tab_ablation,numbers}.tex
+<paper> is $PHASE_PAPER_DIR, else ../SPL_submission if present, else results/latex.
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import numpy as np
@@ -13,7 +13,8 @@ import numpy as np
 from summarize import load_runs
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT.parent / "SPL_submission" / "tables"
+_PAPER = Path(os.environ.get("PHASE_PAPER_DIR", ROOT.parent / "SPL_submission"))
+OUT = (_PAPER if _PAPER.exists() else ROOT / "results" / "latex") / "tables"
 DS = ["sea", "sea10", "sea5", "elec2", "covtype"]
 HEAD = ["SEA", "SEA-10\\%", "SEA-5\\%", "Elec2", "Covert."]
 BASE = [("HAT", "HAT"), ("ARF", "ARF~\\cite{gomes2017arf}"), ("SRP", "SRP~\\cite{gomes2019srp}"),

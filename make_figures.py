@@ -7,6 +7,7 @@
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -16,7 +17,8 @@ from summarize import load_runs
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "figures"
-PAPER_FIG = ROOT.parent / "SPL_submission" / "figures"
+_PAPER = Path(os.environ.get("PHASE_PAPER_DIR", ROOT.parent / "SPL_submission"))
+PAPER_FIG = (_PAPER if _PAPER.exists() else ROOT / "results" / "latex") / "figures"
 
 SEA = ["sea", "sea10", "sea5"]
 XLAB = ["Natural", "10%", "5%"]

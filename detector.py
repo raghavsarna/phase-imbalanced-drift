@@ -1,14 +1,6 @@
 """Phase I: Page-Hinkley segmentation of the labelled training stream.
 
-The original detector ran a "multivariate" PH test on the norm of the
-feature deviation, with two defects: the running mean used the global
-time index instead of the time since the last reset, and unscaled features
-made the increment ||x - mean|| - delta always positive.  The statistic
-therefore grew linearly and fired at every multiple of the minimum segment
-length.  It also cannot see real drift such as SEA's, where P(x) is fixed
-and only P(y|x) changes.
-
-Here PH monitors residuals of a reference model, as in classical change
+PH monitors residuals of a reference model, as in classical change
 detection.  At the start of every segment a class-balanced random forest is
 fitted on the first ``W_ref`` samples and frozen; its error indicators
 e_t = 1{h(x_t) != y_t} are i.i.d. while the concept is unchanged.  In

@@ -7,6 +7,7 @@ ground-truth ``change_points``.
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import numpy as np
@@ -14,7 +15,7 @@ import pandas as pd
 from river.datasets import Elec2, synth
 
 ROOT = Path(__file__).resolve().parent
-COVTYPE_CSV = ROOT.parent / "Code" / "Archive_Drift Analysis" / "covtype.csv"
+COVTYPE_CSV = Path(os.environ.get("PHASE_COVTYPE_CSV", ROOT / "data" / "covtype.csv"))
 
 # River SEA variants -> decision threshold theta (y = 1{x1 + x2 > theta})
 SEA_THETA = {0: 8.0, 1: 9.0, 2: 7.0, 3: 9.5}
@@ -31,9 +32,8 @@ def sea_stream(seed: int, minority_share: float | None = None,
                noise: float = 0.1):
     """SEA stream with abrupt real drifts between consecutive concepts.
 
-    The original implementation re-assigned the generator inside the loop,
-    which does not affect the running iterator, so it never drifted.  Here
-    each concept is drawn from its own generator and concatenated.
+    Each concept is drawn from its own River generator and the concepts are
+    concatenated, giving abrupt real drifts at the concept boundaries.
 
     ``minority_share`` (e.g. 0.1) imposes a fixed class-0 share in every
     concept by rejection sampling of class-0 samples; ``None`` keeps the

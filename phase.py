@@ -12,16 +12,13 @@ Phase IV  one random-forest meta-learner trained on the cross-fitted,
           most recent segment exceeds that of the fused rule argmax p
 Inference routes a query to the most recent segment's base layer (Eq. (13)).
 
-Main fixes relative to the original script:
-  * base-learner posteriors used for the weights, the refinement decision
-    and the meta-learner are out-of-fold (cross-fitted), not in-sample;
-  * class costs follow Eq. (6) instead of the fixed {0: 2.0, 1: 0.7}, and
-    the cost on/off choice uses balanced accuracy (the original used plain
-    accuracy and therefore never enabled the costs);
+Design notes:
+  * posteriors used for the weights, the refinement decision and the
+    meta-learner are out-of-fold (cross-fitted), not in-sample;
+  * class costs follow Eq. (6); the cost on/off choice uses balanced accuracy;
   * k-means posteriors are cost-weighted cluster histograms (Eq. (7));
   * SVM posteriors are Platt-calibrated on out-of-fold decision values;
-  * no hand-crafted features (the originals used whole-stream statistics,
-    i.e. the test set, and decision-rule indicators).
+  * all methods use the raw input features (no hand-crafted features).
 """
 from __future__ import annotations
 
