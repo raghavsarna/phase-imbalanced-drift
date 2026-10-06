@@ -1,0 +1,6 @@
+5 runs on 2 workers
+[done] ('covtype', 'ARF', 0): 0.4387 acc, 0.0000 gmean, 387s
+[done] ('covtype', 'OOB', 0): 0.6122 acc, 0.0000 gmean, 755s
+[done] ('covtype', 'UOB', 0): 0.3303 acc, 0.0574 gmean, 271s
+[done] ('covtype', 'HAT', 0): 0.4377 acc, 0.0000 gmean, 167s
+[done] ('covtype', 'SRP', 0): 0.4782 acc, 0.0000 gmean, 2839s

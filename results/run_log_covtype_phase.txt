@@ -1,0 +1,9 @@
+8 runs on 8 workers
+[done] ('covtype', 'PHASE-nometa', 0): 0.4108 acc, 0.0000 gmean, 196s
+[done] ('covtype', 'PHASE-norefine', 0): 0.4108 acc, 0.0000 gmean, 448s
+[done] ('covtype', 'PHASE', 0): 0.4108 acc, 0.0000 gmean, 493s
+[done] ('covtype', 'PHASE-alwaysmeta', 0): 0.4178 acc, 0.0000 gmean, 496s
+[done] ('covtype', 'PHASE-pooled', 0): 0.4386 acc, 0.0000 gmean, 500s
+[done] ('covtype', 'PHASE-periodic', 0): 0.4468 acc, 0.0000 gmean, 663s
+[done] ('covtype', 'PHASE-noseg', 0): 0.5787 acc, 0.6895 gmean, 1019s
+[done] ('covtype', 'PHASE-nocost', 0): 0.4175 acc, 0.0000 gmean, 1057s

@@ -1,0 +1,158 @@
+
+== gmean (mean over seeds)
+dataset             sea  sea10   sea5  elec2  covtype
+method                                               
+ARF               88.55  61.14  27.69  75.13     0.00
+HAT               86.17  54.98   5.96  72.83     0.00
+OOB               84.86  80.63  74.24  65.18     0.00
+PHASE             89.40  88.74  88.21  76.55     0.00
+PHASE-alwaysmeta  89.40  88.73  84.23  72.38     0.00
+PHASE-nocost      89.42  75.37  28.63  76.95     0.00
+PHASE-nometa      88.93  88.40  88.21  77.41     0.00
+PHASE-norefine    89.42  88.51  85.93  73.49     0.00
+PHASE-noseg       84.40  83.66  83.00  68.39    68.95
+PHASE-periodic    89.14  88.22  87.55  60.80     0.00
+PHASE-pooled      89.34  83.84  84.00  71.55     0.00
+SRP               80.26  14.26   4.20  74.88     0.00
+UOB               86.78  84.27  86.05  56.48     5.74
+
+== kappa (mean over seeds)
+dataset             sea  sea10   sea5  elec2  covtype
+method                                               
+ARF               77.30  40.30  11.27  52.54    -0.38
+HAT               72.82  34.77   1.58  52.00     2.92
+OOB               71.06  55.77  40.67  37.52    37.88
+PHASE             78.96  60.66  44.52  52.84     3.38
+PHASE-alwaysmeta  78.96  60.99  44.72  45.05     4.25
+PHASE-nocost      79.00  52.05  11.56  53.70     3.01
+PHASE-nometa      78.00  59.92  44.52  54.46     3.38
+PHASE-norefine    78.99  60.06  43.78  46.97     3.38
+PHASE-noseg       70.27  58.14  44.39  41.03    38.13
+PHASE-periodic    78.46  59.24  43.97  30.47     7.60
+PHASE-pooled      78.83  58.14  44.84  44.02     5.90
+SRP               62.16   3.62   0.42  51.72    10.52
+UOB               74.24  55.35  39.07  27.40     2.01
+
+== acc (mean over seeds)
+dataset             sea  sea10   sea5  elec2  covtype
+method                                               
+ARF               88.74  90.56  94.67  76.76    43.87
+HAT               86.55  90.27  94.89  76.88    43.77
+OOB               85.76  90.95  92.61  67.36    61.22
+PHASE             89.56  90.89  90.84  76.20    41.08
+PHASE-alwaysmeta  89.56  91.01  91.79  72.11    41.78
+PHASE-nocost      89.58  90.90  94.52  76.98    41.75
+PHASE-nometa      89.08  90.68  90.84  77.04    41.08
+PHASE-norefine    89.57  90.71  91.09  73.15    41.08
+PHASE-noseg       85.38  91.10  91.94  69.44    57.87
+PHASE-periodic    89.31  90.46  90.78  63.59    44.68
+PHASE-pooled      89.49  91.06  91.88  71.46    43.86
+SRP               81.39  89.96  94.95  76.42    47.82
+UOB               87.27  89.90  89.10  61.59    33.03
+
+== ba (mean over seeds)
+dataset             sea  sea10   sea5  elec2  covtype
+method                                               
+ARF               88.58  67.58  53.55  75.97    18.43
+HAT               86.27  65.63  50.46  75.67    20.13
+OOB               85.19  81.50  76.43  69.77    48.95
+PHASE             89.42  88.78  88.26  76.92    21.85
+PHASE-alwaysmeta  89.42  88.78  84.66  73.09    21.62
+PHASE-nocost      89.44  77.30  53.75  76.95    21.36
+PHASE-nometa      88.95  88.45  88.26  77.72    21.85
+PHASE-norefine    89.44  88.56  86.12  74.00    21.85
+PHASE-noseg       84.77  84.11  83.53  71.46    72.17
+PHASE-periodic    89.17  88.26  87.64  66.12    24.15
+PHASE-pooled      89.36  84.27  84.43  72.65    23.59
+SRP               80.74  51.05  50.11  75.52    22.74
+UOB               86.91  84.54  86.13  64.62    21.03
+
+== min_recall (mean over seeds)
+dataset             sea  sea10   sea5  elec2  covtype
+method                                               
+ARF               86.41  38.80   7.80  67.89     0.00
+HAT               82.60  34.78   1.04  63.20     0.00
+OOB               77.84  69.66  58.43  94.45     0.00
+PHASE             87.60  86.14  85.39  84.35     0.00
+PHASE-alwaysmeta  87.60  85.98  76.72  83.09     0.00
+PHASE-nocost      87.56  60.27   8.40  76.63     0.00
+PHASE-nometa      87.19  85.66  85.39  84.70     0.00
+PHASE-norefine    87.69  85.86  80.58  82.67     0.00
+PHASE-noseg       76.86  75.37  74.18  92.18    69.62
+PHASE-periodic    87.25  85.51  84.15  91.98     0.00
+PHASE-pooled      87.61  75.77  76.14  84.83     0.00
+SRP               72.10   2.33   0.23  66.37     0.00
+UOB               82.19  77.82  82.84  95.69    13.08
+
+== time_s (mean over seeds)
+dataset              sea   sea10   sea5  elec2  covtype
+method                                                 
+ARF                18.37   19.39  19.36  24.39   386.67
+HAT                 1.61    1.76   1.91   3.06   167.43
+OOB                 4.33    4.62   5.16   7.72   754.58
+PHASE             158.27  109.82  53.47  43.62   492.52
+PHASE-alwaysmeta   51.05   43.24  42.15  34.93   496.12
+PHASE-nocost      133.79  109.47  76.81  56.51  1056.91
+PHASE-nometa       23.31   23.52  23.05  11.62   195.61
+PHASE-norefine     85.84   58.86  32.29  38.28   448.16
+PHASE-noseg        67.74   53.35  37.96  63.11  1019.13
+PHASE-periodic    132.28   77.09  47.62  67.97   663.14
+PHASE-pooled      157.72   67.82  47.74  63.78   499.97
+SRP                48.93   46.22  50.62  68.63  2838.76
+UOB                 3.17    1.57   1.22   4.18   270.94
+
+== PHASE: fraction stacked by the gate, segments, SVM admitted, costs on, last segment length
+          stacked  n_segments  svm_frac  cost_on_frac  last_seg_len
+dataset                                                           
+covtype      0.0       182.0      0.18          0.94        1250.0
+elec2        0.2        22.2      0.95          0.77        1078.8
+sea          1.0         4.2      1.00          0.35        9990.8
+sea10        0.8         3.8      1.00          0.95        9973.0
+sea5         0.0         3.4      1.00          1.00       10891.0
+
+== runs per cell
+ dataset           covtype  elec2  sea  sea10  sea5
+method                                            
+ARF                     1      5    5      5     5
+HAT                     1      5    5      5     5
+OOB                     1      5    5      5     5
+PHASE                   1      5    5      5     5
+PHASE-alwaysmeta        1      5    5      5     5
+PHASE-nocost            1      5    5      5     5
+PHASE-nometa            1      5    5      5     5
+PHASE-norefine          1      5    5      5     5
+PHASE-noseg             1      5    5      5     5
+PHASE-periodic          1      5    5      5     5
+PHASE-pooled            1      5    5      5     5
+SRP                     1      5    5      5     5
+UOB                     1      5    5      5     5
+
+== detection (SEA, summed over seeds)
+                           detected  n_true    fa   delay    loc  seeds
+dataset method                                                        
+sea     PHASE                 15.0    15.0   1.0   454.2   82.7      5
+        PHASE-alwaysmeta      15.0    15.0   1.0   454.2   82.7      5
+        PHASE-nocost          15.0    15.0   1.0   454.2   82.7      5
+        PHASE-nometa          15.0    15.0   1.0   454.2   82.7      5
+        PHASE-norefine        15.0    15.0   1.0   454.2   82.7      5
+        PHASE-noseg            0.0    15.0   0.0     NaN    NaN      5
+        PHASE-periodic        15.0    15.0  20.0     0.0    0.0      5
+        PHASE-pooled          15.0    15.0   0.0   780.6  271.3      5
+sea10   PHASE                 13.0    15.0   1.0  1361.9   57.0      5
+        PHASE-alwaysmeta      13.0    15.0   1.0  1361.9   57.0      5
+        PHASE-nocost          13.0    15.0   1.0  1361.9   57.0      5
+        PHASE-nometa          13.0    15.0   1.0  1361.9   57.0      5
+        PHASE-norefine        13.0    15.0   1.0  1361.9   57.0      5
+        PHASE-noseg            0.0    15.0   0.0     NaN    NaN      5
+        PHASE-periodic        15.0    15.0  20.0     0.0    0.0      5
+        PHASE-pooled           5.0    15.0   0.0   937.2  213.0      5
+sea5    PHASE                 10.0    15.0   2.0  2832.2  333.0      5
+        PHASE-alwaysmeta      10.0    15.0   2.0  2832.2  333.0      5
+        PHASE-nocost          10.0    15.0   2.0  2832.2  333.0      5
+        PHASE-nometa          10.0    15.0   2.0  2832.2  333.0      5
+        PHASE-norefine        10.0    15.0   2.0  2832.2  333.0      5
+        PHASE-noseg            0.0    15.0   0.0     NaN    NaN      5
+        PHASE-periodic        15.0    15.0  20.0     0.0    0.0      5
+        PHASE-pooled           5.0    15.0   0.0  1920.8  625.6      5
+
+wrote results/summary.csv, results/detection.csv, results/tables.tex
