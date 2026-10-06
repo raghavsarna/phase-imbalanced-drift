@@ -1,0 +1,119 @@
+{
+ "protocol": "holdout",
+ "dataset": "elec2",
+ "name": "Elec2",
+ "method": "PHASE-noseg",
+ "seed": 4,
+ "n": 45312,
+ "n_features": 7,
+ "n_classes": 2,
+ "n_train": 36249,
+ "n_test": 9063,
+ "train_class_counts": [
+  21101,
+  15148
+ ],
+ "test_class_counts": [
+  4974,
+  4089
+ ],
+ "config": {
+  "detector": "none",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 4,
+  "n_jobs": 1
+ },
+ "boundaries": [],
+ "alarms": [],
+ "segments": [
+  {
+   "start": 0,
+   "end": 36249,
+   "n": 36249,
+   "class_counts": {
+    "0": 21101,
+    "1": 15148
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 0,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.18158729777499494,
+    "LR": 0.1623725430187709,
+    "KM": 0.14297673939444375,
+    "SVM": 0.5130634198117904
+   },
+   "ba_fused": 0.7725787364896987,
+   "ba_oof": {
+    "DT": {
+     "0": 0.7752565975051248,
+     "1": 0.7804371416500271
+    },
+    "LR": {
+     "0": 0.7275248572800874,
+     "1": 0.7265106332117988
+    },
+    "KM": {
+     "0": 0.6155341151795907,
+     "1": 0.6360781511461837
+    }
+   },
+   "svm_admitted": true,
+   "alpha": 0.4869365801882096,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "time_total_s": 14.68645691871643,
+ "metrics": {
+  "acc": 0.7313251682665783,
+  "ba": 0.7480475139839418,
+  "gmean": 0.7281820869733489,
+  "kappa": 0.4776492146526221,
+  "mcc": 0.5165617197896223,
+  "macro_f1": 0.7287089649260492,
+  "recall": {
+   "0": 0.5767993566546039,
+   "1": 0.9192956713132795
+  },
+  "support": {
+   "0": 4974,
+   "1": 4089
+  },
+  "minority_class": 1,
+  "minority_recall": 0.9192956713132795,
+  "confusion": [
+   [
+    2869,
+    2105
+   ],
+   [
+    330,
+    3759
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

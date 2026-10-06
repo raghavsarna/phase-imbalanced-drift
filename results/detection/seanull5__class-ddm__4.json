@@ -1,0 +1,23 @@
+{
+ "stream": "seanull5",
+ "mode": "class",
+ "test": "ddm",
+ "seed": 4,
+ "n": 50000,
+ "minority_share": 0.05004,
+ "change_points": [],
+ "boundaries": [
+  1031,
+  2131
+ ],
+ "alarms": [
+  1037,
+  2131
+ ],
+ "detected": 0,
+ "n_true": 0,
+ "false_alarms": 2,
+ "mean_abs_loc_error": null,
+ "mean_delay": null,
+ "hits": []
+}

@@ -1,0 +1,33 @@
+{
+ "stream": "sea20",
+ "mode": "class",
+ "test": "ph",
+ "seed": 4,
+ "n": 50000,
+ "minority_share": 0.19852,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  11103,
+  20035,
+  30013
+ ],
+ "alarms": [
+  11202,
+  20175,
+  30470
+ ],
+ "detected": 3,
+ "n_true": 3,
+ "false_alarms": 0,
+ "mean_abs_loc_error": 383.6666666666667,
+ "mean_delay": 615.6666666666666,
+ "hits": [
+  10000,
+  20000,
+  30000
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "stream": "sea2",
+ "mode": "pooled",
+ "test": "adwin",
+ "seed": 1,
+ "n": 50000,
+ "minority_share": 0.0199,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  19858,
+  28844
+ ],
+ "alarms": [
+  22055,
+  31833
+ ],
+ "detected": 1,
+ "n_true": 3,
+ "false_alarms": 1,
+ "mean_abs_loc_error": 142.0,
+ "mean_delay": 2055.0,
+ "hits": [
+  20000
+ ]
+}

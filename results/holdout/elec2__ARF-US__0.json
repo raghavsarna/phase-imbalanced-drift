@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "elec2",
+ "name": "Elec2",
+ "method": "ARF-US",
+ "seed": 0,
+ "n": 45312,
+ "n_features": 7,
+ "n_classes": 2,
+ "n_train": 36249,
+ "n_test": 9063,
+ "train_class_counts": [
+  21101,
+  15148
+ ],
+ "test_class_counts": [
+  4974,
+  4089
+ ],
+ "time_total_s": 11.563261270523071,
+ "metrics": {
+  "acc": 0.6977821913273751,
+  "ba": 0.71583510852176,
+  "gmean": 0.6915500455859559,
+  "kappa": 0.41430069914972756,
+  "mcc": 0.4546983628411773,
+  "macro_f1": 0.6937337238388517,
+  "recall": {
+   "0": 0.5309609971853639,
+   "1": 0.900709219858156
+  },
+  "support": {
+   "0": 4974,
+   "1": 4089
+  },
+  "minority_class": 1,
+  "minority_recall": 0.900709219858156,
+  "confusion": [
+   [
+    2641,
+    2333
+   ],
+   [
+    406,
+    3683
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

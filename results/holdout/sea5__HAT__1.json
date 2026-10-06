@@ -1,0 +1,54 @@
+{
+ "dataset": "sea5",
+ "name": "SEA-0.05",
+ "method": "HAT",
+ "seed": 1,
+ "n_train": 40000,
+ "n_test": 10000,
+ "n_features": 3,
+ "n_classes": 2,
+ "train_class_counts": [
+  2052,
+  37948
+ ],
+ "test_class_counts": [
+  499,
+  9501
+ ],
+ "time_total_s": 1.7059800624847412,
+ "time_fit_s": 1.7059800624847412,
+ "metrics": {
+  "acc": 0.9501,
+  "ba": 0.5,
+  "gmean": 0.0,
+  "kappa": 0.0,
+  "mcc": 0.0,
+  "macro_f1": 0.4872057843187529,
+  "recall": {
+   "0": 0.0,
+   "1": 1.0
+  },
+  "support": {
+   "0": 499,
+   "1": 9501
+  },
+  "minority_class": 0,
+  "minority_recall": 0.0,
+  "confusion": [
+   [
+    0,
+    499
+   ],
+   [
+    0,
+    9501
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ },
+ "protocol": "holdout",
+ "n": 50000
+}

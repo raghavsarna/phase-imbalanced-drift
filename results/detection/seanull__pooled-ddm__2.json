@@ -1,0 +1,21 @@
+{
+ "stream": "seanull",
+ "mode": "pooled",
+ "test": "ddm",
+ "seed": 2,
+ "n": 50000,
+ "minority_share": 0.3536,
+ "change_points": [],
+ "boundaries": [
+  1157
+ ],
+ "alarms": [
+  1158
+ ],
+ "detected": 0,
+ "n_true": 0,
+ "false_alarms": 1,
+ "mean_abs_loc_error": null,
+ "mean_delay": null,
+ "hits": []
+}

@@ -1,0 +1,155 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea5",
+ "name": "SEA-0.05",
+ "method": "PHASE-adwin",
+ "seed": 1,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  2052,
+  37948
+ ],
+ "test_class_counts": [
+  499,
+  9501
+ ],
+ "config": {
+  "detector": "pooled",
+  "test": "adwin",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 1,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  19997
+ ],
+ "alarms": [
+  22439
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 19997,
+   "n": 19997,
+   "class_counts": {
+    "0": 1020,
+    "1": 18977
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 19997,
+   "end": 40000,
+   "n": 20003,
+   "class_counts": {
+    "0": 1032,
+    "1": 18971
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.17104219873886148,
+    "LR": 0.16412368886064618,
+    "KM": 0.15508254609390457,
+    "SVM": 0.5097515663065877
+   },
+   "ba_fused": 0.7880758636499039,
+   "ba_oof": {
+    "DT": {
+     "0": 0.6202311953904347,
+     "1": 0.775366721503527
+    },
+    "LR": {
+     "0": 0.5588993134768326,
+     "1": 0.8178159728904868
+    },
+    "KM": {
+     "0": 0.5,
+     "1": 0.7489393746227923
+    }
+   },
+   "svm_admitted": true,
+   "alpha": 0.49024843369341226,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "true_change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "detection": {
+  "detected": 1,
+  "n_true": 3,
+  "false_alarms": 0,
+  "mean_abs_loc_error": 3.0,
+  "mean_delay": 2439.0,
+  "hits": [
+   20000
+  ]
+ },
+ "time_total_s": 10.510785102844238,
+ "metrics": {
+  "acc": 0.9184,
+  "ba": 0.8326886379853697,
+  "gmean": 0.8272271280797517,
+  "kappa": 0.43603979402735726,
+  "mcc": 0.4720086877701769,
+  "macro_f1": 0.7149971835015781,
+  "recall": {
+   "0": 0.7374749498997996,
+   "1": 0.9279023260709399
+  },
+  "support": {
+   "0": 499,
+   "1": 9501
+  },
+  "minority_class": 0,
+  "minority_recall": 0.7374749498997996,
+  "confusion": [
+   [
+    368,
+    131
+   ],
+   [
+    685,
+    8816
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

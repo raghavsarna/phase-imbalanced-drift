@@ -1,0 +1,271 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea",
+ "name": "SEA",
+ "method": "PHASE-periodic",
+ "seed": 0,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  15428,
+  24572
+ ],
+ "test_class_counts": [
+  4682,
+  5318
+ ],
+ "config": {
+  "detector": "periodic",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 0,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  5000,
+  10000,
+  15000,
+  20000,
+  25000,
+  30000,
+  35000
+ ],
+ "alarms": [
+  5000,
+  10000,
+  15000,
+  20000,
+  25000,
+  30000,
+  35000
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 5000,
+   "n": 5000,
+   "class_counts": {
+    "0": 1820,
+    "1": 3180
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 5000,
+   "end": 10000,
+   "n": 5000,
+   "class_counts": {
+    "0": 1773,
+    "1": 3227
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 10000,
+   "end": 15000,
+   "n": 5000,
+   "class_counts": {
+    "0": 2157,
+    "1": 2843
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 15000,
+   "end": 20000,
+   "n": 5000,
+   "class_counts": {
+    "0": 2109,
+    "1": 2891
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 20000,
+   "end": 25000,
+   "n": 5000,
+   "class_counts": {
+    "0": 1487,
+    "1": 3513
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 25000,
+   "end": 30000,
+   "n": 5000,
+   "class_counts": {
+    "0": 1468,
+    "1": 3532
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 30000,
+   "end": 35000,
+   "n": 5000,
+   "class_counts": {
+    "0": 2291,
+    "1": 2709
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 35000,
+   "end": 40000,
+   "n": 5000,
+   "class_counts": {
+    "0": 2323,
+    "1": 2677
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 0,
+    "KM": 0
+   },
+   "W": {
+    "DT": 0.17679945237180208,
+    "LR": 0.16267788515616283,
+    "KM": 0.14614878523978236,
+    "SVM": 0.5143738772322528
+   },
+   "ba_fused": 0.8732709127078759,
+   "ba_oof": {
+    "DT": {
+     "0": 0.865543698967191,
+     "1": 0.8656860123328602
+    },
+    "LR": {
+     "0": 0.8870408162773042,
+     "1": 0.8806513481739104
+    },
+    "KM": {
+     "0": 0.7179074918097452,
+     "1": 0.7143146019463
+    }
+   },
+   "svm_admitted": true,
+   "alpha": 0.48562612276774725,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "true_change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "detection": {
+  "detected": 3,
+  "n_true": 3,
+  "false_alarms": 4,
+  "mean_abs_loc_error": 0.0,
+  "mean_delay": 0.0,
+  "hits": [
+   10000,
+   20000,
+   30000
+  ]
+ },
+ "time_total_s": 2.0297889709472656,
+ "metrics": {
+  "acc": 0.8868,
+  "ba": 0.8852802030099671,
+  "gmean": 0.884957632017678,
+  "kappa": 0.7721975387030747,
+  "mcc": 0.7726287620185674,
+  "macro_f1": 0.886067179541498,
+  "recall": {
+   "0": 0.8613840239214011,
+   "1": 0.9091763820985332
+  },
+  "support": {
+   "0": 4682,
+   "1": 5318
+  },
+  "minority_class": 0,
+  "minority_recall": 0.8613840239214011,
+  "confusion": [
+   [
+    4033,
+    649
+   ],
+   [
+    483,
+    4835
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "stream": "sea2",
+ "mode": "class",
+ "test": "ddm",
+ "seed": 4,
+ "n": 50000,
+ "minority_share": 0.01946,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  1048,
+  2183,
+  3234,
+  22202,
+  26672,
+  30695
+ ],
+ "alarms": [
+  1048,
+  2183,
+  3234,
+  22202,
+  26672,
+  30695
+ ],
+ "detected": 2,
+ "n_true": 3,
+ "false_alarms": 4,
+ "mean_abs_loc_error": 1448.5,
+ "mean_delay": 1448.5,
+ "hits": [
+  20000,
+  30000
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "PHASE-nomemory",
+ "seed": 4,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "config": {
+  "detector": "class",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 0,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 4,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  46998
+ ],
+ "alarms": [
+  94218
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 46998,
+   "n": 46998,
+   "class_counts": {
+    "0": 46853,
+    "1": 145
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 46998,
+   "end": 227845,
+   "n": 180847,
+   "class_counts": {
+    "0": 180575,
+    "1": 272
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.3617233148204071,
+    "LR": 0.36870989423414474,
+    "KM": 0.26956679094544816
+   },
+   "ba_fused": 0.9046156579065241,
+   "ba_oof": {
+    "DT": {
+     "0": 0.849220402961129,
+     "1": 0.8777897402904121
+    },
+    "LR": {
+     "0": 0.8584088104991408,
+     "1": 0.9208756647474163
+    },
+    "KM": {
+     "0": 0.5919089957733059,
+     "1": 0.7186752998998298
+    }
+   },
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "time_total_s": 52.9375958442688,
+ "metrics": {
+  "acc": 0.9855693269197009,
+  "ba": 0.9128806229894352,
+  "gmean": 0.9099667283050799,
+  "kappa": 0.1308035901744352,
+  "mcc": 0.2437505891042239,
+  "macro_f1": 0.5628177554009455,
+  "recall": {
+   "0": 0.9857612459788704,
+   "1": 0.84
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.84,
+  "confusion": [
+   [
+    56077,
+    810
+   ],
+   [
+    12,
+    63
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

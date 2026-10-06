@@ -1,0 +1,21 @@
+{
+ "stream": "seanull",
+ "mode": "class",
+ "test": "ph",
+ "seed": 0,
+ "n": 50000,
+ "minority_share": 0.35706,
+ "change_points": [],
+ "boundaries": [
+  15087
+ ],
+ "alarms": [
+  16484
+ ],
+ "detected": 0,
+ "n_true": 0,
+ "false_alarms": 1,
+ "mean_abs_loc_error": null,
+ "mean_delay": null,
+ "hits": []
+}

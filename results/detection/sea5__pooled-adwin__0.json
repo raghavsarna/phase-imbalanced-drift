@@ -1,0 +1,27 @@
+{
+ "stream": "sea5",
+ "mode": "pooled",
+ "test": "adwin",
+ "seed": 0,
+ "n": 50000,
+ "minority_share": 0.0507,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  20119
+ ],
+ "alarms": [
+  21447
+ ],
+ "detected": 1,
+ "n_true": 3,
+ "false_alarms": 0,
+ "mean_abs_loc_error": 119.0,
+ "mean_delay": 1447.0,
+ "hits": [
+  20000
+ ]
+}

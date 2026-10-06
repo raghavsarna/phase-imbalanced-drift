@@ -76,6 +76,39 @@ def elec2():
             {"name": "Elec2", "n_classes": 2, "change_points": None})
 
 
+RIVER_DATA = Path(os.environ.get("RIVER_DATA", Path.home() / "river_data"))
+
+
+def _csv_stream(path, label_col=-1, drop=(), header="infer"):
+    df = pd.read_csv(path, header=header)
+    lab = df.iloc[:, label_col]
+    feats = df.drop(columns=[df.columns[label_col], *drop])
+    classes = np.unique(lab)
+    y = np.searchsorted(classes, lab.to_numpy())
+    return feats.to_numpy(dtype=float), y.astype(int), len(classes)
+
+
+def insects(variant):
+    """INSECTS (Souza et al., 2020), imbalanced variants, via River's download."""
+    from river.datasets import Insects
+    ds = Insects(variant=variant)
+    if not ds.is_downloaded:
+        ds.download()
+    X, y, K = _csv_stream(ds.path, header=None)
+    name = {"abrupt_imbalanced": "INSECTS-abrupt", "gradual_imbalanced": "INSECTS-gradual"}[variant]
+    return X, y, {"name": name, "n_classes": K, "change_points": None}
+
+
+def creditcard():
+    """Credit-card fraud stream (0.17% fraud) in time order; the 'Time' index is dropped."""
+    from river.datasets import CreditCard
+    ds = CreditCard()
+    if not ds.is_downloaded:
+        ds.download()
+    X, y, K = _csv_stream(ds.path, drop=("Time",))
+    return X, y, {"name": "CreditCard", "n_classes": K, "change_points": None}
+
+
 def covtype():
     """Forest Covertype (Blackard & Dean, 1999) in its standard stream order."""
     df = pd.read_csv(COVTYPE_CSV)
@@ -88,6 +121,15 @@ LOADERS = {
     "sea":    lambda seed: sea_stream(seed, None),
     "sea10":  lambda seed: sea_stream(seed, 0.10),
     "sea5":   lambda seed: sea_stream(seed, 0.05),
+    # detection study only: further minority shares and drift-free streams
+    "sea20":  lambda seed: sea_stream(seed, 0.20),
+    "sea2":   lambda seed: sea_stream(seed, 0.02),
+    "sea1":   lambda seed: sea_stream(seed, 0.01),
+    "seanull":   lambda seed: sea_stream(seed, None, variants=(0,), lengths=(50_000,)),
+    "seanull5":  lambda seed: sea_stream(seed, 0.05, variants=(0,), lengths=(50_000,)),
+    "insects_abrupt":  lambda seed: insects("abrupt_imbalanced"),
+    "insects_gradual": lambda seed: insects("gradual_imbalanced"),
+    "creditcard": lambda seed: creditcard(),
     "elec2":  lambda seed: elec2(),
     "covtype": lambda seed: covtype(),
 }

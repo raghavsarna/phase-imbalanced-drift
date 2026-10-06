@@ -1,0 +1,272 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "PHASE-ddm-class",
+ "seed": 1,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "config": {
+  "detector": "class",
+  "test": "ddm",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 1,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  10456,
+  12030,
+  13725,
+  14920,
+  16110,
+  17322,
+  43418,
+  61966
+ ],
+ "alarms": [
+  10456,
+  12030,
+  13725,
+  14920,
+  16110,
+  17322,
+  43418,
+  61966
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 10456,
+   "n": 10456,
+   "class_counts": {
+    "0": 10417,
+    "1": 39
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 10456,
+   "end": 12030,
+   "n": 1574,
+   "class_counts": {
+    "0": 1561,
+    "1": 13
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 12030,
+   "end": 13725,
+   "n": 1695,
+   "class_counts": {
+    "0": 1691,
+    "1": 4
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 13725,
+   "end": 14920,
+   "n": 1195,
+   "class_counts": {
+    "0": 1190,
+    "1": 5
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 14920,
+   "end": 16110,
+   "n": 1190,
+   "class_counts": {
+    "0": 1178,
+    "1": 12
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 16110,
+   "end": 17322,
+   "n": 1212,
+   "class_counts": {
+    "0": 1208,
+    "1": 4
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 17322,
+   "end": 43418,
+   "n": 26096,
+   "class_counts": {
+    "0": 26041,
+    "1": 55
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 43418,
+   "end": 61966,
+   "n": 18548,
+   "class_counts": {
+    "0": 18516,
+    "1": 32
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 61966,
+   "end": 227845,
+   "n": 165879,
+   "class_counts": {
+    "0": 165626,
+    "1": 253
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.3580536871443784,
+    "LR": 0.3613386574243588,
+    "KM": 0.28060765543126276
+   },
+   "ba_fused": 0.914347454279223,
+   "ba_oof": {
+    "DT": {
+     "0": 0.8596143609233604,
+     "1": 0.8947204566658087
+    },
+    "LR": {
+     "0": 0.8675194992632813,
+     "1": 0.9270753183669345
+    },
+    "KM": {
+     "0": 0.6521618376446883,
+     "1": 0.7727467341654413
+    }
+   },
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "time_total_s": 50.941558837890625,
+ "metrics": {
+  "acc": 0.9886064393806397,
+  "ba": 0.9144011812892225,
+  "gmean": 0.9113692909934445,
+  "kappa": 0.1605840980641705,
+  "mcc": 0.27279193384894634,
+  "macro_f1": 0.5784224227317732,
+  "recall": {
+   "0": 0.988802362578445,
+   "1": 0.84
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.84,
+  "confusion": [
+   [
+    56250,
+    637
+   ],
+   [
+    12,
+    63
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

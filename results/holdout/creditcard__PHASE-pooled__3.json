@@ -1,0 +1,118 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "PHASE-pooled",
+ "seed": 3,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "config": {
+  "detector": "pooled",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 3,
+  "n_jobs": 1
+ },
+ "boundaries": [],
+ "alarms": [],
+ "segments": [
+  {
+   "start": 0,
+   "end": 227845,
+   "n": 227845,
+   "class_counts": {
+    "0": 227428,
+    "1": 417
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.3577256790078291,
+    "LR": 0.36170907395749907,
+    "KM": 0.28056524703467184
+   },
+   "ba_fused": 0.9214660773975047,
+   "ba_oof": {
+    "DT": {
+     "0": 0.8752272097583027,
+     "1": 0.9085245794605499
+    },
+    "LR": {
+     "0": 0.80566525726602,
+     "1": 0.9447946980368815
+    },
+    "KM": {
+     "0": 0.7301278874186825,
+     "1": 0.7709647818969791
+    }
+   },
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "time_total_s": 73.82800626754761,
+ "metrics": {
+  "acc": 0.9947684421193076,
+  "ba": 0.8708811034741388,
+  "gmean": 0.8619771865176805,
+  "kappa": 0.27160349413860263,
+  "mcc": 0.35177718472443037,
+  "macro_f1": 0.6352727524315256,
+  "recall": {
+   "0": 0.995095540281611,
+   "1": 0.7466666666666667
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.7466666666666667,
+  "confusion": [
+   [
+    56608,
+    279
+   ],
+   [
+    19,
+    56
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

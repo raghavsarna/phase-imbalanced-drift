@@ -1,0 +1,33 @@
+{
+ "stream": "sea",
+ "mode": "pooled",
+ "test": "ph",
+ "seed": 1,
+ "n": 50000,
+ "minority_share": 0.40146,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  11586,
+  20061,
+  30000
+ ],
+ "alarms": [
+  11588,
+  20257,
+  30198
+ ],
+ "detected": 3,
+ "n_true": 3,
+ "false_alarms": 0,
+ "mean_abs_loc_error": 549.0,
+ "mean_delay": 681.0,
+ "hits": [
+  10000,
+  20000,
+  30000
+ ]
+}

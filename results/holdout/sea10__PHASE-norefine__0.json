@@ -1,0 +1,194 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea10",
+ "name": "SEA-0.1",
+ "method": "PHASE-norefine",
+ "seed": 0,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  3996,
+  36004
+ ],
+ "test_class_counts": [
+  1003,
+  8997
+ ],
+ "config": {
+  "detector": "class",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": false,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 0,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  10054,
+  20104,
+  29997
+ ],
+ "alarms": [
+  13570,
+  20184,
+  31266
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 10054,
+   "n": 10054,
+   "class_counts": {
+    "0": 1054,
+    "1": 9000
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 10054,
+   "end": 20104,
+   "n": 10050,
+   "class_counts": {
+    "0": 1005,
+    "1": 9045
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 20104,
+   "end": 29997,
+   "n": 9893,
+   "class_counts": {
+    "0": 929,
+    "1": 8964
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 29997,
+   "end": 40000,
+   "n": 10003,
+   "class_counts": {
+    "0": 1008,
+    "1": 8995
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.3643027405674445,
+    "LR": 0.3316232222547118,
+    "KM": 0.3040740371778437
+   },
+   "ba_fused": 0.8677378636279415,
+   "ba_oof": {
+    "DT": {
+     "0": 0.7234509140880736,
+     "1": 0.8490345716756222
+    },
+    "LR": {
+     "0": 0.6097863010314372,
+     "1": 0.8620989284170217
+    },
+    "KM": {
+     "0": 0.6844396578345995,
+     "1": 0.729947578901859
+    }
+   },
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "true_change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "detection": {
+  "detected": 3,
+  "n_true": 3,
+  "false_alarms": 0,
+  "mean_abs_loc_error": 53.666666666666664,
+  "mean_delay": 1673.3333333333333,
+  "hits": [
+   10000,
+   20000,
+   30000
+  ]
+ },
+ "time_total_s": 0.7427661418914795,
+ "metrics": {
+  "acc": 0.8957,
+  "ba": 0.8693956476685316,
+  "gmean": 0.8687727236233193,
+  "kappa": 0.5610951362271486,
+  "mcc": 0.5883583261211041,
+  "macro_f1": 0.7781613763897641,
+  "recall": {
+   "0": 0.8364905284147557,
+   "1": 0.9023007669223074
+  },
+  "support": {
+   "0": 1003,
+   "1": 8997
+  },
+  "minority_class": 0,
+  "minority_recall": 0.8364905284147557,
+  "confusion": [
+   [
+    839,
+    164
+   ],
+   [
+    879,
+    8118
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

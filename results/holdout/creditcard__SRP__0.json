@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "SRP",
+ "seed": 0,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "time_total_s": 643.479954957962,
+ "metrics": {
+  "acc": 0.9990695551420246,
+  "ba": 0.6533245439789993,
+  "gmean": 0.5537700568491177,
+  "kappa": 0.4643044851354895,
+  "mcc": 0.5418412940708708,
+  "macro_f1": 0.7320904187936914,
+  "recall": {
+   "0": 0.999982421291332,
+   "1": 0.30666666666666664
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.30666666666666664,
+  "confusion": [
+   [
+    56886,
+    1
+   ],
+   [
+    52,
+    23
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

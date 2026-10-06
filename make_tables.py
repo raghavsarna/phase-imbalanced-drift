@@ -1,142 +1,243 @@
-"""Write the LaTeX tables of the letter from results/runs/*.json.
+"""Write the LaTeX tables, number macros and statistical tests of the letter.
 
-    python make_tables.py  ->  <paper>/tables/{tab_main,tab_ablation,numbers}.tex
+    python make_tables.py  ->  <paper>/tables/{tab_main,tab_ablation,tab_detect,numbers}.tex
+                               results/stats.json
 <paper> is $PHASE_PAPER_DIR, else ../SPL_submission if present, else results/latex.
 """
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
+from scipy import stats
 
-from summarize import load_runs
+from summarize import BASELINES, DATASETS, ROOT, load_detection, load_runs
 
-ROOT = Path(__file__).resolve().parent
-_PAPER = Path(os.environ.get("PHASE_PAPER_DIR", ROOT.parent / "SPL_submission"))
-OUT = (_PAPER if _PAPER.exists() else ROOT / "results" / "latex") / "tables"
-DS = ["sea", "sea10", "sea5", "elec2", "covtype"]
-HEAD = ["SEA", "SEA-10\\%", "SEA-5\\%", "Elec2", "Covert."]
-BASE = [("HAT", "HAT"), ("ARF", "ARF~\\cite{gomes2017arf}"), ("SRP", "SRP~\\cite{gomes2019srp}"),
-        ("OOB", "OOB~\\cite{wang2015oob}"), ("UOB", "UOB~\\cite{wang2015oob}"), ("PHASE", "PHASE")]
-ABL = [("PHASE", "PHASE (full)"),
-       None, ("PHASE-pooled", "I: pooled PH test"), ("PHASE-periodic", "I: periodic, every 5000"),
-       ("PHASE-noseg", "I: no segmentation"),
-       None, ("PHASE-nocost", "II: no class costs"), ("PHASE-norefine", "III: no SVM refinement"),
-       None, ("PHASE-nometa", "IV: never stack"), ("PHASE-alwaysmeta", "IV: always stack")]
+HERE = Path(__file__).resolve().parent
+_PAPER = Path(os.environ.get("PHASE_PAPER_DIR", HERE.parent / "SPL_submission"))
+OUT = (_PAPER if _PAPER.exists() else ROOT / "latex") / "tables"
+HEAD = ["SEA", "SEA$_{10}$", "SEA$_{5}$", "Elec2", "Cover.", "Ins-A", "Ins-G", "Credit"]
+NAMES = {"HAT": "HAT~\\cite{bifet2009hat}", "ARF": "ARF~\\cite{gomes2017arf}", "SRP": "SRP~\\cite{gomes2019srp}",
+         "OOB": "OOB~\\cite{wang2015oob}", "UOB": "UOB~\\cite{wang2015oob}", "ARF-US": "ARF-US",
+         "ROSE": "ROSE~\\cite{cano2022rose}", "PHASE": "PHASE"}
+ORDER = BASELINES + ["PHASE"]
+ABL = [("Detector", None),
+       ("PHASE-pooled", "PH, pooled"), ("PHASE-adwin-class", "ADWIN, class"), ("PHASE-adwin", "ADWIN, pooled"),
+       ("PHASE-ddm-class", "DDM, class"), ("PHASE-ddm", "DDM, pooled"),
+       ("PHASE-periodic", "periodic"), ("PHASE-noseg", "none"),
+       ("Learner", None),
+       ("PHASE-nocost", "no costs"), ("PHASE-norefine", "no SVM"),
+       ("PHASE-nomemory", "no memory"), ("PHASE-stack", "+ stacking")]
+Q05 = {2: 1.960, 3: 2.343, 4: 2.569, 5: 2.728, 6: 2.850, 7: 2.949, 8: 3.031, 9: 3.102, 10: 3.164}  # Nemenyi
 
 
-def stats(df, method, ds, metric):
-    v = df[(df.method == method) & (df.dataset == ds)][metric].to_numpy(dtype=float)
-    return (np.nan, np.nan, 0) if len(v) == 0 else (v.mean(), v.std(ddof=1) if len(v) > 1 else np.nan, len(v))
+def mean_table(df, metric="ba"):
+    g = df.groupby(["method", "dataset"])[metric]
+    return g.mean().unstack(), g.std().unstack(), g.size().unstack()
 
 
-def cell(mean, std, bold=False, show_std=True):
-    if np.isnan(mean):
+def cell(m, s, bold=False):
+    if pd.isna(m):
         return "--"
-    s = f"{100 * mean:.1f}"
-    if show_std and not np.isnan(std):
-        s += f"{{\\tiny$\\pm${100 * std:.1f}}}"
-    return f"\\textbf{{{s}}}" if bold else s
+    txt = f"{100 * m:.1f}" + (f"{{\\tiny$\\pm${100 * s:.1f}}}" if not pd.isna(s) else "")
+    return f"\\textbf{{{txt}}}" if bold else txt
 
 
-def main_table(df):
-    lines = [r"\begin{tabular}{l" + "c" * len(DS) + "}", r"\toprule",
-             " & " + " & ".join(HEAD) + r" \\"]
-    for metric, title in [("ba", "Balanced accuracy"), ("kappa", "Cohen's $\\kappa$")]:
-        lines += [r"\midrule", rf"\multicolumn{{{len(DS) + 1}}}{{l}}{{\emph{{{title}}}}} \\"]
-        best = {d: max(stats(df, m, d, metric)[0] for m, _ in BASE if not np.isnan(stats(df, m, d, metric)[0]))
-                for d in DS}
-        for m, name in BASE:
+def friedman(M):
+    """M: datasets x methods (higher is better). Average ranks, Friedman/Iman-Davenport, Nemenyi CD."""
+    R = M.rank(axis=1, ascending=False)
+    N, k = M.shape
+    chi2, p_chi = stats.friedmanchisquare(*[M[c].to_numpy() for c in M.columns])
+    F = (N - 1) * chi2 / (N * (k - 1) - chi2)
+    p_F = stats.f.sf(F, k - 1, (k - 1) * (N - 1))
+    cd = Q05[k] * np.sqrt(k * (k + 1) / (6 * N))
+    return R.mean(), {"chi2": chi2, "p_chi2": p_chi, "F": F, "p_F": p_F, "cd": cd, "N": N, "k": k}
+
+
+def holm_wilcoxon(M, ref="PHASE"):
+    res = {}
+    for c in M.columns:
+        if c == ref:
+            continue
+        d = M[ref] - M[c]
+        p = stats.wilcoxon(d, alternative="two-sided", zero_method="zsplit").pvalue if (d != 0).any() else 1.0
+        res[c] = {"p": float(p), "wins": int((d > 0).sum()), "losses": int((d < 0).sum())}
+    order = sorted(res, key=lambda c: res[c]["p"])
+    m, run = len(order), 0.0
+    for i, c in enumerate(order):
+        run = max(run, min(1.0, (m - i) * res[c]["p"]))
+        res[c]["p_holm"] = run
+    return res
+
+
+def main_table(dfs):
+    lines = ["\\begin{tabular}{@{}l*{8}{c}c@{}}", "\\toprule",
+             "Method & " + " & ".join(HEAD) + " & Rank \\\\"]
+    tests = {}
+    for protocol, title in (("holdout", "Temporal hold-out: trained on the first 80\\%, frozen, tested on the last 20\\%"),
+                            ("preq", "Prequential (test-then-train) over the whole stream")):
+        df = dfs[protocol]
+        df = df[df.method.isin(ORDER)]
+        mu, sd, _ = mean_table(df)
+        ds = [d for d in DATASETS if d in mu.columns]
+        M = mu.loc[[m for m in ORDER if m in mu.index], ds].T.dropna(axis=0)
+        ranks, fr = friedman(M) if len(M) >= 2 else (pd.Series(dtype=float), {})
+        tests[protocol] = {"friedman": fr, "ranks": ranks.to_dict(),
+                           "wilcoxon": holm_wilcoxon(M) if "PHASE" in M and len(M) >= 2 else {}}
+        lines += ["\\midrule", f"\\multicolumn{{10}}{{@{{}}l}}{{\\emph{{{title}}}}}\\\\"]
+        for m in ORDER:
+            if m not in mu.index:
+                continue
             cells = []
-            for d in DS:
-                mu, sd, _ = stats(df, m, d, metric)
-                cells.append(cell(mu, sd, bold=(not np.isnan(mu) and np.isclose(mu, best[d]))))
-            lines.append(f"{name} & " + " & ".join(cells) + r" \\")
-    lines += [r"\bottomrule", r"\end{tabular}"]
-    return "\n".join(lines) + "\n"
+            for d in DATASETS:
+                best = d in mu.columns and not pd.isna(mu.loc[m, d]) and mu.loc[m, d] >= mu[d].loc[[x for x in ORDER if x in mu.index]].max() - 1e-12
+                cells.append(cell(mu.loc[m, d], sd.loc[m, d], best) if d in mu.columns else "--")
+            r = ranks.get(m, np.nan)
+            rk = "--" if pd.isna(r) else (f"\\textbf{{{r:.2f}}}" if r <= ranks.min() + 1e-12 else f"{r:.2f}")
+            lines.append(NAMES[m] + " & " + " & ".join(cells) + f" & {rk} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    return "\n".join(lines) + "\n", tests
 
 
 def ablation_table(df):
-    lines = [r"\begin{tabular}{l" + "c" * len(DS) + "}", r"\toprule",
-             "Variant & " + " & ".join(HEAD) + r" \\", r"\midrule"]
-    ref = {d: stats(df, "PHASE", d, "ba")[0] for d in DS}
-    for row in ABL:
-        if row is None:
-            lines.append(r"\addlinespace[1pt]")
+    mu, _, _ = mean_table(df)
+    head = ["SEA", "S$_{10}$", "S$_{5}$", "El.", "Co.", "I-A", "I-G", "Cr."]
+    lines = ["\\begin{tabular}{@{}l*{8}{r}r@{}}", "\\toprule",
+             "Variant & " + " & ".join(head) + " & Avg. \\\\", "\\midrule"]
+    ref = mu.loc["PHASE"]
+    lines.append("PHASE (BA) & " + " & ".join("--" if pd.isna(ref.get(d)) else f"{100 * ref[d]:.1f}" for d in DATASETS)
+                 + f" & {100 * ref[DATASETS].mean():.1f} \\\\")
+    for key, label in ABL:
+        if label is None:
+            lines.append(f"\\midrule\\multicolumn{{10}}{{@{{}}l}}{{\\emph{{{key}}}}}\\\\")
             continue
-        m, name = row
-        cells = []
-        for d in DS:
-            mu = stats(df, m, d, "ba")[0]
-            if np.isnan(mu):
-                cells.append("--")
-            elif m == "PHASE":
-                cells.append(f"{100 * mu:.1f}")
-            else:
-                diff = 100 * (mu - ref[d])
-                d_str = f"{diff:+.1f}".replace("-", "$-$")
-                cells.append(f"{100 * mu:.1f}{{\\tiny\\,({d_str})}}")
-        lines.append(f"{name} & " + " & ".join(cells) + r" \\")
-    lines += [r"\bottomrule", r"\end{tabular}"]
+        if key not in mu.index:
+            continue
+        diff = 100 * (mu.loc[key] - ref)
+        sgn = lambda v: "--" if pd.isna(v) else ("0.0" if abs(v) < 0.05 else f"${v:+.1f}$")
+        cells = [sgn(diff.get(d)) for d in DATASETS]
+        lines.append(f"\\quad {label} & " + " & ".join(cells) + f" & {sgn(diff[DATASETS].mean())} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    return "\n".join(lines).replace("−", "-") + "\n"
+
+
+def detect_table(det):
+    streams = [("sea20", "20\\%"), ("sea10", "10\\%"), ("sea5", "5\\%"), ("sea2", "2\\%")]
+    rows = [("class-ph", "PH, class-wise (ours)"), ("pooled-ph", "PH, pooled"),
+            ("class-adwin", "ADWIN, class-wise"), ("pooled-adwin", "ADWIN, pooled"),
+            ("class-ddm", "DDM, class-wise"), ("pooled-ddm", "DDM, pooled")]
+    lines = ["\\begin{tabular}{@{}l*{4}{c}cc@{}}", "\\toprule",
+             "& \\multicolumn{4}{c}{Detected (of 15) at minority share} & \\multicolumn{2}{c}{False alarms} \\\\",
+             "\\cmidrule(lr){2-5}\\cmidrule(l){6-7}",
+             "Detector & " + " & ".join(s for _, s in streams) + " & drift & null \\\\", "\\midrule"]
+    for key, label in rows:
+        g = det[det.detector == key]
+        cells = [str(int(g[g.stream == s].det.sum())) for s, _ in streams]
+        fa_drift = int(g[g.stream.isin(["sea", "sea20", "sea10", "sea5", "sea2", "sea1"])].fa.sum())
+        fa_null = int(g[g.stream.isin(["seanull", "seanull5"])].fa.sum())
+        lines.append(f"{label} & " + " & ".join(cells) + f" & {fa_drift} & {fa_null} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
     return "\n".join(lines) + "\n"
 
 
-def numbers(df):
-    """Macros for numbers quoted in the text (so text and tables cannot disagree)."""
-    import json
-    macros = {}
-    for d, tag in zip(DS, ["Sea", "SeaTen", "SeaFive", "Elec", "Cov"]):
-        for m, mt in [("PHASE", "Phase"), ("ARF", "Arf"), ("UOB", "Uob"), ("OOB", "Oob"),
-                      ("SRP", "Srp"), ("HAT", "Hat")]:
-            for metric, mm in [("ba", "BA"), ("kappa", "Kappa"), ("acc", "Acc"), ("min_recall", "MinRec"),
-                               ("gmean", "Gmean")]:
-                mu = stats(df, m, d, metric)[0]
-                if not np.isnan(mu):
-                    macros[f"{mt}{mm}{tag}"] = f"{100 * mu:.1f}"
-            t = df[(df.method == m) & (df.dataset == d)]["time_s"]
-            if len(t):
-                macros[f"{mt}Time{tag}"] = f"{t.mean():.0f}"
-    det = df[df["det"].notna()]
-    for d, tag in zip(["sea", "sea10", "sea5"], ["Sea", "SeaTen", "SeaFive"]):
-        for m, mt in [("PHASE", "Cls"), ("PHASE-pooled", "Pool")]:
-            g = det[(det.dataset == d) & (det.method == m)]
-            macros[f"Det{mt}{tag}"] = f"{int(g['det'].sum())}"
-            macros[f"FA{mt}{tag}"] = f"{int(g['fa'].sum())}"
-            macros[f"Delay{mt}{tag}"] = f"{g['delay'].mean():.0f}"
-            macros[f"Loc{mt}{tag}"] = f"{g['loc'].mean():.0f}"
-    seg = df[df.method == "PHASE"].groupby("dataset")[["n_segments", "stacked", "svm_frac", "last_seg_len"]].mean()
-    for d, tag in zip(DS, ["Sea", "SeaTen", "SeaFive", "Elec", "Cov"]):
-        if d in seg.index:
-            macros[f"Segs{tag}"] = f"{seg.loc[d, 'n_segments']:.0f}" if d == "covtype" else f"{seg.loc[d, 'n_segments']:.1f}"
-            macros[f"Stack{tag}"] = f"{100 * seg.loc[d, 'stacked']:.0f}"
-            macros[f"LastSeg{tag}"] = f"{seg.loc[d, 'last_seg_len']:.0f}"
-    # paired seed wins of PHASE over the best baseline (balanced accuracy)
-    for d, tag in zip(["sea", "sea10", "sea5", "elec2"], ["Sea", "SeaTen", "SeaFive", "Elec"]):
-        means = {m: stats(df, m, d, "ba")[0] for m, _ in BASE[:-1]}
-        best = max(means, key=means.get)
-        a = df[(df.method == "PHASE") & (df.dataset == d)].set_index("seed")["ba"]
-        b = df[(df.method == best) & (df.dataset == d)].set_index("seed")["ba"]
-        macros[f"Wins{tag}"] = f"{int((a > b).sum())}"
-        macros[f"Gain{tag}"] = f"{100 * (a - b).mean():.1f}"
-        macros[f"Best{tag}"] = best
-    for m, mt in [("PHASE-noseg", "NoSeg"), ("PHASE-pooled", "Pooled"), ("PHASE-periodic", "Periodic"),
-                  ("PHASE-nocost", "NoCost"), ("PHASE-nometa", "Never"), ("PHASE-alwaysmeta", "Always")]:
-        for d, tag in zip(DS, ["Sea", "SeaTen", "SeaFive", "Elec", "Cov"]):
-            mu = stats(df, m, d, "ba")[0]
-            if not np.isnan(mu):
-                macros[f"{mt}BA{tag}"] = f"{100 * mu:.1f}"
-    lines = [f"\\newcommand{{\\n{k}}}{{{v}}}" for k, v in sorted(macros.items())]
-    return "\n".join(lines) + "\n"
+def macro(name, val):
+    return f"\\newcommand{{\\{name}}}{{{val}}}"
+
+
+def numbers(dfs, det, tests, theory):
+    N = []
+    hold, preq = dfs["holdout"], dfs["preq"]
+    mu_h, _, _ = mean_table(hold)
+    mu_p, _, _ = mean_table(preq) if not preq.empty else (pd.DataFrame(),) * 3
+    tag = {"sea": "Sea", "sea10": "SeaTen", "sea5": "SeaFive", "elec2": "Elec", "covtype": "Cov",
+           "insects_abrupt": "InsA", "insects_gradual": "InsG", "creditcard": "Credit"}
+    for d, t in tag.items():
+        for proto, mu, P in (("holdout", mu_h, "H"), ("preq", mu_p, "P")):
+            if mu.empty or d not in mu.columns or "PHASE" not in mu.index:
+                continue
+            base = mu.loc[[b for b in BASELINES if b in mu.index], d]
+            N.append(macro(f"nPhase{P}{t}", f"{100 * mu.loc['PHASE', d]:.1f}"))
+            N.append(macro(f"nBest{P}{t}", base.idxmax()))
+            N.append(macro(f"nBestBA{P}{t}", f"{100 * base.max():.1f}"))
+            N.append(macro(f"nGain{P}{t}", f"{100 * (mu.loc['PHASE', d] - base.max()):.1f}"))
+    for proto, P in (("holdout", "H"), ("preq", "P")):
+        T = tests.get(proto, {})
+        fr = T.get("friedman", {})
+        if fr:
+            N += [macro(f"nFriedP{P}", f"{fr['p_F']:.2g}"), macro(f"nCD{P}", f"{fr['cd']:.2f}"),
+                  macro(f"nRankPhase{P}", f"{T['ranks']['PHASE']:.2f}")]
+            others = {m: r for m, r in T["ranks"].items() if m != "PHASE"}
+            bm = min(others, key=others.get)
+            N += [macro(f"nRankBestName{P}", bm), macro(f"nRankBest{P}", f"{others[bm]:.2f}"),
+                  macro(f"nNemSig{P}", str(sum(1 for r in others.values() if r - T['ranks']['PHASE'] > fr['cd']))),
+                  macro(f"nRawP{P}", f"{min(v['p'] for v in T['wilcoxon'].values()):.3f}"),
+                  macro(f"nHolmMin{P}", f"{min(v['p_holm'] for v in T['wilcoxon'].values()):.3f}")]
+            W = T["wilcoxon"]
+            nsig = sum(1 for v in W.values() if v["p_holm"] < 0.05)
+            N += [macro(f"nWilcSig{P}", str(nsig)),
+                  macro(f"nWins{P}", str(sum(v['wins'] for v in W.values()))),
+                  macro(f"nPairs{P}", str(sum(v['wins'] + v['losses'] for v in W.values())))]
+    # detection study
+    if not det.empty:
+        def s(stream, d, col="det"):
+            g = det[(det.stream == stream) & (det.detector == d)]
+            return g[col].sum() if col in ("det", "fa") else g[col].mean()
+        for stream, t in (("sea", "Nat"), ("sea20", "Twenty"), ("sea10", "Ten"), ("sea5", "Five"), ("sea2", "Two"), ("sea1", "One")):
+            for d, dt in (("class-ph", "Cls"), ("pooled-ph", "Pool"), ("class-adwin", "ClsAd"), ("class-ddm", "ClsDdm")):
+                N.append(macro(f"nDet{dt}{t}", str(int(s(stream, d)))))
+                dl = s(stream, d, "delay")
+                N.append(macro(f"nDelay{dt}{t}", "--" if pd.isna(dl) else f"{dl:.0f}"))
+        for d, dt in (("class-ph", "Cls"), ("pooled-ph", "Pool"), ("class-adwin", "ClsAd"), ("pooled-adwin", "PoolAd"),
+                      ("class-ddm", "ClsDdm"), ("pooled-ddm", "PoolDdm")):
+            g = det[det.detector == d]
+            N.append(macro(f"nFA{dt}", str(int(g.fa.sum()))))
+            N.append(macro(f"nFANull{dt}", str(int(g[g.stream.str.startswith('seanull')].fa.sum()))))
+            mins = g[g.stream.isin(["sea20", "sea10", "sea5"])]
+            N.append(macro(f"nMinHits{dt}", str(int(mins.hit_10000.sum() + mins.hit_30000.sum()))))
+    # theory simulation
+    if theory:
+        for row in theory["delay"]["rows"]:
+            t = {0.01: "One", 0.02: "Two", 0.05: "Five", 0.1: "Ten", 0.2: "Twenty", 0.5: "Half"}[row["pi"]]
+            N.append(macro(f"nSimDetPool{t}", f"{100 * row['pooled']['detect_rate']:.0f}"))
+            N.append(macro(f"nSimDelayCls{t}", f"{row['class']['mean_delay']:.0f}"))
+            N.append(macro(f"nSimBoundCls{t}", f"{row['bound_class']:.0f}"))
+        fa = {r["lam"]: r for r in theory["false_alarm"]["rows"]}
+        N.append(macro("nSimFACls", f"{100 * fa[25]['class']:.1f}"))
+        N.append(macro("nSimFAPool", f"{100 * fa[25]['pooled']:.1f}"))
+    # PHASE diagnostics
+    ph = hold[hold.method == "PHASE"]
+    for d, t in tag.items():
+        g = ph[ph.dataset == d]
+        if len(g):
+            N.append(macro(f"nSeg{t}", f"{g.n_boundaries.mean() + 1:.0f}"))
+            N.append(macro(f"nLastSeg{t}", f"{g.last_seg_len.mean():.0f}"))
+            N.append(macro(f"nMem{t}", f"{g.n_memory.mean():.0f}"))
+    if "PHASE-nomemory" in mu_h.index and "covtype" in mu_h.columns:
+        N.append(macro("nNoMemCov", f"{100 * mu_h.loc['PHASE-nomemory', 'covtype']:.1f}"))
+        N.append(macro("nNoSegCov", f"{100 * mu_h.loc['PHASE-noseg', 'covtype']:.1f}"))
+    tp = preq[preq.dataset == "covtype"].groupby("method").time_s.mean() if not preq.empty else pd.Series(dtype=float)
+    if "PHASE" in tp and "ARF" in tp:
+        N += [macro(f"nTime{m.replace('-', '')}PCov", f"{tp[m] / 60:.0f}") for m in ("PHASE", "ARF", "SRP", "ROSE")]
+    return "% generated by make_tables.py from the experiment logs -- do not edit\n" + "\n".join(N) + "\n"
 
 
 def main():
-    df = load_runs()
+    dfs = {p: load_runs(p) for p in ("holdout", "preq")}
+    det = load_detection()
+    theory = json.loads((ROOT / "theory.json").read_text()) if (ROOT / "theory.json").exists() else None
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "tab_main.tex").write_text(main_table(df))
-    (OUT / "tab_ablation.tex").write_text(ablation_table(df))
-    (OUT / "numbers.tex").write_text(numbers(df))
-    print("wrote", *(p.name for p in OUT.iterdir()))
+    tab, tests = main_table(dfs)
+    (OUT / "tab_main.tex").write_text(tab)
+    (OUT / "tab_ablation.tex").write_text(ablation_table(dfs["holdout"]))
+    if not det.empty:
+        (OUT / "tab_detect.tex").write_text(detect_table(det))
+    (OUT / "numbers.tex").write_text(numbers(dfs, det, tests, theory))
+    (ROOT / "stats.json").write_text(json.dumps(tests, indent=1, default=float))
+    print(json.dumps(tests, indent=1, default=float))
+    print("wrote tables to", OUT)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "elec2",
+ "name": "Elec2",
+ "method": "ROSE",
+ "seed": 0,
+ "n": 45312,
+ "n_features": 7,
+ "n_classes": 2,
+ "n_train": 36249,
+ "n_test": 9063,
+ "train_class_counts": [
+  21101,
+  15148
+ ],
+ "test_class_counts": [
+  4974,
+  4089
+ ],
+ "time_total_s": 3.967879056930542,
+ "metrics": {
+  "acc": 0.7864945382323734,
+  "ba": 0.7805990268987879,
+  "gmean": 0.7782607640971692,
+  "kappa": 0.5655414508328471,
+  "mcc": 0.5673261730974345,
+  "macro_f1": 0.7824349073711941,
+  "recall": {
+   "0": 0.84097305991154,
+   "1": 0.7202249938860357
+  },
+  "support": {
+   "0": 4974,
+   "1": 4089
+  },
+  "minority_class": 1,
+  "minority_recall": 0.7202249938860357,
+  "confusion": [
+   [
+    4183,
+    791
+   ],
+   [
+    1144,
+    2945
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

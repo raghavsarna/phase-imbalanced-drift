@@ -1,0 +1,36 @@
+{
+ "stream": "sea",
+ "mode": "class",
+ "test": "ddm",
+ "seed": 1,
+ "n": 50000,
+ "minority_share": 0.40146,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  20061,
+  29986,
+  31084,
+  32563,
+  33679
+ ],
+ "alarms": [
+  21339,
+  30100,
+  31087,
+  32654,
+  33687
+ ],
+ "detected": 2,
+ "n_true": 3,
+ "false_alarms": 3,
+ "mean_abs_loc_error": 37.5,
+ "mean_delay": 719.5,
+ "hits": [
+  20000,
+  30000
+ ]
+}

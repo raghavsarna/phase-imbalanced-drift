@@ -1,0 +1,761 @@
+760 runs on 5 workers
+[done] ('holdout', 'covtype', 'SRP', 0): skipped
+[done] ('holdout', 'covtype', 'PHASE-noseg', 0): skipped
+[done] ('holdout', 'covtype', 'PHASE-stack', 0): skipped
+[done] ('holdout', 'covtype', 'PHASE-noseg', 1): skipped
+[done] ('holdout', 'covtype', 'PHASE-stack', 1): skipped
+[done] ('holdout', 'covtype', 'PHASE-noseg', 2): skipped
+[done] ('holdout', 'covtype', 'PHASE-stack', 2): skipped
+[done] ('holdout', 'covtype', 'PHASE-noseg', 3): BA 0.6161, kappa 0.2709, 424s
+[done] ('holdout', 'covtype', 'PHASE-stack', 3): BA 0.3628, kappa 0.1532, 422s
+[done] ('holdout', 'covtype', 'PHASE-noseg', 4): BA 0.6566, kappa 0.2309, 400s
+[done] ('holdout', 'covtype', 'PHASE-stack', 4): BA 0.3494, kappa 0.1529, 397s
+[done] ('holdout', 'covtype', 'PHASE', 0): BA 0.3542, kappa 0.1235, 0s
+[done] ('holdout', 'covtype', 'ARF', 0): skipped
+[done] ('holdout', 'covtype', 'PHASE', 1): BA 0.4064, kappa 0.1606, 1s
+[done] ('holdout', 'covtype', 'ARF', 1): BA 0.2293, kappa 0.0646, 345s
+[done] ('holdout', 'covtype', 'PHASE', 2): BA 0.3681, kappa 0.1728, 0s
+[done] ('holdout', 'covtype', 'ARF', 2): BA 0.2456, kappa 0.1134, 351s
+[done] ('holdout', 'covtype', 'PHASE', 3): BA 0.4145, kappa 0.1427, 0s
+[done] ('holdout', 'covtype', 'ARF', 3): BA 0.2216, kappa 0.0697, 347s
+[done] ('holdout', 'covtype', 'PHASE', 4): BA 0.3408, kappa 0.1250, 0s
+[done] ('holdout', 'covtype', 'SRP', 3): BA 0.2237, kappa 0.0965, 2780s
+[done] ('holdout', 'covtype', 'SRP', 1): BA 0.2195, kappa 0.0587, 2787s
+[done] ('holdout', 'covtype', 'PHASE-pooled', 0): BA 0.4146, kappa 0.1196, 19s
+[done] ('holdout', 'covtype', 'SRP', 2): BA 0.2387, kappa 0.1035, 2813s
+[done] ('holdout', 'covtype', 'SRP', 4): BA 0.2316, kappa 0.0919, 2825s
+[done] ('holdout', 'covtype', 'PHASE-ddm', 0): BA 0.3546, kappa 0.1538, 39s
+[done] ('holdout', 'covtype', 'PHASE-periodic', 0): BA 0.3563, kappa 0.1916, 2s
+[done] ('holdout', 'covtype', 'PHASE-nocost', 0): BA 0.3459, kappa 0.1000, 0s
+[done] ('holdout', 'covtype', 'PHASE-norefine', 0): BA 0.3542, kappa 0.1235, 0s
+[done] ('holdout', 'covtype', 'PHASE-nomemory', 0): BA 0.2185, kappa 0.0338, 0s
+[done] ('holdout', 'covtype', 'HAT', 0): skipped
+[done] ('holdout', 'covtype', 'OOB', 0): skipped
+[done] ('holdout', 'covtype', 'UOB', 0): skipped
+[done] ('holdout', 'covtype', 'PHASE-adwin', 0): BA 0.3663, kappa 0.1699, 22s
+[done] ('holdout', 'covtype', 'PHASE-ddm-class', 0): BA 0.3553, kappa 0.1551, 38s
+[done] ('holdout', 'covtype', 'PHASE-adwin-class', 0): BA 0.3572, kappa 0.1831, 20s
+[done] ('holdout', 'covtype', 'ARF-US', 0): BA 0.3101, kappa 0.0905, 15s
+[done] ('holdout', 'covtype', 'PHASE-pooled', 1): BA 0.3665, kappa 0.1624, 19s
+[done] ('holdout', 'covtype', 'PHASE-adwin', 1): BA 0.3620, kappa 0.1692, 21s
+[done] ('holdout', 'covtype', 'PHASE-ddm', 1): BA 0.3513, kappa 0.1492, 37s
+[done] ('holdout', 'covtype', 'PHASE-periodic', 1): BA 0.3279, kappa 0.1712, 2s
+[done] ('holdout', 'covtype', 'PHASE-ddm-class', 1): BA 0.3689, kappa 0.1453, 38s
+[done] ('holdout', 'covtype', 'PHASE-nocost', 1): BA 0.3898, kappa 0.1195, 0s
+[done] ('holdout', 'covtype', 'PHASE-norefine', 1): BA 0.4064, kappa 0.1606, 1s
+[done] ('holdout', 'covtype', 'PHASE-nomemory', 1): BA 0.2375, kappa 0.0709, 0s
+[done] ('holdout', 'covtype', 'PHASE-adwin-class', 1): BA 0.3169, kappa 0.1574, 20s
+[done] ('holdout', 'covtype', 'ROSE', 0): BA 0.2568, kappa 0.1438, 149s
+[done] ('holdout', 'covtype', 'ARF-US', 1): BA 0.3596, kappa 0.1072, 22s
+[done] ('holdout', 'covtype', 'ARF', 4): BA 0.2240, kappa 0.1162, 351s
+[done] ('holdout', 'covtype', 'PHASE-pooled', 2): BA 0.3610, kappa 0.1319, 22s
+[done] ('holdout', 'covtype', 'HAT', 1): BA 0.2095, kappa 0.0675, 197s
+[done] ('holdout', 'covtype', 'UOB', 1): BA 0.1875, kappa 0.0184, 195s
+[done] ('holdout', 'covtype', 'PHASE-ddm', 2): BA 0.3521, kappa 0.1619, 43s
+[done] ('holdout', 'covtype', 'PHASE-adwin', 2): BA 0.4035, kappa 0.1180, 24s
+[done] ('holdout', 'covtype', 'PHASE-periodic', 2): BA 0.2934, kappa 0.1489, 3s
+[done] ('holdout', 'covtype', 'PHASE-nocost', 2): BA 0.3543, kappa 0.1649, 0s
+[done] ('holdout', 'covtype', 'PHASE-norefine', 2): BA 0.3681, kappa 0.1728, 0s
+[done] ('holdout', 'covtype', 'PHASE-nomemory', 2): BA 0.2386, kappa 0.0727, 0s
+[done] ('holdout', 'covtype', 'PHASE-ddm-class', 2): BA 0.3132, kappa 0.1275, 44s
+[done] ('holdout', 'covtype', 'PHASE-adwin-class', 2): BA 0.3083, kappa 0.1506, 22s
+[done] ('holdout', 'covtype', 'ROSE', 1): BA 0.2749, kappa 0.1514, 162s
+[done] ('holdout', 'covtype', 'ARF-US', 2): BA 0.2529, kappa 0.0901, 22s
+[done] ('holdout', 'covtype', 'HAT', 2): BA 0.2003, kappa 0.0251, 212s
+[done] ('holdout', 'covtype', 'UOB', 2): BA 0.1712, kappa 0.0069, 212s
+[done] ('holdout', 'covtype', 'PHASE-pooled', 3): BA 0.3798, kappa 0.1385, 23s
+[done] ('holdout', 'covtype', 'ROSE', 2): BA 0.2884, kappa 0.1348, 177s
+[done] ('holdout', 'covtype', 'OOB', 1): BA 0.4923, kappa 0.3583, 489s
+[done] ('holdout', 'covtype', 'PHASE-adwin', 3): BA 0.3561, kappa 0.1777, 24s
+[done] ('holdout', 'covtype', 'PHASE-periodic', 3): BA 0.3056, kappa 0.1364, 3s
+[done] ('holdout', 'covtype', 'PHASE-ddm', 3): BA 0.3506, kappa 0.1636, 46s
+[done] ('holdout', 'covtype', 'PHASE-nocost', 3): BA 0.3114, kappa 0.1105, 0s
+[done] ('holdout', 'covtype', 'PHASE-norefine', 3): BA 0.4145, kappa 0.1427, 0s
+[done] ('holdout', 'covtype', 'PHASE-adwin-class', 3): BA 0.3560, kappa 0.1542, 23s
+[done] ('holdout', 'covtype', 'PHASE-nomemory', 3): BA 0.2371, kappa 0.0446, 0s
+[done] ('holdout', 'covtype', 'PHASE-ddm-class', 3): BA 0.3738, kappa 0.1732, 44s
+[done] ('holdout', 'covtype', 'ARF-US', 3): BA 0.2410, kappa 0.0414, 16s
+[done] ('holdout', 'covtype', 'ROSE', 3): BA 0.3003, kappa 0.1960, 164s
+[done] ('holdout', 'covtype', 'HAT', 3): BA 0.2410, kappa 0.0556, 192s
+[done] ('holdout', 'covtype', 'UOB', 3): BA 0.2409, kappa 0.0155, 205s
+[done] ('holdout', 'covtype', 'PHASE-pooled', 4): BA 0.3683, kappa 0.1653, 24s
+[done] ('holdout', 'covtype', 'OOB', 2): BA 0.5203, kappa 0.3702, 511s
+[done] ('holdout', 'covtype', 'PHASE-ddm', 4): BA 0.3558, kappa 0.1596, 47s
+[done] ('holdout', 'covtype', 'PHASE-adwin', 4): BA 0.3653, kappa 0.1563, 26s
+[done] ('holdout', 'covtype', 'PHASE-periodic', 4): BA 0.3583, kappa 0.2041, 3s
+[done] ('holdout', 'covtype', 'PHASE-nocost', 4): BA 0.3288, kappa 0.1057, 0s
+[done] ('holdout', 'covtype', 'PHASE-norefine', 4): BA 0.3408, kappa 0.1250, 0s
+[done] ('holdout', 'covtype', 'PHASE-nomemory', 4): BA 0.2267, kappa 0.0702, 0s
+[done] ('holdout', 'covtype', 'PHASE-ddm-class', 4): BA 0.3566, kappa 0.1517, 47s
+[done] ('holdout', 'covtype', 'PHASE-adwin-class', 4): BA 0.4009, kappa 0.1640, 24s
+[done] ('holdout', 'covtype', 'ARF-US', 4): BA 0.2731, kappa 0.0720, 18s
+[done] ('holdout', 'covtype', 'HAT', 4): BA 0.2030, kappa 0.0236, 192s
+[done] ('holdout', 'covtype', 'ROSE', 4): BA 0.3074, kappa 0.1684, 169s
+[done] ('holdout', 'covtype', 'UOB', 4): BA 0.1703, kappa 0.0099, 205s
+[done] ('holdout', 'covtype', 'OOB', 3): BA 0.5026, kappa 0.3676, 499s
+[done] ('holdout', 'covtype', 'OOB', 4): BA 0.5318, kappa 0.3680, 489s
+[done] ('holdout', 'insects_abrupt', 'SRP', 1): BA 0.5011, kappa 0.7004, 2158s
+[done] ('holdout', 'insects_abrupt', 'SRP', 0): BA 0.5400, kappa 0.7268, 2226s
+[done] ('holdout', 'insects_abrupt', 'SRP', 2): BA 0.5234, kappa 0.7023, 2223s
+[done] ('holdout', 'insects_abrupt', 'SRP', 3): BA 0.5397, kappa 0.7230, 2189s
+[done] ('holdout', 'insects_abrupt', 'SRP', 4): BA 0.5125, kappa 0.7024, 2130s
+[done] ('holdout', 'insects_abrupt', 'PHASE-noseg', 0): BA 0.5859, kappa 0.4893, 322s
+[done] ('holdout', 'insects_abrupt', 'PHASE-noseg', 1): BA 0.5946, kappa 0.4898, 322s
+[done] ('holdout', 'insects_abrupt', 'PHASE-noseg', 2): BA 0.5926, kappa 0.5087, 328s
+[done] ('holdout', 'insects_abrupt', 'PHASE-noseg', 3): BA 0.5912, kappa 0.4888, 315s
+[done] ('holdout', 'insects_abrupt', 'PHASE-stack', 0): BA 0.6524, kappa 0.7419, 684s
+[done] ('holdout', 'insects_abrupt', 'PHASE-stack', 1): BA 0.6560, kappa 0.7425, 692s
+[done] ('holdout', 'insects_abrupt', 'PHASE', 0): BA 0.6709, kappa 0.6851, 16s
+[done] ('holdout', 'insects_abrupt', 'PHASE-stack', 2): BA 0.6534, kappa 0.7443, 679s
+[done] ('holdout', 'insects_abrupt', 'PHASE', 1): BA 0.6694, kappa 0.6856, 15s
+[done] ('holdout', 'insects_abrupt', 'PHASE-noseg', 4): BA 0.5974, kappa 0.5054, 312s
+[done] ('holdout', 'insects_abrupt', 'PHASE', 2): BA 0.6710, kappa 0.6838, 15s
+[done] ('holdout', 'insects_abrupt', 'ARF', 0): BA 0.4590, kappa 0.6578, 310s
+[done] ('holdout', 'insects_abrupt', 'PHASE', 3): BA 0.6708, kappa 0.6855, 15s
+[done] ('holdout', 'insects_abrupt', 'PHASE-stack', 3): BA 0.6547, kappa 0.7445, 662s
+[done] ('holdout', 'insects_abrupt', 'PHASE', 4): BA 0.6719, kappa 0.6862, 16s
+[done] ('holdout', 'insects_abrupt', 'ARF', 1): BA 0.4977, kappa 0.6913, 297s
+[done] ('holdout', 'insects_abrupt', 'PHASE-pooled', 0): BA 0.6708, kappa 0.6852, 21s
+[done] ('holdout', 'insects_abrupt', 'ARF', 2): BA 0.5067, kappa 0.7048, 302s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm', 0): BA 0.6649, kappa 0.6791, 18s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm-class', 0): BA 0.6678, kappa 0.6791, 18s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin', 0): BA 0.6705, kappa 0.6848, 20s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin-class', 0): BA 0.6610, kappa 0.6494, 42s
+[done] ('holdout', 'insects_abrupt', 'PHASE-stack', 4): BA 0.6554, kappa 0.7398, 664s
+[done] ('holdout', 'insects_abrupt', 'PHASE-norefine', 0): BA 0.6477, kappa 0.6606, 2s
+[done] ('holdout', 'insects_abrupt', 'PHASE-periodic', 0): BA 0.6672, kappa 0.6659, 30s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nocost', 0): BA 0.5660, kappa 0.7614, 10s
+[done] ('holdout', 'insects_abrupt', 'ARF', 3): BA 0.5088, kappa 0.7062, 302s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nomemory', 0): BA 0.6588, kappa 0.6950, 13s
+[done] ('holdout', 'insects_abrupt', 'ARF-US', 0): BA 0.5588, kappa 0.4822, 24s
+[done] ('holdout', 'insects_abrupt', 'HAT', 0): BA 0.5323, kappa 0.5050, 91s
+[done] ('holdout', 'insects_abrupt', 'ROSE', 0): BA 0.5977, kappa 0.6970, 62s
+[done] ('holdout', 'insects_abrupt', 'UOB', 0): BA 0.4703, kappa 0.2914, 99s
+[done] ('holdout', 'insects_abrupt', 'PHASE-pooled', 1): BA 0.6709, kappa 0.6848, 21s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm', 1): BA 0.6649, kappa 0.6827, 18s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin', 1): BA 0.6703, kappa 0.6852, 20s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin-class', 1): BA 0.6699, kappa 0.6849, 21s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nocost', 1): BA 0.5661, kappa 0.7615, 10s
+[done] ('holdout', 'insects_abrupt', 'PHASE-norefine', 1): BA 0.6476, kappa 0.6593, 2s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm-class', 1): BA 0.6629, kappa 0.6519, 48s
+[done] ('holdout', 'insects_abrupt', 'ARF', 4): BA 0.4963, kappa 0.6903, 304s
+[done] ('holdout', 'insects_abrupt', 'PHASE-periodic', 1): BA 0.6657, kappa 0.6651, 30s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nomemory', 1): BA 0.6636, kappa 0.6905, 13s
+[done] ('holdout', 'insects_abrupt', 'ARF-US', 1): BA 0.5916, kappa 0.5408, 24s
+[done] ('holdout', 'insects_abrupt', 'HAT', 1): BA 0.5661, kappa 0.5558, 90s
+[done] ('holdout', 'insects_abrupt', 'ROSE', 1): BA 0.5936, kappa 0.7137, 62s
+[done] ('holdout', 'insects_abrupt', 'UOB', 1): BA 0.4743, kappa 0.2989, 99s
+[done] ('holdout', 'insects_abrupt', 'PHASE-pooled', 2): BA 0.6664, kappa 0.6797, 18s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm', 2): BA 0.6648, kappa 0.6881, 18s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm-class', 2): BA 0.6671, kappa 0.6797, 19s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin', 2): BA 0.6704, kappa 0.6856, 20s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nocost', 2): BA 0.5662, kappa 0.7613, 10s
+[done] ('holdout', 'insects_abrupt', 'PHASE-norefine', 2): BA 0.6482, kappa 0.6611, 2s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nomemory', 2): BA 0.6594, kappa 0.7000, 13s
+[done] ('holdout', 'insects_abrupt', 'PHASE-periodic', 2): BA 0.6672, kappa 0.6668, 30s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin-class', 2): BA 0.6655, kappa 0.6547, 44s
+[done] ('holdout', 'insects_abrupt', 'OOB', 0): BA 0.5201, kappa 0.6344, 400s
+[done] ('holdout', 'insects_abrupt', 'HAT', 2): BA 0.5642, kappa 0.5519, 104s
+[done] ('holdout', 'insects_abrupt', 'UOB', 2): BA 0.4734, kappa 0.2983, 99s
+[done] ('holdout', 'insects_abrupt', 'ARF-US', 2): BA 0.5587, kappa 0.4967, 24s
+[done] ('holdout', 'insects_abrupt', 'PHASE-pooled', 3): BA 0.6651, kappa 0.6803, 19s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm-class', 3): BA 0.6642, kappa 0.6506, 49s
+[done] ('holdout', 'insects_abrupt', 'ROSE', 2): BA 0.6157, kappa 0.7052, 69s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm', 3): BA 0.6656, kappa 0.6334, 67s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin', 3): BA 0.6703, kappa 0.6846, 21s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nocost', 3): BA 0.5663, kappa 0.7615, 10s
+[done] ('holdout', 'insects_abrupt', 'PHASE-norefine', 3): BA 0.6470, kappa 0.6596, 2s
+[done] ('holdout', 'insects_abrupt', 'PHASE-periodic', 3): BA 0.6662, kappa 0.6658, 30s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin-class', 3): BA 0.6583, kappa 0.6362, 44s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nomemory', 3): BA 0.6630, kappa 0.6862, 13s
+[done] ('holdout', 'insects_abrupt', 'OOB', 1): BA 0.5005, kappa 0.5776, 402s
+[done] ('holdout', 'insects_abrupt', 'ARF-US', 3): BA 0.5576, kappa 0.4457, 23s
+[done] ('holdout', 'insects_abrupt', 'HAT', 3): BA 0.5667, kappa 0.5580, 85s
+[done] ('holdout', 'insects_abrupt', 'PHASE-pooled', 4): BA 0.6713, kappa 0.6825, 21s
+[done] ('holdout', 'insects_abrupt', 'UOB', 3): BA 0.4709, kappa 0.2932, 100s
+[done] ('holdout', 'insects_abrupt', 'ROSE', 3): BA 0.6156, kappa 0.7213, 66s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin', 4): BA 0.6705, kappa 0.6851, 21s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm-class', 4): BA 0.6616, kappa 0.6543, 52s
+[done] ('holdout', 'insects_abrupt', 'PHASE-ddm', 4): BA 0.6659, kappa 0.6299, 67s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nocost', 4): BA 0.5662, kappa 0.7616, 10s
+[done] ('holdout', 'insects_abrupt', 'PHASE-norefine', 4): BA 0.6470, kappa 0.6605, 2s
+[done] ('holdout', 'insects_abrupt', 'PHASE-periodic', 4): BA 0.6668, kappa 0.6640, 32s
+[done] ('holdout', 'insects_abrupt', 'PHASE-adwin-class', 4): BA 0.6620, kappa 0.6497, 45s
+[done] ('holdout', 'insects_abrupt', 'OOB', 2): BA 0.5181, kappa 0.5955, 409s
+[done] ('holdout', 'insects_abrupt', 'PHASE-nomemory', 4): BA 0.6626, kappa 0.7000, 13s
+[done] ('holdout', 'insects_abrupt', 'ARF-US', 4): BA 0.5194, kappa 0.3953, 24s
+[done] ('holdout', 'insects_abrupt', 'HAT', 4): BA 0.4331, kappa 0.4578, 88s
+[done] ('holdout', 'insects_abrupt', 'ROSE', 4): BA 0.6106, kappa 0.7037, 69s
+[done] ('holdout', 'insects_abrupt', 'UOB', 4): BA 0.4744, kappa 0.3028, 101s
+[done] ('holdout', 'insects_abrupt', 'OOB', 3): BA 0.5213, kappa 0.6093, 408s
+[done] ('holdout', 'insects_abrupt', 'OOB', 4): BA 0.5208, kappa 0.6331, 402s
+[done] ('holdout', 'creditcard', 'SRP', 0): BA 0.6533, kappa 0.4643, 643s
+[done] ('holdout', 'creditcard', 'SRP', 2): BA 0.5800, kappa 0.2724, 637s
+[done] ('holdout', 'creditcard', 'SRP', 1): BA 0.6133, kappa 0.3653, 667s
+[done] ('holdout', 'creditcard', 'PHASE-noseg', 0): BA 0.8645, kappa 0.2950, 67s
+[done] ('holdout', 'creditcard', 'PHASE-noseg', 1): BA 0.8777, kappa 0.2893, 69s
+[done] ('holdout', 'creditcard', 'SRP', 3): BA 0.6133, kappa 0.3693, 633s
+[done] ('holdout', 'creditcard', 'PHASE-stack', 0): BA 0.8856, kappa 0.4649, 121s
+[done] ('holdout', 'creditcard', 'PHASE-noseg', 2): BA 0.8710, kappa 0.2813, 69s
+[done] ('holdout', 'creditcard', 'PHASE-stack', 1): BA 0.8727, kappa 0.5403, 115s
+[done] ('holdout', 'creditcard', 'PHASE-noseg', 3): BA 0.8709, kappa 0.2716, 71s
+[done] ('holdout', 'creditcard', 'PHASE-stack', 2): BA 0.8924, kappa 0.4907, 122s
+[done] ('holdout', 'creditcard', 'PHASE-noseg', 4): BA 0.8710, kappa 0.2799, 68s
+[done] ('holdout', 'creditcard', 'PHASE-stack', 3): BA 0.8664, kappa 0.6958, 112s
+[done] ('holdout', 'creditcard', 'PHASE', 0): BA 0.9126, kappa 0.1270, 53s
+[done] ('holdout', 'creditcard', 'SRP', 4): BA 0.7200, kappa 0.6108, 635s
+[done] ('holdout', 'creditcard', 'PHASE-stack', 4): BA 0.8786, kappa 0.3852, 112s
+[done] ('holdout', 'creditcard', 'PHASE', 1): BA 0.9194, kappa 0.1304, 51s
+[done] ('holdout', 'creditcard', 'PHASE', 2): BA 0.9203, kappa 0.1470, 51s
+[done] ('holdout', 'creditcard', 'ARF', 0): BA 0.5467, kappa 0.1705, 134s
+[done] ('holdout', 'creditcard', 'PHASE', 3): BA 0.9138, kappa 0.1471, 48s
+[done] ('holdout', 'creditcard', 'ARF', 1): BA 0.5000, kappa 0.0000, 121s
+[done] ('holdout', 'creditcard', 'ARF', 2): BA 0.5067, kappa 0.0263, 120s
+[done] ('holdout', 'creditcard', 'PHASE', 4): BA 0.9129, kappa 0.1308, 49s
+[done] ('holdout', 'creditcard', 'PHASE-ddm', 0): BA 0.8917, kappa 0.3652, 5s
+[done] ('holdout', 'creditcard', 'PHASE-adwin', 0): BA 0.9103, kappa 0.2551, 16s
+[done] ('holdout', 'creditcard', 'ARF', 3): BA 0.5000, kappa 0.0000, 123s
+[done] ('holdout', 'creditcard', 'PHASE-periodic', 0): BA 0.8914, kappa 0.3329, 1s
+[done] ('holdout', 'creditcard', 'PHASE-pooled', 0): BA 0.8645, kappa 0.2950, 69s
+[done] ('holdout', 'creditcard', 'PHASE-ddm-class', 0): BA 0.9145, kappa 0.1638, 50s
+[done] ('holdout', 'creditcard', 'ARF', 4): BA 0.5000, kappa 0.0000, 118s
+[done] ('holdout', 'creditcard', 'PHASE-adwin-class', 0): BA 0.9025, kappa 0.1991, 62s
+[done] ('holdout', 'creditcard', 'HAT', 0): BA 0.5000, kappa 0.0000, 14s
+[done] ('holdout', 'creditcard', 'PHASE-nocost', 0): BA 0.7267, kappa 0.6179, 44s
+[done] ('holdout', 'creditcard', 'ARF-US', 0): BA 0.9055, kappa 0.0679, 5s
+[done] ('holdout', 'creditcard', 'PHASE-nomemory', 0): BA 0.9126, kappa 0.1270, 54s
+[done] ('holdout', 'creditcard', 'PHASE-norefine', 0): BA 0.9126, kappa 0.1270, 55s
+[done] ('holdout', 'creditcard', 'PHASE-ddm', 1): BA 0.8731, kappa 0.7040, 6s
+[done] ('holdout', 'creditcard', 'UOB', 0): BA 0.8907, kappa 0.0600, 25s
+[done] ('holdout', 'creditcard', 'ROSE', 0): BA 0.8466, kappa 0.8060, 17s
+[done] ('holdout', 'creditcard', 'PHASE-adwin', 1): BA 0.9104, kappa 0.2589, 17s
+[done] ('holdout', 'creditcard', 'PHASE-periodic', 1): BA 0.8911, kappa 0.3058, 2s
+[done] ('holdout', 'creditcard', 'PHASE-ddm-class', 1): BA 0.9144, kappa 0.1606, 51s
+[done] ('holdout', 'creditcard', 'PHASE-nocost', 1): BA 0.6333, kappa 0.3996, 43s
+[done] ('holdout', 'creditcard', 'PHASE-pooled', 1): BA 0.8777, kappa 0.2893, 72s
+[done] ('holdout', 'creditcard', 'OOB', 0): BA 0.8066, kappa 0.7184, 95s
+[done] ('holdout', 'creditcard', 'PHASE-adwin-class', 1): BA 0.9218, kappa 0.1831, 64s
+[done] ('holdout', 'creditcard', 'HAT', 1): BA 0.5000, kappa 0.0000, 15s
+[done] ('holdout', 'creditcard', 'ARF-US', 1): BA 0.9286, kappa 0.0587, 6s
+[done] ('holdout', 'creditcard', 'UOB', 1): BA 0.8845, kappa 0.0608, 22s
+[done] ('holdout', 'creditcard', 'PHASE-norefine', 1): BA 0.9194, kappa 0.1304, 52s
+[done] ('holdout', 'creditcard', 'ROSE', 1): BA 0.8266, kappa 0.7421, 16s
+[done] ('holdout', 'creditcard', 'PHASE-ddm', 2): BA 0.8912, kappa 0.3074, 5s
+[done] ('holdout', 'creditcard', 'PHASE-nomemory', 1): BA 0.9194, kappa 0.1304, 53s
+[done] ('holdout', 'creditcard', 'PHASE-adwin', 2): BA 0.9108, kappa 0.2868, 17s
+[done] ('holdout', 'creditcard', 'PHASE-periodic', 2): BA 0.8849, kappa 0.3513, 1s
+[done] ('holdout', 'creditcard', 'PHASE-ddm-class', 2): BA 0.9126, kappa 0.1270, 51s
+[done] ('holdout', 'creditcard', 'PHASE-pooled', 2): BA 0.8710, kappa 0.2813, 70s
+[done] ('holdout', 'creditcard', 'OOB', 1): BA 0.8132, kappa 0.7011, 96s
+[done] ('holdout', 'creditcard', 'PHASE-nocost', 2): BA 0.6400, kappa 0.4327, 44s
+[done] ('holdout', 'creditcard', 'HAT', 2): BA 0.5000, kappa 0.0000, 15s
+[done] ('holdout', 'creditcard', 'PHASE-adwin-class', 2): BA 0.8917, kappa 0.3663, 64s
+[done] ('holdout', 'creditcard', 'ARF-US', 2): BA 0.9292, kappa 0.0938, 5s
+[done] ('holdout', 'creditcard', 'UOB', 2): BA 0.8850, kappa 0.0630, 23s
+[done] ('holdout', 'creditcard', 'ROSE', 2): BA 0.8599, kappa 0.7881, 16s
+[done] ('holdout', 'creditcard', 'PHASE-norefine', 2): BA 0.9203, kappa 0.1470, 54s
+[done] ('holdout', 'creditcard', 'PHASE-ddm', 3): BA 0.8979, kappa 0.3169, 5s
+[done] ('holdout', 'creditcard', 'PHASE-nomemory', 2): BA 0.9203, kappa 0.1470, 55s
+[done] ('holdout', 'creditcard', 'PHASE-adwin', 3): BA 0.8751, kappa 0.1623, 55s
+[done] ('holdout', 'creditcard', 'PHASE-periodic', 3): BA 0.8845, kappa 0.3054, 1s
+[done] ('holdout', 'creditcard', 'OOB', 2): BA 0.7733, kappa 0.6946, 96s
+[done] ('holdout', 'creditcard', 'PHASE-ddm-class', 3): BA 0.8848, kappa 0.3310, 65s
+[done] ('holdout', 'creditcard', 'PHASE-pooled', 3): BA 0.8709, kappa 0.2716, 74s
+[done] ('holdout', 'creditcard', 'PHASE-adwin-class', 3): BA 0.9093, kappa 0.2073, 66s
+[done] ('holdout', 'creditcard', 'HAT', 3): BA 0.5000, kappa 0.0000, 15s
+[done] ('holdout', 'creditcard', 'PHASE-nocost', 3): BA 0.6867, kappa 0.5434, 42s
+[done] ('holdout', 'creditcard', 'UOB', 3): BA 0.8850, kappa 0.0630, 23s
+[done] ('holdout', 'creditcard', 'ARF-US', 3): BA 0.9222, kappa 0.0898, 5s
+[done] ('holdout', 'creditcard', 'PHASE-norefine', 3): BA 0.9138, kappa 0.1471, 52s
+[done] ('holdout', 'creditcard', 'PHASE-nomemory', 3): BA 0.9138, kappa 0.1471, 52s
+[done] ('holdout', 'creditcard', 'PHASE-ddm', 4): BA 0.8907, kappa 0.2716, 6s
+[done] ('holdout', 'creditcard', 'ROSE', 3): BA 0.8400, kappa 0.7784, 16s
+[done] ('holdout', 'creditcard', 'PHASE-adwin', 4): BA 0.8971, kappa 0.2587, 17s
+[done] ('holdout', 'creditcard', 'PHASE-periodic', 4): BA 0.8850, kappa 0.3624, 1s
+[done] ('holdout', 'creditcard', 'PHASE-ddm-class', 4): BA 0.9135, kappa 0.1418, 51s
+[done] ('holdout', 'creditcard', 'OOB', 3): BA 0.8066, kappa 0.7477, 95s
+[done] ('holdout', 'creditcard', 'PHASE-pooled', 4): BA 0.8710, kappa 0.2799, 69s
+[done] ('holdout', 'creditcard', 'PHASE-nocost', 4): BA 0.6933, kappa 0.5520, 43s
+[done] ('holdout', 'creditcard', 'PHASE-adwin-class', 4): BA 0.8980, kappa 0.3256, 64s
+[done] ('holdout', 'creditcard', 'HAT', 4): BA 0.5000, kappa 0.0000, 15s
+[done] ('holdout', 'creditcard', 'ARF-US', 4): BA 0.9285, kappa 0.0885, 5s
+[done] ('holdout', 'creditcard', 'UOB', 4): BA 0.8853, kappa 0.0642, 23s
+[done] ('holdout', 'creditcard', 'ROSE', 4): BA 0.8533, kappa 0.7849, 16s
+[done] ('holdout', 'creditcard', 'PHASE-norefine', 4): BA 0.9129, kappa 0.1308, 52s
+[done] ('holdout', 'creditcard', 'PHASE-nomemory', 4): BA 0.9129, kappa 0.1308, 53s
+[done] ('holdout', 'creditcard', 'OOB', 4): BA 0.7866, kappa 0.6989, 94s
+[done] ('holdout', 'insects_gradual', 'SRP', 0): BA 0.5052, kappa 0.6468, 883s
+[done] ('holdout', 'insects_gradual', 'SRP', 2): BA 0.4819, kappa 0.6181, 883s
+[done] ('holdout', 'insects_gradual', 'SRP', 3): BA 0.5061, kappa 0.6320, 892s
+[done] ('holdout', 'insects_gradual', 'SRP', 1): BA 0.5111, kappa 0.6350, 898s
+[done] ('holdout', 'insects_gradual', 'SRP', 4): BA 0.4995, kappa 0.6412, 879s
+[done] ('holdout', 'insects_gradual', 'PHASE-noseg', 0): BA 0.5404, kappa 0.4974, 128s
+[done] ('holdout', 'insects_gradual', 'PHASE-noseg', 1): BA 0.5420, kappa 0.5022, 132s
+[done] ('holdout', 'insects_gradual', 'PHASE-noseg', 2): BA 0.5159, kappa 0.4905, 131s
+[done] ('holdout', 'insects_gradual', 'PHASE-stack', 0): BA 0.5807, kappa 0.6186, 261s
+[done] ('holdout', 'insects_gradual', 'PHASE-stack', 1): BA 0.5825, kappa 0.6204, 260s
+[done] ('holdout', 'insects_gradual', 'PHASE-noseg', 3): BA 0.5292, kappa 0.5011, 129s
+[done] ('holdout', 'insects_gradual', 'PHASE', 0): BA 0.6020, kappa 0.5424, 31s
+[done] ('holdout', 'insects_gradual', 'PHASE-stack', 2): BA 0.5615, kappa 0.5918, 248s
+[done] ('holdout', 'insects_gradual', 'PHASE-noseg', 4): BA 0.5405, kappa 0.5064, 128s
+[done] ('holdout', 'insects_gradual', 'PHASE', 1): BA 0.6032, kappa 0.5419, 30s
+[done] ('holdout', 'insects_gradual', 'PHASE', 2): BA 0.5707, kappa 0.5283, 3s
+[done] ('holdout', 'insects_gradual', 'ARF', 0): BA 0.5008, kappa 0.6430, 119s
+[done] ('holdout', 'insects_gradual', 'PHASE', 3): BA 0.5736, kappa 0.5295, 3s
+[done] ('holdout', 'insects_gradual', 'PHASE-stack', 3): BA 0.5627, kappa 0.5812, 250s
+[done] ('holdout', 'insects_gradual', 'PHASE', 4): BA 0.6067, kappa 0.5407, 29s
+[done] ('holdout', 'insects_gradual', 'ARF', 1): BA 0.5028, kappa 0.6439, 122s
+[done] ('holdout', 'insects_gradual', 'ARF', 2): BA 0.4859, kappa 0.6283, 122s
+[done] ('holdout', 'insects_gradual', 'PHASE-stack', 4): BA 0.5819, kappa 0.6179, 255s
+[done] ('holdout', 'insects_gradual', 'PHASE-pooled', 0): BA 0.6100, kappa 0.5476, 33s
+[done] ('holdout', 'insects_gradual', 'ARF', 3): BA 0.5029, kappa 0.6420, 120s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm', 0): BA 0.6083, kappa 0.5540, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm-class', 0): BA 0.6078, kappa 0.5550, 37s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin-class', 0): BA 0.6064, kappa 0.5502, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin', 0): BA 0.6089, kappa 0.5454, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-periodic', 0): BA 0.5962, kappa 0.5502, 21s
+[done] ('holdout', 'insects_gradual', 'PHASE-nocost', 0): BA 0.5251, kappa 0.6647, 19s
+[done] ('holdout', 'insects_gradual', 'ARF', 4): BA 0.4918, kappa 0.6346, 123s
+[done] ('holdout', 'insects_gradual', 'PHASE-norefine', 0): BA 0.5847, kappa 0.5407, 10s
+[done] ('holdout', 'insects_gradual', 'ARF-US', 0): BA 0.5507, kappa 0.4700, 8s
+[done] ('holdout', 'insects_gradual', 'PHASE-nomemory', 0): BA 0.6020, kappa 0.5424, 30s
+[done] ('holdout', 'insects_gradual', 'HAT', 0): BA 0.5486, kappa 0.4313, 39s
+[done] ('holdout', 'insects_gradual', 'ROSE', 0): BA 0.5453, kappa 0.6159, 26s
+[done] ('holdout', 'insects_gradual', 'UOB', 0): BA 0.4731, kappa 0.4288, 39s
+[done] ('holdout', 'insects_gradual', 'PHASE-pooled', 1): BA 0.5983, kappa 0.5386, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm', 1): BA 0.6106, kappa 0.5498, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin', 1): BA 0.6020, kappa 0.5503, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm-class', 1): BA 0.6089, kappa 0.5484, 37s
+[done] ('holdout', 'insects_gradual', 'PHASE-norefine', 1): BA 0.5842, kappa 0.5401, 10s
+[done] ('holdout', 'insects_gradual', 'PHASE-periodic', 1): BA 0.5975, kappa 0.5471, 21s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin-class', 1): BA 0.6049, kappa 0.5458, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-nocost', 1): BA 0.5235, kappa 0.6633, 20s
+[done] ('holdout', 'insects_gradual', 'PHASE-nomemory', 1): BA 0.6032, kappa 0.5419, 30s
+[done] ('holdout', 'insects_gradual', 'ARF-US', 1): BA 0.5339, kappa 0.4104, 8s
+[done] ('holdout', 'insects_gradual', 'HAT', 1): BA 0.5602, kappa 0.4821, 37s
+[done] ('holdout', 'insects_gradual', 'PHASE-pooled', 2): BA 0.5685, kappa 0.5274, 6s
+[done] ('holdout', 'insects_gradual', 'UOB', 1): BA 0.4781, kappa 0.4314, 38s
+[done] ('holdout', 'insects_gradual', 'ROSE', 1): BA 0.5538, kappa 0.6161, 26s
+[done] ('holdout', 'insects_gradual', 'OOB', 0): BA 0.5519, kappa 0.5372, 160s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm', 2): BA 0.6052, kappa 0.5468, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm-class', 2): BA 0.6055, kappa 0.5478, 38s
+[done] ('holdout', 'insects_gradual', 'PHASE-nocost', 2): BA 0.5059, kappa 0.6357, 2s
+[done] ('holdout', 'insects_gradual', 'PHASE-norefine', 2): BA 0.5510, kappa 0.5064, 1s
+[done] ('holdout', 'insects_gradual', 'PHASE-nomemory', 2): BA 0.5631, kappa 0.5370, 3s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin', 2): BA 0.6072, kappa 0.5505, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-periodic', 2): BA 0.5946, kappa 0.5472, 21s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin-class', 2): BA 0.6053, kappa 0.5473, 31s
+[done] ('holdout', 'insects_gradual', 'ARF-US', 2): BA 0.5230, kappa 0.4858, 7s
+[done] ('holdout', 'insects_gradual', 'HAT', 2): BA 0.3494, kappa 0.4588, 35s
+[done] ('holdout', 'insects_gradual', 'PHASE-pooled', 3): BA 0.5696, kappa 0.5079, 5s
+[done] ('holdout', 'insects_gradual', 'ROSE', 2): BA 0.5669, kappa 0.5768, 25s
+[done] ('holdout', 'insects_gradual', 'UOB', 2): BA 0.4797, kappa 0.4163, 38s
+[done] ('holdout', 'insects_gradual', 'OOB', 1): BA 0.5294, kappa 0.5138, 156s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm', 3): BA 0.6078, kappa 0.5495, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin', 3): BA 0.6028, kappa 0.5447, 31s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm-class', 3): BA 0.5998, kappa 0.5383, 33s
+[done] ('holdout', 'insects_gradual', 'PHASE-norefine', 3): BA 0.5475, kappa 0.5053, 1s
+[done] ('holdout', 'insects_gradual', 'PHASE-nocost', 3): BA 0.5058, kappa 0.6387, 2s
+[done] ('holdout', 'insects_gradual', 'PHASE-nomemory', 3): BA 0.5587, kappa 0.5369, 3s
+[done] ('holdout', 'insects_gradual', 'PHASE-periodic', 3): BA 0.5944, kappa 0.5482, 20s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin-class', 3): BA 0.6058, kappa 0.5494, 31s
+[done] ('holdout', 'insects_gradual', 'ARF-US', 3): BA 0.5649, kappa 0.4802, 8s
+[done] ('holdout', 'insects_gradual', 'HAT', 3): BA 0.5516, kappa 0.4386, 36s
+[done] ('holdout', 'insects_gradual', 'UOB', 3): BA 0.4822, kappa 0.4148, 37s
+[done] ('holdout', 'insects_gradual', 'ROSE', 3): BA 0.5673, kappa 0.5895, 26s
+[done] ('holdout', 'insects_gradual', 'PHASE-pooled', 4): BA 0.6050, kappa 0.5413, 31s
+[done] ('holdout', 'insects_gradual', 'OOB', 2): BA 0.5240, kappa 0.4892, 152s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm', 4): BA 0.6023, kappa 0.5503, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-ddm-class', 4): BA 0.6054, kappa 0.5396, 35s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin', 4): BA 0.6023, kappa 0.5498, 31s
+[done] ('holdout', 'insects_gradual', 'PHASE-periodic', 4): BA 0.5963, kappa 0.5488, 20s
+[done] ('holdout', 'insects_gradual', 'PHASE-nocost', 4): BA 0.5229, kappa 0.6637, 19s
+[done] ('holdout', 'insects_gradual', 'PHASE-norefine', 4): BA 0.5846, kappa 0.5409, 10s
+[done] ('holdout', 'insects_gradual', 'PHASE-adwin-class', 4): BA 0.6045, kappa 0.5419, 32s
+[done] ('holdout', 'insects_gradual', 'PHASE-nomemory', 4): BA 0.6067, kappa 0.5407, 28s
+[done] ('holdout', 'insects_gradual', 'ARF-US', 4): BA 0.5593, kappa 0.4706, 7s
+[done] ('holdout', 'insects_gradual', 'HAT', 4): BA 0.5567, kappa 0.4378, 35s
+[done] ('holdout', 'sea', 'SRP', 0): skipped
+[done] ('holdout', 'sea', 'SRP', 1): skipped
+[done] ('holdout', 'sea', 'SRP', 2): skipped
+[done] ('holdout', 'sea', 'SRP', 3): skipped
+[done] ('holdout', 'sea', 'SRP', 4): skipped
+[done] ('holdout', 'sea10', 'SRP', 0): skipped
+[done] ('holdout', 'sea10', 'SRP', 1): skipped
+[done] ('holdout', 'sea10', 'SRP', 2): skipped
+[done] ('holdout', 'sea10', 'SRP', 3): skipped
+[done] ('holdout', 'sea10', 'SRP', 4): skipped
+[done] ('holdout', 'sea5', 'SRP', 0): skipped
+[done] ('holdout', 'sea5', 'SRP', 1): skipped
+[done] ('holdout', 'sea5', 'SRP', 2): skipped
+[done] ('holdout', 'sea5', 'SRP', 3): skipped
+[done] ('holdout', 'sea5', 'SRP', 4): skipped
+[done] ('holdout', 'elec2', 'SRP', 0): skipped
+[done] ('holdout', 'elec2', 'SRP', 1): skipped
+[done] ('holdout', 'elec2', 'SRP', 2): skipped
+[done] ('holdout', 'elec2', 'SRP', 3): skipped
+[done] ('holdout', 'elec2', 'SRP', 4): skipped
+[done] ('holdout', 'insects_gradual', 'UOB', 4): BA 0.4826, kappa 0.4300, 37s
+[done] ('holdout', 'insects_gradual', 'OOB', 3): BA 0.5233, kappa 0.5030, 153s
+[done] ('holdout', 'sea', 'PHASE-noseg', 0): BA 0.8463, kappa 0.6989, 13s
+[done] ('holdout', 'insects_gradual', 'ROSE', 4): BA 0.5561, kappa 0.5898, 23s
+[done] ('holdout', 'sea', 'PHASE-noseg', 1): BA 0.8495, kappa 0.7067, 13s
+[done] ('holdout', 'sea', 'PHASE-noseg', 2): BA 0.8503, kappa 0.7083, 13s
+[done] ('holdout', 'sea', 'PHASE-noseg', 3): BA 0.8463, kappa 0.6996, 12s
+[done] ('holdout', 'sea', 'PHASE-stack', 0): BA 0.8916, kappa 0.7845, 49s
+[done] ('holdout', 'sea', 'PHASE-stack', 1): BA 0.8996, kappa 0.8005, 50s
+[done] ('holdout', 'sea', 'PHASE-noseg', 4): BA 0.8462, kappa 0.7001, 13s
+[done] ('holdout', 'sea', 'PHASE-stack', 2): BA 0.8954, kappa 0.7920, 50s
+[done] ('holdout', 'sea10', 'PHASE-noseg', 0): BA 0.8380, kappa 0.5693, 13s
+[done] ('holdout', 'sea10', 'PHASE-noseg', 1): BA 0.8457, kappa 0.5849, 13s
+[done] ('holdout', 'sea', 'PHASE-stack', 3): BA 0.8905, kappa 0.7819, 50s
+[done] ('holdout', 'sea10', 'PHASE-noseg', 2): BA 0.8447, kappa 0.5952, 13s
+[done] ('holdout', 'insects_gradual', 'OOB', 4): BA 0.5296, kappa 0.4943, 148s
+[done] ('holdout', 'sea', 'PHASE-stack', 4): BA 0.8938, kappa 0.7888, 51s
+[done] ('holdout', 'sea10', 'PHASE-stack', 0): BA 0.8777, kappa 0.5976, 44s
+[done] ('holdout', 'sea10', 'PHASE-noseg', 3): BA 0.8380, kappa 0.5756, 13s
+[done] ('holdout', 'sea10', 'PHASE-noseg', 4): BA 0.8393, kappa 0.5822, 12s
+[done] ('holdout', 'sea10', 'PHASE-stack', 1): BA 0.8910, kappa 0.6053, 42s
+[done] ('holdout', 'sea5', 'PHASE-noseg', 0): BA 0.8476, kappa 0.4543, 13s
+[done] ('holdout', 'sea10', 'PHASE-stack', 2): BA 0.8931, kappa 0.6261, 39s
+[done] ('holdout', 'sea10', 'PHASE-stack', 3): BA 0.8916, kappa 0.6065, 39s
+[done] ('holdout', 'sea5', 'PHASE-noseg', 1): BA 0.8189, kappa 0.4284, 12s
+[done] ('holdout', 'sea5', 'PHASE-noseg', 2): BA 0.8445, kappa 0.4471, 12s
+[done] ('holdout', 'sea10', 'PHASE-stack', 4): BA 0.8857, kappa 0.6143, 42s
+[done] ('holdout', 'sea5', 'PHASE-stack', 0): BA 0.7990, kappa 0.4297, 37s
+[done] ('holdout', 'sea5', 'PHASE-noseg', 3): BA 0.8286, kappa 0.4466, 14s
+[done] ('holdout', 'sea5', 'PHASE-stack', 1): BA 0.8534, kappa 0.4500, 33s
+[done] ('holdout', 'sea5', 'PHASE-noseg', 4): BA 0.8371, kappa 0.4432, 12s
+[done] ('holdout', 'sea5', 'PHASE-stack', 2): BA 0.8715, kappa 0.4658, 37s
+[done] ('holdout', 'elec2', 'PHASE-noseg', 0): BA 0.7467, kappa 0.4748, 15s
+[done] ('holdout', 'sea5', 'PHASE-stack', 3): BA 0.8549, kappa 0.4520, 36s
+[done] ('holdout', 'elec2', 'PHASE-noseg', 1): BA 0.7531, kappa 0.4882, 15s
+[done] ('holdout', 'elec2', 'PHASE-stack', 0): BA 0.7301, kappa 0.4496, 28s
+[done] ('holdout', 'sea5', 'PHASE-stack', 4): BA 0.8543, kappa 0.4384, 37s
+[done] ('holdout', 'elec2', 'PHASE-noseg', 2): BA 0.7427, kappa 0.4669, 15s
+[done] ('holdout', 'elec2', 'PHASE-stack', 1): BA 0.7354, kappa 0.4585, 28s
+[done] ('holdout', 'elec2', 'PHASE-noseg', 3): BA 0.7418, kappa 0.4644, 16s
+[done] ('holdout', 'sea', 'PHASE', 0): BA 0.8875, kappa 0.7762, 6s
+[done] ('holdout', 'sea', 'ARF', 0): skipped
+[done] ('holdout', 'elec2', 'PHASE-noseg', 4): BA 0.7480, kappa 0.4776, 15s
+[done] ('holdout', 'sea', 'ARF', 1): skipped
+[done] ('holdout', 'elec2', 'PHASE-stack', 2): BA 0.7371, kappa 0.4633, 28s
+[done] ('holdout', 'sea', 'ARF', 2): skipped
+[done] ('holdout', 'sea', 'PHASE', 1): BA 0.8932, kappa 0.7878, 6s
+[done] ('holdout', 'sea', 'ARF', 3): skipped
+[done] ('holdout', 'sea', 'PHASE', 2): BA 0.8902, kappa 0.7812, 6s
+[done] ('holdout', 'sea', 'ARF', 4): skipped
+[done] ('holdout', 'sea', 'PHASE', 3): BA 0.8889, kappa 0.7790, 6s
+[done] ('holdout', 'sea10', 'ARF', 0): skipped
+[done] ('holdout', 'sea', 'PHASE', 4): BA 0.8875, kappa 0.7758, 6s
+[done] ('holdout', 'sea10', 'ARF', 1): skipped
+[done] ('holdout', 'elec2', 'PHASE-stack', 3): BA 0.7182, kappa 0.4238, 28s
+[done] ('holdout', 'sea10', 'ARF', 2): skipped
+[done] ('holdout', 'sea10', 'PHASE', 0): BA 0.8833, kappa 0.5864, 7s
+[done] ('holdout', 'sea10', 'ARF', 3): skipped
+[done] ('holdout', 'sea10', 'PHASE', 1): BA 0.8838, kappa 0.6032, 6s
+[done] ('holdout', 'sea10', 'ARF', 4): skipped
+[done] ('holdout', 'sea10', 'PHASE', 2): BA 0.8930, kappa 0.6095, 7s
+[done] ('holdout', 'sea5', 'ARF', 0): skipped
+[done] ('holdout', 'sea10', 'PHASE', 3): BA 0.8837, kappa 0.5972, 7s
+[done] ('holdout', 'sea5', 'ARF', 1): skipped
+[done] ('holdout', 'elec2', 'PHASE-stack', 4): BA 0.7335, kappa 0.4574, 28s
+[done] ('holdout', 'sea5', 'ARF', 2): skipped
+[done] ('holdout', 'sea10', 'PHASE', 4): BA 0.8787, kappa 0.5996, 6s
+[done] ('holdout', 'sea5', 'ARF', 3): skipped
+[done] ('holdout', 'sea5', 'PHASE', 1): BA 0.8689, kappa 0.4134, 6s
+[done] ('holdout', 'sea5', 'ARF', 4): skipped
+[done] ('holdout', 'elec2', 'PHASE', 0): BA 0.7774, kappa 0.5449, 0s
+[done] ('holdout', 'elec2', 'ARF', 0): skipped
+[done] ('holdout', 'sea5', 'PHASE', 2): BA 0.8867, kappa 0.4533, 6s
+[done] ('holdout', 'elec2', 'ARF', 1): skipped
+[done] ('holdout', 'sea5', 'PHASE', 3): BA 0.8881, kappa 0.4524, 6s
+[done] ('holdout', 'elec2', 'ARF', 2): skipped
+[done] ('holdout', 'sea5', 'PHASE', 0): BA 0.8818, kappa 0.4655, 8s
+[done] ('holdout', 'elec2', 'ARF', 3): skipped
+[done] ('holdout', 'elec2', 'PHASE', 1): BA 0.7768, kappa 0.5441, 0s
+[done] ('holdout', 'elec2', 'ARF', 4): skipped
+[done] ('holdout', 'elec2', 'PHASE', 2): BA 0.7769, kappa 0.5439, 0s
+[done] ('holdout', 'elec2', 'PHASE', 3): BA 0.7766, kappa 0.5435, 0s
+[done] ('holdout', 'elec2', 'PHASE', 4): BA 0.7782, kappa 0.5464, 0s
+[done] ('holdout', 'sea5', 'PHASE', 4): BA 0.8872, kappa 0.4413, 6s
+[done] ('holdout', 'sea', 'PHASE-ddm-class', 0): BA 0.8874, kappa 0.7761, 4s
+[done] ('holdout', 'sea', 'PHASE-periodic', 0): BA 0.8853, kappa 0.7722, 2s
+[done] ('holdout', 'sea', 'PHASE-pooled', 0): BA 0.8898, kappa 0.7809, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm', 0): BA 0.8875, kappa 0.7762, 7s
+[done] ('holdout', 'sea', 'PHASE-adwin', 0): BA 0.8898, kappa 0.7809, 7s
+[done] ('holdout', 'sea', 'HAT', 0): skipped
+[done] ('holdout', 'sea', 'OOB', 0): skipped
+[done] ('holdout', 'sea', 'UOB', 0): skipped
+[done] ('holdout', 'sea', 'PHASE-norefine', 0): BA 0.8865, kappa 0.7744, 1s
+[done] ('holdout', 'sea', 'ROSE', 0): BA 0.8887, kappa 0.7787, 2s
+[done] ('holdout', 'sea', 'PHASE-adwin-class', 0): BA 0.8875, kappa 0.7763, 7s
+[done] ('holdout', 'sea', 'PHASE-nocost', 0): BA 0.8877, kappa 0.7770, 6s
+[done] ('holdout', 'sea', 'PHASE-nomemory', 0): BA 0.8875, kappa 0.7762, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm-class', 1): BA 0.8920, kappa 0.7854, 4s
+[done] ('holdout', 'sea', 'PHASE-pooled', 1): BA 0.8937, kappa 0.7886, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm', 1): BA 0.8934, kappa 0.7880, 7s
+[done] ('holdout', 'sea', 'PHASE-periodic', 1): BA 0.8899, kappa 0.7811, 2s
+[done] ('holdout', 'sea', 'PHASE-norefine', 1): BA 0.8912, kappa 0.7842, 1s
+[done] ('holdout', 'sea', 'PHASE-adwin', 1): BA 0.8937, kappa 0.7886, 7s
+[done] ('holdout', 'sea', 'HAT', 1): skipped
+[done] ('holdout', 'sea', 'OOB', 1): skipped
+[done] ('holdout', 'sea', 'UOB', 1): skipped
+[done] ('holdout', 'sea', 'ARF-US', 0): BA 0.8833, kappa 0.7677, 14s
+[done] ('holdout', 'sea', 'ROSE', 1): BA 0.8900, kappa 0.7810, 2s
+[done] ('holdout', 'sea', 'PHASE-adwin-class', 1): BA 0.8932, kappa 0.7878, 7s
+[done] ('holdout', 'sea', 'PHASE-nocost', 1): BA 0.8941, kappa 0.7901, 6s
+[done] ('holdout', 'sea', 'PHASE-nomemory', 1): BA 0.8932, kappa 0.7878, 6s
+[done] ('holdout', 'sea', 'PHASE-pooled', 2): BA 0.8910, kappa 0.7828, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm', 2): BA 0.8906, kappa 0.7820, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm-class', 2): BA 0.8907, kappa 0.7818, 7s
+[done] ('holdout', 'sea', 'PHASE-periodic', 2): BA 0.8871, kappa 0.7752, 2s
+[done] ('holdout', 'sea', 'PHASE-norefine', 2): BA 0.8871, kappa 0.7754, 1s
+[done] ('holdout', 'sea', 'ARF-US', 1): BA 0.8859, kappa 0.7731, 14s
+[done] ('holdout', 'sea', 'HAT', 2): skipped
+[done] ('holdout', 'sea', 'OOB', 2): skipped
+[done] ('holdout', 'sea', 'UOB', 2): skipped
+[done] ('holdout', 'sea', 'PHASE-nocost', 2): BA 0.8903, kappa 0.7818, 6s
+[done] ('holdout', 'sea', 'PHASE-adwin', 2): BA 0.8534, kappa 0.7140, 10s
+[done] ('holdout', 'sea', 'PHASE-adwin-class', 2): BA 0.8902, kappa 0.7812, 7s
+[done] ('holdout', 'sea', 'ROSE', 2): BA 0.8864, kappa 0.7738, 2s
+[done] ('holdout', 'sea', 'PHASE-nomemory', 2): BA 0.8902, kappa 0.7812, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm-class', 3): BA 0.8846, kappa 0.7706, 4s
+[done] ('holdout', 'sea', 'PHASE-pooled', 3): BA 0.8891, kappa 0.7794, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm', 3): BA 0.8894, kappa 0.7799, 7s
+[done] ('holdout', 'sea', 'PHASE-periodic', 3): BA 0.8874, kappa 0.7760, 2s
+[done] ('holdout', 'sea', 'PHASE-norefine', 3): BA 0.8853, kappa 0.7718, 1s
+[done] ('holdout', 'sea', 'PHASE-adwin', 3): BA 0.8891, kappa 0.7794, 7s
+[done] ('holdout', 'sea', 'HAT', 3): skipped
+[done] ('holdout', 'sea', 'OOB', 3): skipped
+[done] ('holdout', 'sea', 'UOB', 3): skipped
+[done] ('holdout', 'sea', 'ARF-US', 2): BA 0.8867, kappa 0.7746, 13s
+[done] ('holdout', 'sea', 'PHASE-adwin-class', 3): BA 0.8889, kappa 0.7790, 7s
+[done] ('holdout', 'sea', 'ROSE', 3): BA 0.8872, kappa 0.7750, 2s
+[done] ('holdout', 'sea', 'PHASE-nocost', 3): BA 0.8881, kappa 0.7779, 5s
+[done] ('holdout', 'sea', 'PHASE-nomemory', 3): BA 0.8889, kappa 0.7790, 6s
+[done] ('holdout', 'sea', 'PHASE-ddm-class', 4): BA 0.8862, kappa 0.7731, 6s
+[done] ('holdout', 'sea', 'PHASE-pooled', 4): BA 0.8875, kappa 0.7758, 7s
+[done] ('holdout', 'sea', 'PHASE-ddm', 4): BA 0.8875, kappa 0.7758, 7s
+[done] ('holdout', 'sea', 'PHASE-periodic', 4): BA 0.8850, kappa 0.7708, 2s
+[done] ('holdout', 'sea', 'PHASE-norefine', 4): BA 0.8854, kappa 0.7717, 1s
+[done] ('holdout', 'sea', 'PHASE-adwin', 4): BA 0.8875, kappa 0.7758, 7s
+[done] ('holdout', 'sea', 'HAT', 4): skipped
+[done] ('holdout', 'sea', 'OOB', 4): skipped
+[done] ('holdout', 'sea', 'UOB', 4): skipped
+[done] ('holdout', 'sea', 'ARF-US', 3): BA 0.8844, kappa 0.7687, 13s
+[done] ('holdout', 'sea', 'PHASE-nocost', 4): BA 0.8873, kappa 0.7762, 6s
+[done] ('holdout', 'sea', 'ROSE', 4): BA 0.8857, kappa 0.7725, 2s
+[done] ('holdout', 'sea', 'PHASE-adwin-class', 4): BA 0.8875, kappa 0.7758, 7s
+[done] ('holdout', 'sea', 'PHASE-nomemory', 4): BA 0.8875, kappa 0.7758, 6s
+[done] ('holdout', 'sea10', 'PHASE-ddm-class', 0): BA 0.8792, kappa 0.5890, 4s
+[done] ('holdout', 'sea10', 'PHASE-ddm', 0): BA 0.8806, kappa 0.5785, 5s
+[done] ('holdout', 'sea10', 'PHASE-periodic', 0): BA 0.8798, kappa 0.5861, 2s
+[done] ('holdout', 'sea10', 'PHASE-adwin', 0): BA 0.8806, kappa 0.5785, 5s
+[done] ('holdout', 'sea10', 'PHASE-norefine', 0): BA 0.8694, kappa 0.5611, 1s
+[done] ('holdout', 'sea10', 'PHASE-pooled', 0): BA 0.8398, kappa 0.5688, 10s
+[done] ('holdout', 'sea10', 'HAT', 0): skipped
+[done] ('holdout', 'sea10', 'OOB', 0): skipped
+[done] ('holdout', 'sea10', 'UOB', 0): skipped
+[done] ('holdout', 'sea', 'ARF-US', 4): BA 0.8874, kappa 0.7763, 14s
+[done] ('holdout', 'sea10', 'PHASE-nocost', 0): BA 0.6162, kappa 0.2972, 4s
+[done] ('holdout', 'sea10', 'PHASE-adwin-class', 0): BA 0.8833, kappa 0.5864, 8s
+[done] ('holdout', 'sea10', 'ROSE', 0): BA 0.8419, kappa 0.5719, 2s
+[done] ('holdout', 'sea10', 'ARF-US', 0): BA 0.8628, kappa 0.5722, 5s
+[done] ('holdout', 'sea10', 'PHASE-nomemory', 0): BA 0.8833, kappa 0.5864, 7s
+[done] ('holdout', 'sea10', 'PHASE-ddm-class', 1): BA 0.8850, kappa 0.5907, 7s
+[done] ('holdout', 'sea10', 'PHASE-pooled', 1): BA 0.8509, kappa 0.5871, 10s
+[done] ('holdout', 'sea10', 'PHASE-periodic', 1): BA 0.8862, kappa 0.5807, 2s
+[done] ('holdout', 'sea10', 'PHASE-ddm', 1): BA 0.8624, kappa 0.5913, 10s
+[done] ('holdout', 'sea10', 'PHASE-norefine', 1): BA 0.8656, kappa 0.5937, 1s
+[done] ('holdout', 'sea10', 'HAT', 1): skipped
+[done] ('holdout', 'sea10', 'OOB', 1): skipped
+[done] ('holdout', 'sea10', 'UOB', 1): skipped
+[done] ('holdout', 'sea10', 'PHASE-adwin-class', 1): BA 0.8838, kappa 0.6032, 7s
+[done] ('holdout', 'sea10', 'PHASE-adwin', 1): BA 0.8509, kappa 0.5871, 10s
+[done] ('holdout', 'sea10', 'ROSE', 1): BA 0.8634, kappa 0.5972, 2s
+[done] ('holdout', 'sea10', 'PHASE-nocost', 1): BA 0.6851, kappa 0.4179, 4s
+[done] ('holdout', 'sea10', 'ARF-US', 1): BA 0.8673, kappa 0.5879, 4s
+[done] ('holdout', 'sea10', 'PHASE-ddm-class', 2): BA 0.8772, kappa 0.5791, 2s
+[done] ('holdout', 'sea10', 'PHASE-nomemory', 1): BA 0.8838, kappa 0.6032, 7s
+[done] ('holdout', 'sea10', 'PHASE-periodic', 2): BA 0.8811, kappa 0.5869, 2s
+[done] ('holdout', 'sea10', 'PHASE-adwin-class', 2): BA 0.8930, kappa 0.6095, 7s
+[done] ('holdout', 'sea10', 'PHASE-nocost', 2): BA 0.6215, kappa 0.3133, 4s
+[done] ('holdout', 'sea10', 'PHASE-pooled', 2): BA 0.8468, kappa 0.5964, 11s
+[done] ('holdout', 'sea10', 'HAT', 2): skipped
+[done] ('holdout', 'sea10', 'OOB', 2): skipped
+[done] ('holdout', 'sea10', 'UOB', 2): skipped
+[done] ('holdout', 'sea10', 'PHASE-norefine', 2): BA 0.8875, kappa 0.5947, 1s
+[done] ('holdout', 'sea10', 'PHASE-ddm', 2): BA 0.8444, kappa 0.5910, 10s
+[done] ('holdout', 'sea10', 'ROSE', 2): BA 0.8293, kappa 0.5808, 2s
+[done] ('holdout', 'sea10', 'PHASE-adwin', 2): BA 0.8468, kappa 0.5964, 10s
+[done] ('holdout', 'sea10', 'ARF-US', 2): BA 0.8693, kappa 0.5927, 4s
+[done] ('holdout', 'sea10', 'PHASE-nomemory', 2): BA 0.8930, kappa 0.6095, 7s
+[done] ('holdout', 'sea10', 'PHASE-ddm-class', 3): BA 0.8841, kappa 0.5937, 5s
+[done] ('holdout', 'sea10', 'PHASE-periodic', 3): BA 0.8807, kappa 0.5598, 2s
+[done] ('holdout', 'sea10', 'PHASE-pooled', 3): BA 0.8384, kappa 0.5756, 10s
+[done] ('holdout', 'sea10', 'PHASE-norefine', 3): BA 0.8721, kappa 0.5888, 1s
+[done] ('holdout', 'sea10', 'PHASE-ddm', 3): BA 0.8384, kappa 0.5756, 10s
+[done] ('holdout', 'sea10', 'HAT', 3): skipped
+[done] ('holdout', 'sea10', 'OOB', 3): skipped
+[done] ('holdout', 'sea10', 'UOB', 3): skipped
+[done] ('holdout', 'sea10', 'PHASE-nocost', 3): BA 0.6570, kappa 0.3702, 3s
+[done] ('holdout', 'sea10', 'PHASE-adwin-class', 3): BA 0.8837, kappa 0.5972, 7s
+[done] ('holdout', 'sea10', 'PHASE-adwin', 3): BA 0.8384, kappa 0.5756, 10s
+[done] ('holdout', 'sea10', 'ROSE', 3): BA 0.8362, kappa 0.5719, 2s
+[done] ('holdout', 'sea10', 'ARF-US', 3): BA 0.8633, kappa 0.5786, 4s
+[done] ('holdout', 'sea10', 'PHASE-ddm-class', 4): BA 0.8724, kappa 0.5831, 3s
+[done] ('holdout', 'sea10', 'PHASE-nomemory', 3): BA 0.8837, kappa 0.5972, 7s
+[done] ('holdout', 'sea10', 'PHASE-periodic', 4): BA 0.8738, kappa 0.5903, 2s
+[done] ('holdout', 'sea10', 'PHASE-pooled', 4): BA 0.8376, kappa 0.5791, 10s
+[done] ('holdout', 'sea10', 'PHASE-norefine', 4): BA 0.8645, kappa 0.5854, 1s
+[done] ('holdout', 'sea10', 'PHASE-nocost', 4): BA 0.6802, kappa 0.4187, 3s
+[done] ('holdout', 'sea10', 'HAT', 4): skipped
+[done] ('holdout', 'sea10', 'OOB', 4): skipped
+[done] ('holdout', 'sea10', 'UOB', 4): skipped
+[done] ('holdout', 'sea10', 'PHASE-adwin-class', 4): BA 0.8787, kappa 0.5996, 7s
+[done] ('holdout', 'sea10', 'ROSE', 4): BA 0.8271, kappa 0.5754, 2s
+[done] ('holdout', 'sea10', 'PHASE-adwin', 4): BA 0.8464, kappa 0.5875, 10s
+[done] ('holdout', 'sea10', 'PHASE-ddm', 4): BA 0.8393, kappa 0.5822, 13s
+[done] ('holdout', 'sea10', 'ARF-US', 4): BA 0.8552, kappa 0.5730, 5s
+[done] ('holdout', 'sea10', 'PHASE-nomemory', 4): BA 0.8787, kappa 0.5996, 6s
+[done] ('holdout', 'sea5', 'PHASE-ddm-class', 0): BA 0.8900, kappa 0.4520, 7s
+[done] ('holdout', 'sea5', 'PHASE-ddm', 0): BA 0.8833, kappa 0.4651, 9s
+[done] ('holdout', 'sea5', 'PHASE-periodic', 0): BA 0.8895, kappa 0.4584, 2s
+[done] ('holdout', 'sea5', 'PHASE-pooled', 0): BA 0.8598, kappa 0.4649, 10s
+[done] ('holdout', 'sea5', 'PHASE-adwin-class', 0): BA 0.8924, kappa 0.4567, 7s
+[done] ('holdout', 'sea5', 'HAT', 0): skipped
+[done] ('holdout', 'sea5', 'OOB', 0): skipped
+[done] ('holdout', 'sea5', 'UOB', 0): skipped
+[done] ('holdout', 'sea5', 'PHASE-norefine', 0): BA 0.8384, kappa 0.4180, 1s
+[done] ('holdout', 'sea5', 'PHASE-adwin', 0): BA 0.8598, kappa 0.4649, 10s
+[done] ('holdout', 'sea5', 'ROSE', 0): BA 0.7347, kappa 0.3937, 2s
+[done] ('holdout', 'sea5', 'ARF-US', 0): BA 0.8749, kappa 0.4633, 3s
+[done] ('holdout', 'sea5', 'PHASE-nocost', 0): BA 0.5000, kappa 0.0000, 5s
+[done] ('holdout', 'sea5', 'PHASE-nomemory', 0): BA 0.8818, kappa 0.4655, 9s
+[done] ('holdout', 'sea5', 'PHASE-ddm-class', 1): BA 0.8686, kappa 0.4117, 7s
+[done] ('holdout', 'sea5', 'PHASE-periodic', 1): BA 0.8645, kappa 0.4161, 2s
+[done] ('holdout', 'sea5', 'PHASE-pooled', 1): BA 0.8327, kappa 0.4360, 10s
+[done] ('holdout', 'sea5', 'PHASE-ddm', 1): BA 0.8264, kappa 0.4281, 11s
+[done] ('holdout', 'sea5', 'PHASE-norefine', 1): BA 0.8428, kappa 0.3729, 1s
+[done] ('holdout', 'sea5', 'HAT', 1): skipped
+[done] ('holdout', 'sea5', 'OOB', 1): skipped
+[done] ('holdout', 'sea5', 'UOB', 1): skipped
+[done] ('holdout', 'sea5', 'PHASE-adwin-class', 1): BA 0.8694, kappa 0.4112, 6s
+[done] ('holdout', 'sea5', 'PHASE-adwin', 1): BA 0.8327, kappa 0.4360, 11s
+[done] ('holdout', 'sea5', 'PHASE-nocost', 1): BA 0.5000, kappa 0.0000, 4s
+[done] ('holdout', 'sea5', 'ARF-US', 1): BA 0.8558, kappa 0.4189, 2s
+[done] ('holdout', 'sea5', 'ROSE', 1): BA 0.7519, kappa 0.3851, 2s
+[done] ('holdout', 'sea5', 'PHASE-nomemory', 1): BA 0.8689, kappa 0.4134, 6s
+[done] ('holdout', 'sea5', 'PHASE-ddm-class', 2): BA 0.8846, kappa 0.4517, 6s
+[done] ('holdout', 'sea5', 'PHASE-adwin', 2): BA 0.8811, kappa 0.4517, 7s
+[done] ('holdout', 'sea5', 'PHASE-periodic', 2): BA 0.8788, kappa 0.4433, 2s
+[done] ('holdout', 'sea5', 'PHASE-ddm', 2): BA 0.8459, kappa 0.4503, 9s
+[done] ('holdout', 'sea5', 'PHASE-pooled', 2): BA 0.8511, kappa 0.4492, 10s
+[done] ('holdout', 'sea5', 'HAT', 2): skipped
+[done] ('holdout', 'sea5', 'OOB', 2): skipped
+[done] ('holdout', 'sea5', 'UOB', 2): skipped
+[done] ('holdout', 'sea5', 'PHASE-norefine', 2): BA 0.8770, kappa 0.4274, 1s
+[done] ('holdout', 'sea5', 'PHASE-adwin-class', 2): BA 0.8865, kappa 0.4520, 7s
+[done] ('holdout', 'sea5', 'PHASE-nocost', 2): BA 0.5000, kappa 0.0000, 4s
+[done] ('holdout', 'sea5', 'ROSE', 2): BA 0.7797, kappa 0.4228, 2s
+[done] ('holdout', 'sea5', 'ARF-US', 2): BA 0.8615, kappa 0.4304, 3s
+[done] ('holdout', 'sea5', 'PHASE-nomemory', 2): BA 0.8867, kappa 0.4533, 6s
+[done] ('holdout', 'sea5', 'PHASE-ddm-class', 3): BA 0.8870, kappa 0.4418, 5s
+[done] ('holdout', 'sea5', 'PHASE-periodic', 3): BA 0.8748, kappa 0.4303, 2s
+[done] ('holdout', 'sea5', 'PHASE-pooled', 3): BA 0.8479, kappa 0.4520, 9s
+[done] ('holdout', 'sea5', 'PHASE-norefine', 3): BA 0.8755, kappa 0.4339, 1s
+[done] ('holdout', 'sea5', 'PHASE-ddm', 3): BA 0.8590, kappa 0.4444, 9s
+[done] ('holdout', 'sea5', 'HAT', 3): skipped
+[done] ('holdout', 'sea5', 'OOB', 3): skipped
+[done] ('holdout', 'sea5', 'UOB', 3): skipped
+[done] ('holdout', 'sea5', 'PHASE-adwin', 3): BA 0.8462, kappa 0.4418, 9s
+[done] ('holdout', 'sea5', 'PHASE-adwin-class', 3): BA 0.8881, kappa 0.4524, 7s
+[done] ('holdout', 'sea5', 'ROSE', 3): BA 0.7522, kappa 0.4000, 2s
+[done] ('holdout', 'sea5', 'ARF-US', 3): BA 0.8552, kappa 0.4357, 3s
+[done] ('holdout', 'sea5', 'PHASE-nocost', 3): BA 0.5089, kappa 0.0327, 5s
+[done] ('holdout', 'sea5', 'PHASE-nomemory', 3): BA 0.8881, kappa 0.4524, 7s
+[done] ('holdout', 'sea5', 'PHASE-ddm-class', 4): BA 0.8876, kappa 0.4383, 7s
+[done] ('holdout', 'sea5', 'PHASE-ddm', 4): BA 0.8727, kappa 0.4466, 8s
+[done] ('holdout', 'sea5', 'PHASE-pooled', 4): BA 0.8298, kappa 0.4399, 9s
+[done] ('holdout', 'sea5', 'PHASE-periodic', 4): BA 0.8833, kappa 0.4196, 2s
+[done] ('holdout', 'sea5', 'PHASE-norefine', 4): BA 0.8667, kappa 0.4120, 1s
+[done] ('holdout', 'sea5', 'HAT', 4): skipped
+[done] ('holdout', 'sea5', 'OOB', 4): skipped
+[done] ('holdout', 'sea5', 'UOB', 4): skipped
+[done] ('holdout', 'sea5', 'PHASE-adwin-class', 4): BA 0.8844, kappa 0.4398, 7s
+[done] ('holdout', 'sea5', 'PHASE-adwin', 4): BA 0.8298, kappa 0.4399, 9s
+[done] ('holdout', 'sea5', 'PHASE-nocost', 4): BA 0.5000, kappa 0.0000, 4s
+[done] ('holdout', 'sea5', 'ROSE', 4): BA 0.7338, kappa 0.3821, 2s
+[done] ('holdout', 'sea5', 'ARF-US', 4): BA 0.8496, kappa 0.4356, 3s
+[done] ('holdout', 'elec2', 'PHASE-pooled', 0): BA 0.7407, kappa 0.4622, 3s
+[done] ('holdout', 'elec2', 'PHASE-ddm', 0): BA 0.7591, kappa 0.5042, 4s
+[done] ('holdout', 'elec2', 'PHASE-adwin', 0): BA 0.7407, kappa 0.4626, 3s
+[done] ('holdout', 'elec2', 'PHASE-nocost', 0): BA 0.7975, kappa 0.5975, 0s
+[done] ('holdout', 'elec2', 'PHASE-ddm-class', 0): BA 0.7235, kappa 0.4272, 4s
+[done] ('holdout', 'sea5', 'PHASE-nomemory', 4): BA 0.8872, kappa 0.4413, 7s
+[done] ('holdout', 'elec2', 'HAT', 0): skipped
+[done] ('holdout', 'elec2', 'OOB', 0): skipped
+[done] ('holdout', 'elec2', 'UOB', 0): skipped
+[done] ('holdout', 'elec2', 'PHASE-norefine', 0): BA 0.7525, kappa 0.4941, 0s
+[done] ('holdout', 'elec2', 'PHASE-nomemory', 0): BA 0.7774, kappa 0.5449, 0s
+[done] ('holdout', 'elec2', 'PHASE-adwin-class', 0): BA 0.7745, kappa 0.5390, 3s
+[done] ('holdout', 'elec2', 'PHASE-pooled', 1): BA 0.7402, kappa 0.4612, 3s
+[done] ('holdout', 'elec2', 'PHASE-periodic', 0): BA 0.6681, kappa 0.3156, 4s
+[done] ('holdout', 'elec2', 'ROSE', 0): BA 0.7806, kappa 0.5655, 4s
+[done] ('holdout', 'elec2', 'PHASE-ddm', 1): BA 0.7507, kappa 0.4869, 4s
+[done] ('holdout', 'elec2', 'PHASE-adwin', 1): BA 0.7753, kappa 0.5408, 2s
+[done] ('holdout', 'elec2', 'PHASE-adwin-class', 1): BA 0.7790, kappa 0.5488, 3s
+[done] ('holdout', 'elec2', 'PHASE-nocost', 1): BA 0.7976, kappa 0.5979, 0s
+[done] ('holdout', 'elec2', 'PHASE-norefine', 1): BA 0.7492, kappa 0.4877, 0s
+[done] ('holdout', 'elec2', 'HAT', 1): skipped
+[done] ('holdout', 'elec2', 'OOB', 1): skipped
+[done] ('holdout', 'elec2', 'UOB', 1): skipped
+[done] ('holdout', 'elec2', 'PHASE-nomemory', 1): BA 0.7768, kappa 0.5441, 0s
+[done] ('holdout', 'elec2', 'PHASE-ddm-class', 1): BA 0.7176, kappa 0.4153, 4s
+[done] ('holdout', 'elec2', 'PHASE-periodic', 1): BA 0.6679, kappa 0.3153, 5s
+[done] ('holdout', 'elec2', 'PHASE-pooled', 2): BA 0.7411, kappa 0.4633, 3s
+[done] ('holdout', 'elec2', 'ROSE', 1): BA 0.7744, kappa 0.5557, 4s
+[done] ('holdout', 'elec2', 'ARF-US', 0): BA 0.7158, kappa 0.4143, 12s
+[done] ('holdout', 'elec2', 'PHASE-ddm', 2): BA 0.7495, kappa 0.4844, 3s
+[done] ('holdout', 'elec2', 'PHASE-adwin', 2): BA 0.7744, kappa 0.5390, 2s
+[done] ('holdout', 'elec2', 'PHASE-nocost', 2): BA 0.7976, kappa 0.5977, 0s
+[done] ('holdout', 'elec2', 'PHASE-ddm-class', 2): BA 0.7266, kappa 0.4332, 4s
+[done] ('holdout', 'elec2', 'PHASE-norefine', 2): BA 0.7574, kappa 0.5039, 0s
+[done] ('holdout', 'elec2', 'HAT', 2): skipped
+[done] ('holdout', 'elec2', 'OOB', 2): skipped
+[done] ('holdout', 'elec2', 'UOB', 2): skipped
+[done] ('holdout', 'elec2', 'PHASE-adwin-class', 2): BA 0.7767, kappa 0.5437, 3s
+[done] ('holdout', 'elec2', 'PHASE-nomemory', 2): BA 0.7769, kappa 0.5439, 0s
+[done] ('holdout', 'elec2', 'PHASE-periodic', 2): BA 0.6680, kappa 0.3154, 5s
+[done] ('holdout', 'elec2', 'PHASE-pooled', 3): BA 0.7377, kappa 0.4563, 3s
+[done] ('holdout', 'elec2', 'ROSE', 2): BA 0.7395, kappa 0.4861, 4s
+[done] ('holdout', 'elec2', 'ARF-US', 1): BA 0.6820, kappa 0.3474, 12s
+[done] ('holdout', 'elec2', 'PHASE-ddm', 3): BA 0.7360, kappa 0.4563, 4s
+[done] ('holdout', 'elec2', 'PHASE-ddm-class', 3): BA 0.7552, kappa 0.4970, 3s
+[done] ('holdout', 'elec2', 'PHASE-adwin', 3): BA 0.7274, kappa 0.4354, 3s
+[done] ('holdout', 'elec2', 'PHASE-norefine', 3): BA 0.7518, kappa 0.4927, 0s
+[done] ('holdout', 'elec2', 'PHASE-nocost', 3): BA 0.7973, kappa 0.5972, 0s
+[done] ('holdout', 'elec2', 'HAT', 3): skipped
+[done] ('holdout', 'elec2', 'OOB', 3): skipped
+[done] ('holdout', 'elec2', 'UOB', 3): skipped
+[done] ('holdout', 'elec2', 'PHASE-adwin-class', 3): BA 0.7512, kappa 0.4878, 3s
+[done] ('holdout', 'elec2', 'PHASE-nomemory', 3): BA 0.7766, kappa 0.5435, 0s
+[done] ('holdout', 'elec2', 'PHASE-pooled', 4): BA 0.7515, kappa 0.4886, 3s
+[done] ('holdout', 'elec2', 'PHASE-periodic', 3): BA 0.6676, kappa 0.3147, 4s
+[done] ('holdout', 'elec2', 'ROSE', 3): BA 0.7937, kappa 0.5907, 4s
+[done] ('holdout', 'elec2', 'ARF-US', 2): BA 0.6841, kappa 0.3521, 12s
+[done] ('holdout', 'elec2', 'PHASE-ddm', 4): BA 0.7418, kappa 0.4654, 4s
+[done] ('holdout', 'elec2', 'PHASE-ddm-class', 4): BA 0.7223, kappa 0.4255, 4s
+[done] ('holdout', 'elec2', 'PHASE-adwin', 4): BA 0.7077, kappa 0.3952, 3s
+[done] ('holdout', 'elec2', 'PHASE-nocost', 4): BA 0.7992, kappa 0.6011, 0s
+[done] ('holdout', 'elec2', 'PHASE-adwin-class', 4): BA 0.7779, kappa 0.5462, 3s
+[done] ('holdout', 'elec2', 'HAT', 4): skipped
+[done] ('holdout', 'elec2', 'OOB', 4): skipped
+[done] ('holdout', 'elec2', 'UOB', 4): skipped
+[done] ('holdout', 'elec2', 'PHASE-norefine', 4): BA 0.7547, kappa 0.4977, 0s
+[done] ('holdout', 'elec2', 'PHASE-nomemory', 4): BA 0.7782, kappa 0.5464, 0s
+[done] ('holdout', 'elec2', 'ARF-US', 3): BA 0.7325, kappa 0.4493, 11s
+[done] ('holdout', 'elec2', 'PHASE-periodic', 4): BA 0.6682, kappa 0.3159, 4s
+[done] ('holdout', 'elec2', 'ROSE', 4): BA 0.7958, kappa 0.5951, 4s
+[done] ('holdout', 'elec2', 'ARF-US', 4): BA 0.7058, kappa 0.3931, 9s

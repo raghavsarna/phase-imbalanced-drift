@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 data/
 results/latex/
+rose/build/
+rose/lib/
+*.class

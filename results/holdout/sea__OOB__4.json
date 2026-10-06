@@ -1,0 +1,54 @@
+{
+ "dataset": "sea",
+ "name": "SEA",
+ "method": "OOB",
+ "seed": 4,
+ "n_train": 40000,
+ "n_test": 10000,
+ "n_features": 3,
+ "n_classes": 2,
+ "train_class_counts": [
+  15158,
+  24842
+ ],
+ "test_class_counts": [
+  4584,
+  5416
+ ],
+ "time_total_s": 4.623861074447632,
+ "time_fit_s": 4.623860120773315,
+ "metrics": {
+  "acc": 0.8598,
+  "ba": 0.8541478161790674,
+  "gmean": 0.8514419187562413,
+  "kappa": 0.7149805877791482,
+  "mcc": 0.7196257609154862,
+  "macro_f1": 0.8570378278723211,
+  "recall": {
+   "0": 0.7862129144851658,
+   "1": 0.922082717872969
+  },
+  "support": {
+   "0": 4584,
+   "1": 5416
+  },
+  "minority_class": 0,
+  "minority_recall": 0.7862129144851658,
+  "confusion": [
+   [
+    3604,
+    980
+   ],
+   [
+    422,
+    4994
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ },
+ "protocol": "holdout",
+ "n": 50000
+}

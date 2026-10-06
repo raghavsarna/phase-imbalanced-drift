@@ -1,0 +1,158 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "PHASE-adwin",
+ "seed": 3,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "config": {
+  "detector": "pooled",
+  "test": "adwin",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 3,
+  "n_jobs": 1
+ },
+ "boundaries": [
+  19184,
+  42528
+ ],
+ "alarms": [
+  35719,
+  42743
+ ],
+ "segments": [
+  {
+   "start": 0,
+   "end": 19184,
+   "n": 19184,
+   "class_counts": {
+    "0": 19099,
+    "1": 85
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 19184,
+   "end": 42528,
+   "n": 23344,
+   "class_counts": {
+    "0": 23317,
+    "1": 27
+   },
+   "b_star": {},
+   "W": {},
+   "ba_fused": 0.0,
+   "ba_oof": {},
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": false
+  },
+  {
+   "start": 42528,
+   "end": 227845,
+   "n": 185317,
+   "class_counts": {
+    "0": 185012,
+    "1": 305
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.3627312914425363,
+    "LR": 0.36595243902384045,
+    "KM": 0.2713162695336232
+   },
+   "ba_fused": 0.9131628325039085,
+   "ba_oof": {
+    "DT": {
+     "0": 0.8638533504073994,
+     "1": 0.8992140873095338
+    },
+    "LR": {
+     "0": 0.8720797995203147,
+     "1": 0.9327889763818599
+    },
+    "KM": {
+     "0": 0.6262214006145105,
+     "1": 0.7284466173749298
+    }
+   },
+   "svm_admitted": false,
+   "alpha": 1.0,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "time_total_s": 54.501408100128174,
+ "metrics": {
+  "acc": 0.9898177732523437,
+  "ba": 0.8750603828642748,
+  "gmean": 0.8674628418288,
+  "kappa": 0.16229757423011426,
+  "mcc": 0.2623632653449212,
+  "macro_f1": 0.5795714061379748,
+  "recall": {
+   "0": 0.9901207657285496,
+   "1": 0.76
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.76,
+  "confusion": [
+   [
+    56325,
+    562
+   ],
+   [
+    18,
+    57
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

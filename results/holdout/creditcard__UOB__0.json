@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "UOB",
+ "seed": 0,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "time_total_s": 24.789873838424683,
+ "metrics": {
+  "acc": 0.9678030968013763,
+  "ba": 0.890670041778731,
+  "gmean": 0.8873061235272514,
+  "kappa": 0.05999174593340195,
+  "mcc": 0.15855573167827602,
+  "macro_f1": 0.522996254115257,
+  "recall": {
+   "0": 0.9680067502241285,
+   "1": 0.8133333333333334
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.8133333333333334,
+  "confusion": [
+   [
+    55067,
+    1820
+   ],
+   [
+    14,
+    61
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

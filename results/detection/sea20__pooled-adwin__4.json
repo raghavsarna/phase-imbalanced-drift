@@ -1,0 +1,29 @@
+{
+ "stream": "sea20",
+ "mode": "pooled",
+ "test": "adwin",
+ "seed": 4,
+ "n": 50000,
+ "minority_share": 0.19852,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  20014,
+  27292
+ ],
+ "alarms": [
+  20391,
+  32181
+ ],
+ "detected": 1,
+ "n_true": 3,
+ "false_alarms": 1,
+ "mean_abs_loc_error": 14.0,
+ "mean_delay": 391.0,
+ "hits": [
+  20000
+ ]
+}

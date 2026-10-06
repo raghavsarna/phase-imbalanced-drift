@@ -1,20 +1,22 @@
-"""PHASE: Page-Hinkley-segmented Adaptive Stacked Ensemble.
+"""PHASE: Page-Hinkley Adaptive Segmented Ensemble.
 
-Phase I   segmentation of the training stream (detector.py)
-Phase II  cost-sensitive base learners DT, LR, KM; cost on/off per learner
-          chosen by cross-fitted balanced accuracy           (Eqs. (6)-(8))
+Phase I   class-conditional Page-Hinkley segmentation of the labelled stream
+          (detector.py); the most recent segment is the current concept
+Phase II  cost-sensitive base learners DT, LR, KM on that segment; cost on/off
+          per learner chosen by cross-fitted balanced accuracy  (Eqs. (6)-(8))
 Phase III likelihood-proportional fusion weights; RBF-SVM admitted through
           the nested convex reweighting if the fused balanced accuracy is
-          below tau                                          (Eqs. (9)-(11))
-Phase IV  one random-forest meta-learner trained on the cross-fitted,
-          weighted posteriors of all segments (Eq. (12)); with meta="gate"
-          it is kept only if its cross-validated balanced accuracy on the
-          most recent segment exceeds that of the fused rule argmax p
-Inference routes a query to the most recent segment's base layer (Eq. (13)).
+          below tau                                             (Eqs. (9)-(11))
+Class memory: every class seen in the stream with fewer than B samples in the
+          current segment is topped up with its B most recent earlier samples,
+          so that a class absent from the latest segment can still be predicted.
+
+Optional (ablation only, ``meta="always"`` or ``"gate"``): a random-forest
+meta-learner stacked on the cross-fitted, weighted posteriors of all segments.
 
 Design notes:
-  * posteriors used for the weights, the refinement decision and the
-    meta-learner are out-of-fold (cross-fitted), not in-sample;
+  * posteriors used for the weights and the refinement decision are
+    out-of-fold (cross-fitted), not in-sample;
   * class costs follow Eq. (6); the cost on/off choice uses balanced accuracy;
   * k-means posteriors are cost-weighted cluster histograms (Eq. (7));
   * SVM posteriors are Platt-calibrated on out-of-fold decision values;
@@ -42,6 +44,7 @@ BASE = ("DT", "LR", "KM")
 @dataclass
 class PhaseConfig:
     detector: str = "class"      # class | pooled | periodic | none
+    test: str = "ph"              # ph | ddm | adwin   (test run on each channel)
     lam: float = 25.0             # calibrated on SEA seeds 100-102 (not used for evaluation)
     delta: float = 0.02
     min_inst: int = 30
@@ -50,7 +53,8 @@ class PhaseConfig:
     period: int = 5000
     use_costs: bool = True
     use_refine: bool = True
-    meta: str = "gate"           # gate | always | never   (Phase IV)
+    memory: int = 100             # class memory B (0 disables)
+    meta: str = "never"          # never | always | gate   (stacking; ablation only)
     gate_trees: int = 100
     tau: float = 0.9
     folds: int = 5
@@ -120,6 +124,23 @@ class SegmentModel:
     ba_oof: dict = field(default_factory=dict)
     svm_admitted: bool = False
     alpha: float = 1.0
+    n_memory: int = 0
+    fitted: bool = True
+
+
+def memory_indices(y, a, b, B):
+    """Indices before a of the most recent B - n_c samples of every class c
+    that occurs before a but has n_c < B samples in y[a:b] (class memory)."""
+    if B <= 0 or a <= 0:
+        return np.zeros(0, dtype=int)
+    past = y[:a]
+    counts = np.bincount(y[a:b], minlength=int(max(y[:b].max(), 0)) + 1)
+    out = []
+    for c in np.unique(past):
+        need = B - counts[c]
+        if need > 0:
+            out.append(np.flatnonzero(past == c)[-need:])
+    return np.sort(np.concatenate(out)) if out else np.zeros(0, dtype=int)
 
 
 class PHASE:
@@ -128,26 +149,50 @@ class PHASE:
 
     # ------------------------------------------------------------------ fit
     def fit(self, X, y):
+        return self.fit_segments(X, y, *self.detect(X, y))
+
+    def detect(self, X, y):
         cfg = self.cfg
-        self.boundaries, self.alarms = segment(
-            X, y, self.K, mode=cfg.detector, lam=cfg.lam, delta=cfg.delta,
-            min_inst=cfg.min_inst, W_ref=cfg.W_ref, L_min=cfg.L_min, period=cfg.period, seed=cfg.seed)
+        return segment(X, y, self.K, mode=cfg.detector, test=cfg.test, lam=cfg.lam, delta=cfg.delta,
+                       min_inst=cfg.min_inst, W_ref=cfg.W_ref, L_min=cfg.L_min, period=cfg.period,
+                       seed=cfg.seed)
+
+    def fit_segments(self, X, y, boundaries, alarms):
+        """Fit the deployed (latest) segment; all segments only if stacking is used."""
+        cfg = self.cfg
+        self.boundaries, self.alarms = list(boundaries), list(alarms)
         edges = [0, *self.boundaries, len(y)]
+        pairs = list(zip(edges[:-1], edges[1:]))
         self.segments, self._models, metas, labels = [], [], [], []
-        for s, (a, b) in enumerate(zip(edges[:-1], edges[1:])):
-            info, models, F, folds = self._fit_segment(X[a:b], y[a:b], a, b, seed=cfg.seed + 7919 * s)
+        for s, (a, b) in enumerate(pairs):
+            last = s == len(pairs) - 1
+            if not last and cfg.meta == "never":
+                cls, cnt = np.unique(y[a:b], return_counts=True)
+                self.segments.append(SegmentModel(a, b, b - a, {int(c): int(k) for c, k in zip(cls, cnt)},
+                                                  fitted=False))
+                continue
+            mem = memory_indices(y, a, b, cfg.memory) if last else np.zeros(0, dtype=int)
+            idx = np.concatenate([mem, np.arange(a, b)])
+            info, models, F, folds = self._fit_segment(X[idx], y[idx], a, b, seed=cfg.seed + 7919 * s)
+            info.n_memory = len(mem)
             self.segments.append(info)
             self._models.append(models)
             metas.append(F)
-            labels.append(y[a:b])
+            labels.append(y[idx])
         self.gate = None
         if cfg.meta == "gate":
             self.gate = self._gate(metas, labels, folds)
             self.stack = self.gate["ba_meta"] > self.gate["ba_fused"]
         else:
             self.stack = cfg.meta == "always"
-        if self.stack:
+        if self.stack and len(metas) > 0:
             self.meta = self._rf(cfg.rf_trees).fit(np.vstack(metas), np.concatenate(labels))
+        return self
+
+    def fit_window(self, X, y, seed=None):
+        """Fit the base layer (Phases II-III) on one window; used by the prequential protocol."""
+        info, models, _, _ = self._fit_segment(X, y, 0, len(y), seed=self.cfg.seed if seed is None else seed)
+        self.segments, self._models, self.stack = [info], [models], False
         return self
 
     def _rf(self, trees):

@@ -1,0 +1,32 @@
+{
+ "stream": "sea10",
+ "mode": "class",
+ "test": "ph",
+ "seed": 3,
+ "n": 50000,
+ "minority_share": 0.10138,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  17920,
+  20116,
+  30107
+ ],
+ "alarms": [
+  18052,
+  20260,
+  31709
+ ],
+ "detected": 2,
+ "n_true": 3,
+ "false_alarms": 1,
+ "mean_abs_loc_error": 111.5,
+ "mean_delay": 984.5,
+ "hits": [
+  20000,
+  30000
+ ]
+}

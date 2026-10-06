@@ -1,0 +1,54 @@
+{
+ "dataset": "sea5",
+ "name": "SEA-0.05",
+ "method": "SRP",
+ "seed": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "n_features": 3,
+ "n_classes": 2,
+ "train_class_counts": [
+  2001,
+  37999
+ ],
+ "test_class_counts": [
+  475,
+  9525
+ ],
+ "time_total_s": 50.1582887172699,
+ "time_fit_s": 50.15828585624695,
+ "metrics": {
+  "acc": 0.9526,
+  "ba": 0.5010526315789474,
+  "gmean": 0.04588314677411235,
+  "kappa": 0.004002899738393073,
+  "mcc": 0.04478240395808563,
+  "macro_f1": 0.4899619343742414,
+  "recall": {
+   "0": 0.002105263157894737,
+   "1": 1.0
+  },
+  "support": {
+   "0": 475,
+   "1": 9525
+  },
+  "minority_class": 0,
+  "minority_recall": 0.002105263157894737,
+  "confusion": [
+   [
+    1,
+    474
+   ],
+   [
+    0,
+    9525
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ },
+ "protocol": "holdout",
+ "n": 50000
+}

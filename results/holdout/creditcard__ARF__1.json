@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "creditcard",
+ "name": "CreditCard",
+ "method": "ARF",
+ "seed": 1,
+ "n": 284807,
+ "n_features": 29,
+ "n_classes": 2,
+ "n_train": 227845,
+ "n_test": 56962,
+ "train_class_counts": [
+  227428,
+  417
+ ],
+ "test_class_counts": [
+  56887,
+  75
+ ],
+ "time_total_s": 121.2170000076294,
+ "metrics": {
+  "acc": 0.9986833327481479,
+  "ba": 0.5,
+  "gmean": 0.0,
+  "kappa": 0.0,
+  "mcc": 0.0,
+  "macro_f1": 0.49967061634269955,
+  "recall": {
+   "0": 1.0,
+   "1": 0.0
+  },
+  "support": {
+   "0": 56887,
+   "1": 75
+  },
+  "minority_class": 1,
+  "minority_recall": 0.0,
+  "confusion": [
+   [
+    56887,
+    0
+   ],
+   [
+    75,
+    0
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

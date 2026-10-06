@@ -1,0 +1,201 @@
+200 runs on 5 workers
+[done] ('preq', 'elec2', 'SRP', 1): BA 0.8631, kappa 0.7322, 77s
+[done] ('preq', 'elec2', 'SRP', 3): BA 0.8577, kappa 0.7207, 82s
+[done] ('preq', 'elec2', 'SRP', 2): BA 0.8601, kappa 0.7258, 84s
+[done] ('preq', 'elec2', 'SRP', 4): BA 0.8408, kappa 0.6856, 86s
+[done] ('preq', 'elec2', 'SRP', 0): BA 0.8565, kappa 0.7182, 87s
+[done] ('preq', 'sea5', 'SRP', 0): BA 0.5013, kappa 0.0049, 61s
+[done] ('preq', 'sea5', 'SRP', 1): BA 0.5007, kappa 0.0028, 61s
+[done] ('preq', 'sea5', 'SRP', 2): BA 0.5014, kappa 0.0051, 61s
+[done] ('preq', 'sea5', 'SRP', 3): BA 0.5021, kappa 0.0079, 61s
+[done] ('preq', 'sea5', 'SRP', 4): BA 0.5006, kappa 0.0023, 61s
+[done] ('preq', 'sea10', 'SRP', 0): BA 0.5217, kappa 0.0732, 63s
+[done] ('preq', 'sea10', 'SRP', 1): BA 0.5187, kappa 0.0639, 62s
+[done] ('preq', 'sea10', 'SRP', 3): BA 0.5280, kappa 0.0934, 62s
+[done] ('preq', 'sea10', 'SRP', 2): BA 0.5242, kappa 0.0813, 66s
+[done] ('preq', 'sea10', 'SRP', 4): BA 0.5196, kappa 0.0664, 66s
+[done] ('preq', 'sea', 'SRP', 1): BA 0.8098, kappa 0.6409, 67s
+[done] ('preq', 'sea', 'SRP', 0): BA 0.8124, kappa 0.6452, 71s
+[done] ('preq', 'sea', 'SRP', 2): BA 0.7934, kappa 0.6066, 66s
+[done] ('preq', 'sea', 'SRP', 3): BA 0.8045, kappa 0.6298, 69s
+[done] ('preq', 'sea', 'SRP', 4): BA 0.8172, kappa 0.6556, 70s
+[done] ('preq', 'elec2', 'PHASE-noseg', 0): BA 0.7656, kappa 0.5358, 263s
+[done] ('preq', 'elec2', 'PHASE-noseg', 1): BA 0.7659, kappa 0.5362, 264s
+[done] ('preq', 'elec2', 'PHASE-noseg', 2): BA 0.7655, kappa 0.5356, 261s
+[done] ('preq', 'elec2', 'PHASE-noseg', 3): BA 0.7661, kappa 0.5365, 262s
+[done] ('preq', 'elec2', 'PHASE-noseg', 4): BA 0.7665, kappa 0.5377, 259s
+[done] ('preq', 'sea5', 'PHASE-noseg', 0): BA 0.8420, kappa 0.3880, 262s
+[done] ('preq', 'sea5', 'PHASE-noseg', 4): BA 0.8441, kappa 0.3885, 256s
+[done] ('preq', 'sea5', 'PHASE-noseg', 1): BA 0.8353, kappa 0.3939, 267s
+[done] ('preq', 'sea5', 'PHASE-noseg', 2): BA 0.8331, kappa 0.3698, 267s
+[done] ('preq', 'sea5', 'PHASE-noseg', 3): BA 0.8400, kappa 0.3922, 267s
+[done] ('preq', 'sea10', 'PHASE-noseg', 0): BA 0.8425, kappa 0.5277, 274s
+[done] ('preq', 'sea10', 'PHASE-noseg', 1): BA 0.8434, kappa 0.5355, 270s
+[done] ('preq', 'sea10', 'PHASE-noseg', 2): BA 0.8440, kappa 0.5314, 269s
+[done] ('preq', 'sea10', 'PHASE-noseg', 4): BA 0.8475, kappa 0.5417, 268s
+[done] ('preq', 'sea10', 'PHASE-noseg', 3): BA 0.8433, kappa 0.5356, 274s
+[done] ('preq', 'sea', 'PHASE-noseg', 0): BA 0.8446, kappa 0.6952, 258s
+[done] ('preq', 'sea', 'PHASE-noseg', 1): BA 0.8460, kappa 0.6988, 259s
+[done] ('preq', 'sea', 'PHASE-noseg', 2): BA 0.8432, kappa 0.6929, 258s
+[done] ('preq', 'sea', 'PHASE-noseg', 3): BA 0.8467, kappa 0.7001, 254s
+[done] ('preq', 'sea', 'PHASE-noseg', 4): BA 0.8463, kappa 0.6992, 256s
+[done] ('preq', 'elec2', 'PHASE', 0): BA 0.7626, kappa 0.5243, 14s
+[done] ('preq', 'elec2', 'PHASE', 1): BA 0.7634, kappa 0.5249, 14s
+[done] ('preq', 'elec2', 'PHASE', 2): BA 0.7654, kappa 0.5283, 13s
+[done] ('preq', 'elec2', 'ARF', 0): BA 0.8760, kappa 0.7560, 28s
+[done] ('preq', 'elec2', 'PHASE', 3): BA 0.7641, kappa 0.5255, 14s
+[done] ('preq', 'elec2', 'ARF', 1): BA 0.8758, kappa 0.7552, 29s
+[done] ('preq', 'elec2', 'ARF', 2): BA 0.8753, kappa 0.7533, 28s
+[done] ('preq', 'elec2', 'PHASE', 4): BA 0.7647, kappa 0.5269, 14s
+[done] ('preq', 'elec2', 'ARF', 3): BA 0.8738, kappa 0.7510, 28s
+[done] ('preq', 'elec2', 'ARF', 4): BA 0.8779, kappa 0.7589, 29s
+[done] ('preq', 'sea5', 'ARF', 0): BA 0.5507, kappa 0.1554, 27s
+[done] ('preq', 'sea5', 'ARF', 1): BA 0.5612, kappa 0.1832, 25s
+[done] ('preq', 'sea5', 'ARF', 2): BA 0.5507, kappa 0.1548, 27s
+[done] ('preq', 'sea5', 'ARF', 3): BA 0.5605, kappa 0.1804, 27s
+[done] ('preq', 'sea5', 'PHASE', 1): BA 0.8446, kappa 0.4271, 195s
+[done] ('preq', 'sea5', 'PHASE', 0): BA 0.8478, kappa 0.4285, 208s
+[done] ('preq', 'sea5', 'PHASE', 2): BA 0.8410, kappa 0.3983, 201s
+[done] ('preq', 'sea10', 'ARF', 0): skipped
+[done] ('preq', 'sea5', 'ARF', 4): BA 0.5567, kappa 0.1707, 29s
+[done] ('preq', 'sea5', 'PHASE', 3): BA 0.8504, kappa 0.4121, 202s
+[done] ('preq', 'sea10', 'ARF', 1): BA 0.7294, kappa 0.4975, 33s
+[done] ('preq', 'sea5', 'PHASE', 4): BA 0.8527, kappa 0.4233, 187s
+[done] ('preq', 'sea10', 'ARF', 2): BA 0.7171, kappa 0.4798, 30s
+[done] ('preq', 'sea10', 'ARF', 3): BA 0.7280, kappa 0.4937, 34s
+[done] ('preq', 'sea10', 'PHASE', 0): BA 0.8567, kappa 0.5626, 172s
+[done] ('preq', 'sea10', 'ARF', 4): skipped
+[done] ('preq', 'sea', 'PHASE', 0): skipped
+[done] ('preq', 'sea', 'ARF', 0): skipped
+[done] ('preq', 'sea', 'PHASE', 1): skipped
+[done] ('preq', 'sea', 'ARF', 1): skipped
+[done] ('preq', 'sea', 'PHASE', 2): skipped
+[done] ('preq', 'sea', 'ARF', 2): skipped
+[done] ('preq', 'sea', 'PHASE', 3): skipped
+[done] ('preq', 'sea', 'ARF', 3): skipped
+[done] ('preq', 'sea', 'PHASE', 4): skipped
+[done] ('preq', 'sea', 'ARF', 4): skipped
+[done] ('preq', 'sea10', 'PHASE', 1): BA 0.8607, kappa 0.5771, 158s
+[done] ('preq', 'elec2', 'HAT', 0): BA 0.8173, kappa 0.6404, 3s
+[done] ('preq', 'elec2', 'PHASE-pooled', 0): BA 0.7618, kappa 0.5226, 15s
+[done] ('preq', 'elec2', 'OOB', 0): BA 0.7985, kappa 0.5995, 12s
+[done] ('preq', 'elec2', 'UOB', 0): BA 0.7810, kappa 0.5628, 8s
+[done] ('preq', 'elec2', 'ROSE', 0): BA 0.8871, kappa 0.7728, 5s
+[done] ('preq', 'elec2', 'ARF-US', 0): BA 0.8349, kappa 0.6637, 18s
+[done] ('preq', 'elec2', 'PHASE-pooled', 1): BA 0.7612, kappa 0.5230, 14s
+[done] ('preq', 'sea10', 'PHASE', 2): BA 0.8605, kappa 0.5726, 179s
+[done] ('preq', 'elec2', 'HAT', 1): BA 0.8142, kappa 0.6357, 4s
+[done] ('preq', 'elec2', 'UOB', 1): BA 0.7788, kappa 0.5613, 8s
+[done] ('preq', 'elec2', 'OOB', 1): BA 0.7967, kappa 0.5952, 12s
+[done] ('preq', 'elec2', 'ROSE', 1): BA 0.8871, kappa 0.7727, 5s
+[done] ('preq', 'elec2', 'HAT', 2): BA 0.8107, kappa 0.6291, 4s
+[done] ('preq', 'elec2', 'ARF-US', 1): BA 0.8344, kappa 0.6613, 18s
+[done] ('preq', 'elec2', 'PHASE-pooled', 2): BA 0.7586, kappa 0.5179, 14s
+[done] ('preq', 'elec2', 'UOB', 2): BA 0.7815, kappa 0.5631, 7s
+[done] ('preq', 'elec2', 'OOB', 2): BA 0.7967, kappa 0.5957, 11s
+[done] ('preq', 'elec2', 'ROSE', 2): BA 0.8852, kappa 0.7682, 5s
+[done] ('preq', 'sea10', 'PHASE', 3): BA 0.8553, kappa 0.5712, 179s
+[done] ('preq', 'elec2', 'HAT', 3): BA 0.8184, kappa 0.6419, 4s
+[done] ('preq', 'elec2', 'UOB', 3): BA 0.7812, kappa 0.5653, 7s
+[done] ('preq', 'elec2', 'PHASE-pooled', 3): BA 0.7627, kappa 0.5245, 16s
+[done] ('preq', 'elec2', 'ARF-US', 2): BA 0.8392, kappa 0.6717, 18s
+[done] ('preq', 'elec2', 'OOB', 3): BA 0.7896, kappa 0.5826, 12s
+[done] ('preq', 'elec2', 'ROSE', 3): BA 0.8891, kappa 0.7762, 5s
+[done] ('preq', 'elec2', 'HAT', 4): BA 0.8171, kappa 0.6427, 4s
+[done] ('preq', 'elec2', 'UOB', 4): BA 0.7792, kappa 0.5611, 8s
+[done] ('preq', 'elec2', 'PHASE-pooled', 4): BA 0.7615, kappa 0.5228, 13s
+[done] ('preq', 'elec2', 'OOB', 4): BA 0.7920, kappa 0.5877, 12s
+[done] ('preq', 'elec2', 'ARF-US', 3): BA 0.8396, kappa 0.6720, 18s
+[done] ('preq', 'elec2', 'ROSE', 4): BA 0.8864, kappa 0.7715, 5s
+[done] ('preq', 'sea5', 'HAT', 0): BA 0.5075, kappa 0.0273, 3s
+[done] ('preq', 'sea5', 'UOB', 0): BA 0.8360, kappa 0.2770, 4s
+[done] ('preq', 'sea5', 'OOB', 0): BA 0.7916, kappa 0.4251, 7s
+[done] ('preq', 'sea5', 'ROSE', 0): BA 0.7711, kappa 0.4482, 2s
+[done] ('preq', 'sea5', 'ARF-US', 0): BA 0.8364, kappa 0.3479, 6s
+[done] ('preq', 'elec2', 'ARF-US', 4): BA 0.8344, kappa 0.6605, 18s
+[done] ('preq', 'sea5', 'HAT', 1): BA 0.5067, kappa 0.0241, 2s
+[done] ('preq', 'sea5', 'UOB', 1): BA 0.8332, kappa 0.2790, 4s
+[done] ('preq', 'sea5', 'OOB', 1): BA 0.7923, kappa 0.4290, 8s
+[done] ('preq', 'sea5', 'ROSE', 1): BA 0.7808, kappa 0.4545, 2s
+[done] ('preq', 'sea5', 'ARF-US', 1): BA 0.8367, kappa 0.3615, 5s
+[done] ('preq', 'sea5', 'HAT', 2): BA 0.5022, kappa 0.0079, 3s
+[done] ('preq', 'sea10', 'PHASE', 4): BA 0.8588, kappa 0.5824, 179s
+[done] ('preq', 'sea5', 'UOB', 2): BA 0.8327, kappa 0.2699, 3s
+[done] ('preq', 'sea5', 'OOB', 2): BA 0.7881, kappa 0.4227, 7s
+[done] ('preq', 'sea5', 'ROSE', 2): BA 0.7695, kappa 0.4422, 2s
+[done] ('preq', 'sea5', 'ARF-US', 2): BA 0.8304, kappa 0.3252, 5s
+[done] ('preq', 'sea5', 'HAT', 3): BA 0.5135, kappa 0.0475, 3s
+[done] ('preq', 'sea5', 'OOB', 3): BA 0.7791, kappa 0.4266, 8s
+[done] ('preq', 'sea5', 'UOB', 3): BA 0.8270, kappa 0.2663, 4s
+[done] ('preq', 'sea5', 'ARF-US', 3): BA 0.8312, kappa 0.3804, 6s
+[done] ('preq', 'sea5', 'ROSE', 3): BA 0.7749, kappa 0.4510, 2s
+[done] ('preq', 'sea5', 'PHASE-pooled', 0): BA 0.8449, kappa 0.4239, 223s
+[done] ('preq', 'sea5', 'HAT', 4): BA 0.5002, kappa 0.0007, 2s
+[done] ('preq', 'sea5', 'OOB', 4): BA 0.7931, kappa 0.4284, 8s
+[done] ('preq', 'sea5', 'UOB', 4): BA 0.8388, kappa 0.2796, 4s
+[done] ('preq', 'sea5', 'ARF-US', 4): BA 0.8318, kappa 0.3520, 5s
+[done] ('preq', 'sea5', 'ROSE', 4): BA 0.7848, kappa 0.4543, 2s
+[done] ('preq', 'sea5', 'PHASE-pooled', 1): BA 0.8404, kappa 0.4269, 237s
+[done] ('preq', 'sea10', 'HAT', 0): skipped
+[done] ('preq', 'sea10', 'OOB', 0): skipped
+[done] ('preq', 'sea10', 'UOB', 0): skipped
+[done] ('preq', 'sea10', 'ARF-US', 0): skipped
+[done] ('preq', 'sea10', 'ROSE', 0): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 2): BA 0.8362, kappa 0.3960, 231s
+[done] ('preq', 'sea10', 'HAT', 1): skipped
+[done] ('preq', 'sea10', 'OOB', 1): skipped
+[done] ('preq', 'sea10', 'UOB', 1): skipped
+[done] ('preq', 'sea10', 'ARF-US', 1): skipped
+[done] ('preq', 'sea10', 'ROSE', 1): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 3): BA 0.8425, kappa 0.4076, 221s
+[done] ('preq', 'sea10', 'HAT', 2): skipped
+[done] ('preq', 'sea10', 'OOB', 2): skipped
+[done] ('preq', 'sea10', 'UOB', 2): skipped
+[done] ('preq', 'sea10', 'ARF-US', 2): skipped
+[done] ('preq', 'sea10', 'ROSE', 2): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 4): BA 0.8464, kappa 0.4240, 210s
+[done] ('preq', 'sea10', 'HAT', 3): skipped
+[done] ('preq', 'sea10', 'OOB', 3): skipped
+[done] ('preq', 'sea10', 'UOB', 3): skipped
+[done] ('preq', 'sea10', 'ARF-US', 3): skipped
+[done] ('preq', 'sea10', 'ROSE', 3): skipped
+[done] ('preq', 'sea10', 'PHASE-pooled', 0): BA 0.8475, kappa 0.5643, 191s
+[done] ('preq', 'sea10', 'HAT', 4): skipped
+[done] ('preq', 'sea10', 'OOB', 4): skipped
+[done] ('preq', 'sea10', 'UOB', 4): skipped
+[done] ('preq', 'sea10', 'ARF-US', 4): skipped
+[done] ('preq', 'sea10', 'ROSE', 4): skipped
+[done] ('preq', 'sea', 'PHASE-pooled', 0): skipped
+[done] ('preq', 'sea', 'HAT', 0): skipped
+[done] ('preq', 'sea', 'OOB', 0): skipped
+[done] ('preq', 'sea', 'UOB', 0): skipped
+[done] ('preq', 'sea', 'ARF-US', 0): skipped
+[done] ('preq', 'sea', 'ROSE', 0): skipped
+[done] ('preq', 'sea', 'PHASE-pooled', 1): skipped
+[done] ('preq', 'sea', 'HAT', 1): skipped
+[done] ('preq', 'sea', 'OOB', 1): skipped
+[done] ('preq', 'sea', 'UOB', 1): skipped
+[done] ('preq', 'sea', 'ARF-US', 1): skipped
+[done] ('preq', 'sea', 'ROSE', 1): skipped
+[done] ('preq', 'sea', 'PHASE-pooled', 2): skipped
+[done] ('preq', 'sea', 'HAT', 2): skipped
+[done] ('preq', 'sea', 'OOB', 2): skipped
+[done] ('preq', 'sea', 'UOB', 2): skipped
+[done] ('preq', 'sea', 'ARF-US', 2): skipped
+[done] ('preq', 'sea', 'ROSE', 2): skipped
+[done] ('preq', 'sea', 'PHASE-pooled', 3): skipped
+[done] ('preq', 'sea', 'HAT', 3): skipped
+[done] ('preq', 'sea', 'OOB', 3): skipped
+[done] ('preq', 'sea', 'UOB', 3): skipped
+[done] ('preq', 'sea', 'ARF-US', 3): skipped
+[done] ('preq', 'sea', 'ROSE', 3): skipped
+[done] ('preq', 'sea', 'PHASE-pooled', 4): skipped
+[done] ('preq', 'sea', 'HAT', 4): skipped
+[done] ('preq', 'sea', 'OOB', 4): skipped
+[done] ('preq', 'sea', 'UOB', 4): skipped
+[done] ('preq', 'sea', 'ARF-US', 4): skipped
+[done] ('preq', 'sea', 'ROSE', 4): skipped
+[done] ('preq', 'sea10', 'PHASE-pooled', 1): BA 0.8488, kappa 0.5682, 194s
+[done] ('preq', 'sea10', 'PHASE-pooled', 2): BA 0.8502, kappa 0.5659, 192s
+[done] ('preq', 'sea10', 'PHASE-pooled', 3): BA 0.8494, kappa 0.5749, 191s
+[done] ('preq', 'sea10', 'PHASE-pooled', 4): BA 0.8520, kappa 0.5781, 180s

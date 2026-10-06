@@ -1,0 +1,5 @@
+4 runs on 4 workers
+[done] ('preq', 'creditcard', 'PHASE', 3): BA 0.9104, kappa 0.3195, 470s
+[done] ('preq', 'creditcard', 'PHASE', 2): BA 0.9126, kappa 0.2693, 474s
+[done] ('preq', 'creditcard', 'PHASE', 4): BA 0.9111, kappa 0.3011, 476s
+[done] ('preq', 'creditcard', 'PHASE', 0): BA 0.9093, kappa 0.3148, 483s

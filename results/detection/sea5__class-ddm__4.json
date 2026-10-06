@@ -1,0 +1,33 @@
+{
+ "stream": "sea5",
+ "mode": "class",
+ "test": "ddm",
+ "seed": 4,
+ "n": 50000,
+ "minority_share": 0.04948,
+ "change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "boundaries": [
+  1031,
+  2131,
+  6244,
+  30079
+ ],
+ "alarms": [
+  1037,
+  2131,
+  14999,
+  35884
+ ],
+ "detected": 1,
+ "n_true": 3,
+ "false_alarms": 3,
+ "mean_abs_loc_error": 79.0,
+ "mean_delay": 5884.0,
+ "hits": [
+  30000
+ ]
+}

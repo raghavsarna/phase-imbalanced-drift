@@ -1,0 +1,513 @@
+360 runs on 6 workers
+[done] ('preq', 'covtype', 'PHASE', 0): skipped
+[done] ('preq', 'covtype', 'ARF', 0): skipped
+[done] ('preq', 'covtype', 'PHASE', 1): skipped
+[done] ('preq', 'covtype', 'ARF', 1): skipped
+[done] ('preq', 'covtype', 'PHASE', 2): skipped
+[done] ('preq', 'covtype', 'ARF', 2): skipped
+[done] ('preq', 'covtype', 'PHASE', 3): BA 0.8035, kappa 0.7749, 305s
+[done] ('preq', 'covtype', 'ARF', 3): BA 0.7375, kappa 0.7993, 503s
+[done] ('preq', 'covtype', 'PHASE', 4): BA 0.8031, kappa 0.7753, 300s
+[done] ('preq', 'covtype', 'ARF', 4): BA 0.7435, kappa 0.8017, 452s
+[done] ('preq', 'covtype', 'HAT', 0): BA 0.6498, kappa 0.6591, 256s
+[done] ('preq', 'covtype', 'OOB', 0): BA 0.6711, kappa 0.7341, 704s
+[done] ('preq', 'covtype', 'UOB', 0): BA 0.3145, kappa 0.1223, 946s
+[done] ('preq', 'covtype', 'ARF-US', 0): BA 0.3049, kappa 0.1079, 73s
+[done] ('preq', 'covtype', 'SRP', 0): BA 0.8409, kappa 0.8933, 3549s
+[done] ('preq', 'covtype', 'SRP', 1): BA 0.8409, kappa 0.8936, 3586s
+[done] ('preq', 'covtype', 'SRP', 3): BA 0.8430, kappa 0.8961, 3591s
+[done] ('preq', 'covtype', 'SRP', 4): BA 0.8456, kappa 0.8975, 3607s
+[done] ('preq', 'covtype', 'SRP', 2): BA 0.8364, kappa 0.8895, 3631s
+[done] ('preq', 'covtype', 'ARF-US', 1): BA 0.3251, kappa 0.1858, 109s
+[done] ('preq', 'covtype', 'ROSE', 0): BA 0.8648, kappa 0.8888, 213s
+[done] ('preq', 'covtype', 'HAT', 1): BA 0.6291, kappa 0.6688, 291s
+[done] ('preq', 'covtype', 'ROSE', 1): BA 0.8682, kappa 0.8901, 213s
+[done] ('preq', 'covtype', 'ARF-US', 2): BA 0.3122, kappa 0.2164, 94s
+[done] ('preq', 'covtype', 'HAT', 2): BA 0.6327, kappa 0.6417, 286s
+[done] ('preq', 'covtype', 'ROSE', 2): BA 0.8686, kappa 0.8885, 214s
+[done] ('preq', 'covtype', 'HAT', 3): BA 0.6219, kappa 0.6530, 282s
+[done] ('preq', 'covtype', 'OOB', 1): BA 0.6748, kappa 0.7360, 814s
+[done] ('preq', 'covtype', 'ARF-US', 3): BA 0.3458, kappa 0.1293, 67s
+[done] ('preq', 'covtype', 'OOB', 2): BA 0.6769, kappa 0.7347, 795s
+[done] ('preq', 'covtype', 'UOB', 1): BA 0.3187, kappa 0.1254, 982s
+[done] ('preq', 'covtype', 'ROSE', 3): BA 0.8647, kappa 0.8884, 192s
+[done] ('preq', 'covtype', 'UOB', 2): BA 0.3157, kappa 0.1187, 981s
+[done] ('preq', 'covtype', 'HAT', 4): BA 0.6152, kappa 0.6385, 269s
+[done] ('preq', 'covtype', 'ARF-US', 4): BA 0.3146, kappa 0.1795, 74s
+[done] ('preq', 'covtype', 'OOB', 3): BA 0.6676, kappa 0.7314, 764s
+[done] ('preq', 'covtype', 'ROSE', 4): BA 0.8721, kappa 0.8877, 200s
+[done] ('preq', 'covtype', 'UOB', 3): BA 0.3164, kappa 0.1004, 942s
+[done] ('preq', 'covtype', 'OOB', 4): BA 0.6746, kappa 0.7337, 748s
+[done] ('preq', 'covtype', 'UOB', 4): BA 0.3085, kappa 0.1077, 934s
+[done] ('preq', 'insects_abrupt', 'SRP', 1): BA 0.6532, kappa 0.7286, 2729s
+[done] ('preq', 'insects_abrupt', 'SRP', 0): BA 0.6546, kappa 0.7289, 2807s
+[done] ('preq', 'insects_abrupt', 'SRP', 2): BA 0.6532, kappa 0.7252, 2780s
+[done] ('preq', 'insects_abrupt', 'SRP', 3): BA 0.6546, kappa 0.7296, 2776s
+[done] ('preq', 'insects_abrupt', 'SRP', 4): BA 0.6545, kappa 0.7303, 2706s
+[done] ('preq', 'insects_abrupt', 'ARF', 0): BA 0.6414, kappa 0.7251, 419s
+[done] ('preq', 'insects_abrupt', 'ARF', 1): BA 0.6429, kappa 0.7260, 412s
+[done] ('preq', 'insects_abrupt', 'ARF', 2): BA 0.6429, kappa 0.7272, 422s
+[done] ('preq', 'insects_abrupt', 'ARF', 3): BA 0.6421, kappa 0.7279, 420s
+[done] ('preq', 'insects_abrupt', 'PHASE', 0): BA 0.7000, kappa 0.6409, 3230s
+[done] ('preq', 'insects_abrupt', 'HAT', 0): BA 0.5792, kappa 0.5450, 138s
+[done] ('preq', 'insects_abrupt', 'ARF', 4): BA 0.6421, kappa 0.7258, 426s
+[done] ('preq', 'insects_abrupt', 'UOB', 0): BA 0.4903, kappa 0.3423, 455s
+[done] ('preq', 'insects_abrupt', 'ARF-US', 0): BA 0.5802, kappa 0.5045, 80s
+[done] ('preq', 'insects_abrupt', 'OOB', 0): BA 0.5389, kappa 0.5906, 644s
+[done] ('preq', 'insects_abrupt', 'ROSE', 0): BA 0.6884, kappa 0.6883, 83s
+[done] ('preq', 'insects_abrupt', 'HAT', 1): BA 0.5745, kappa 0.5576, 134s
+[done] ('preq', 'insects_abrupt', 'UOB', 1): BA 0.4906, kappa 0.3422, 455s
+[done] ('preq', 'insects_abrupt', 'ARF-US', 1): BA 0.5967, kappa 0.5259, 78s
+[done] ('preq', 'insects_abrupt', 'OOB', 1): BA 0.5491, kappa 0.5903, 631s
+[done] ('preq', 'insects_abrupt', 'ROSE', 1): BA 0.6855, kappa 0.6854, 82s
+[done] ('preq', 'insects_abrupt', 'HAT', 2): BA 0.5710, kappa 0.5560, 147s
+[done] ('preq', 'insects_abrupt', 'PHASE', 1): BA 0.6985, kappa 0.6402, 3041s
+[done] ('preq', 'insects_abrupt', 'ARF-US', 2): BA 0.5918, kappa 0.5256, 79s
+[done] ('preq', 'insects_abrupt', 'ROSE', 2): BA 0.6881, kappa 0.6865, 87s
+[done] ('preq', 'insects_abrupt', 'UOB', 2): BA 0.4911, kappa 0.3423, 456s
+[done] ('preq', 'insects_abrupt', 'OOB', 2): BA 0.5445, kappa 0.5896, 639s
+[done] ('preq', 'insects_abrupt', 'PHASE', 2): BA 0.6990, kappa 0.6402, 3024s
+[done] ('preq', 'insects_abrupt', 'HAT', 3): BA 0.5611, kappa 0.5470, 125s
+[done] ('preq', 'insects_abrupt', 'ARF-US', 3): BA 0.6036, kappa 0.5272, 80s
+[done] ('preq', 'insects_abrupt', 'ROSE', 3): BA 0.6875, kappa 0.6899, 82s
+[done] ('preq', 'insects_abrupt', 'HAT', 4): BA 0.5546, kappa 0.5330, 133s
+[done] ('preq', 'insects_abrupt', 'PHASE', 3): BA 0.7000, kappa 0.6404, 3179s
+[done] ('preq', 'insects_abrupt', 'ARF-US', 4): BA 0.5972, kappa 0.5195, 78s
+[done] ('preq', 'insects_abrupt', 'ROSE', 4): BA 0.6860, kappa 0.6828, 85s
+[done] ('preq', 'insects_abrupt', 'UOB', 3): BA 0.4904, kappa 0.3427, 448s
+[done] ('preq', 'insects_abrupt', 'OOB', 3): BA 0.5493, kappa 0.5865, 625s
+[done] ('preq', 'insects_abrupt', 'PHASE', 4): BA 0.6992, kappa 0.6402, 3136s
+[done] ('preq', 'insects_abrupt', 'UOB', 4): BA 0.4914, kappa 0.3460, 441s
+[done] ('preq', 'insects_abrupt', 'OOB', 4): BA 0.5491, kappa 0.5937, 618s
+[FAIL] ('preq', 'creditcard', 'PHASE', 0)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 126, in run_one
+    pred, info = prequential.phase_prequential(X, y, K, cfg, detection=det)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/prequential.py", line 39, in phase_prequential
+    model = PHASE(cfg, K).fit_window(X[idx], y[idx], seed=cfg.seed + i)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 194, in fit_window
+    info, models, _, _ = self._fit_segment(X, y, 0, len(y), seed=self.cfg.seed if seed is None else seed)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 254, in _fit_segment
+    lr.fit(Z[tr], ys[tr], sample_weight=sw)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py", line 1501, in fit
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 172, in main
+    path, msg = f.result()
+                ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+
+[done] ('preq', 'creditcard', 'ARF', 0): BA 0.6500, kappa 0.4554, 179s
+[done] ('preq', 'creditcard', 'SRP', 0): BA 0.7102, kappa 0.5848, 811s
+[done] ('preq', 'creditcard', 'SRP', 1): BA 0.6775, kappa 0.5182, 829s
+[FAIL] ('preq', 'creditcard', 'PHASE', 2)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 126, in run_one
+    pred, info = prequential.phase_prequential(X, y, K, cfg, detection=det)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/prequential.py", line 39, in phase_prequential
+    model = PHASE(cfg, K).fit_window(X[idx], y[idx], seed=cfg.seed + i)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 194, in fit_window
+    info, models, _, _ = self._fit_segment(X, y, 0, len(y), seed=self.cfg.seed if seed is None else seed)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 254, in _fit_segment
+    lr.fit(Z[tr], ys[tr], sample_weight=sw)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py", line 1501, in fit
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 172, in main
+    path, msg = f.result()
+                ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+
+[done] ('preq', 'creditcard', 'SRP', 2): BA 0.6683, kappa 0.4958, 755s
+[FAIL] ('preq', 'creditcard', 'PHASE', 3)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 126, in run_one
+    pred, info = prequential.phase_prequential(X, y, K, cfg, detection=det)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/prequential.py", line 39, in phase_prequential
+    model = PHASE(cfg, K).fit_window(X[idx], y[idx], seed=cfg.seed + i)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 194, in fit_window
+    info, models, _, _ = self._fit_segment(X, y, 0, len(y), seed=self.cfg.seed if seed is None else seed)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 254, in _fit_segment
+    lr.fit(Z[tr], ys[tr], sample_weight=sw)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py", line 1501, in fit
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 172, in main
+    path, msg = f.result()
+                ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+
+[done] ('preq', 'creditcard', 'SRP', 3): BA 0.6877, kappa 0.5383, 741s
+[FAIL] ('preq', 'creditcard', 'PHASE', 4)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 126, in run_one
+    pred, info = prequential.phase_prequential(X, y, K, cfg, detection=det)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/prequential.py", line 39, in phase_prequential
+    model = PHASE(cfg, K).fit_window(X[idx], y[idx], seed=cfg.seed + i)
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 194, in fit_window
+    info, models, _, _ = self._fit_segment(X, y, 0, len(y), seed=self.cfg.seed if seed is None else seed)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/phase.py", line 254, in _fit_segment
+    lr.fit(Z[tr], ys[tr], sample_weight=sw)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/private/tmp/claude-501/-Users-raghav-sarna-Desktop-drift-paper/22180536-f5b9-4709-bba6-d4e80418fc9f/scratchpad/exp/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py", line 1501, in fit
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/drift_paper/Code_v2/run_experiments.py", line 172, in main
+    path, msg = f.result()
+                ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+
+[done] ('preq', 'creditcard', 'ARF', 1): BA 0.6122, kappa 0.3614, 113s
+[done] ('preq', 'creditcard', 'HAT', 0): BA 0.5000, kappa 0.0000, 14s
+[done] ('preq', 'creditcard', 'PHASE', 1): BA 0.9174, kappa 0.3152, 441s
+[done] ('preq', 'creditcard', 'ARF', 2): BA 0.6500, kappa 0.4561, 115s
+[done] ('preq', 'creditcard', 'SRP', 4): BA 0.7530, kappa 0.6592, 713s
+[done] ('preq', 'creditcard', 'ARF-US', 0): BA 0.9150, kappa 0.1014, 15s
+[done] ('preq', 'creditcard', 'ROSE', 0): BA 0.8774, kappa 0.8014, 15s
+[done] ('preq', 'creditcard', 'ARF', 3): BA 0.6194, kappa 0.3819, 113s
+[done] ('preq', 'creditcard', 'HAT', 1): BA 0.5000, kappa 0.0000, 14s
+[done] ('preq', 'creditcard', 'OOB', 0): BA 0.8304, kappa 0.6978, 87s
+[done] ('preq', 'creditcard', 'UOB', 0): BA 0.9084, kappa 0.0801, 75s
+[done] ('preq', 'creditcard', 'ARF-US', 1): BA 0.9154, kappa 0.1486, 17s
+[done] ('preq', 'creditcard', 'ARF', 4): BA 0.6071, kappa 0.3484, 115s
+[done] ('preq', 'creditcard', 'HAT', 2): BA 0.5000, kappa 0.0000, 18s
+[done] ('preq', 'creditcard', 'ROSE', 1): BA 0.8876, kappa 0.8099, 18s
+[done] ('preq', 'creditcard', 'ARF-US', 2): BA 0.9196, kappa 0.1255, 19s
+[done] ('preq', 'creditcard', 'ROSE', 2): BA 0.8897, kappa 0.8116, 19s
+[done] ('preq', 'creditcard', 'HAT', 3): BA 0.5000, kappa 0.0000, 17s
+[done] ('preq', 'creditcard', 'UOB', 1): BA 0.9015, kappa 0.0754, 93s
+[done] ('preq', 'creditcard', 'OOB', 1): BA 0.8090, kappa 0.6882, 106s
+[done] ('preq', 'creditcard', 'ARF-US', 3): BA 0.9228, kappa 0.1083, 18s
+[done] ('preq', 'creditcard', 'UOB', 2): BA 0.9005, kappa 0.0848, 92s
+[done] ('preq', 'creditcard', 'ROSE', 3): BA 0.8774, kappa 0.7945, 18s
+[done] ('preq', 'creditcard', 'HAT', 4): BA 0.5000, kappa 0.0000, 17s
+[done] ('preq', 'creditcard', 'OOB', 2): BA 0.8050, kappa 0.7064, 111s
+[done] ('preq', 'creditcard', 'ARF-US', 4): BA 0.9241, kappa 0.1027, 19s
+[done] ('preq', 'creditcard', 'ROSE', 4): BA 0.8815, kappa 0.7837, 18s
+[done] ('preq', 'creditcard', 'UOB', 3): BA 0.9031, kappa 0.0883, 91s
+[done] ('preq', 'creditcard', 'OOB', 3): BA 0.8315, kappa 0.7299, 111s
+[done] ('preq', 'creditcard', 'UOB', 4): BA 0.9044, kappa 0.0899, 93s
+[done] ('preq', 'creditcard', 'OOB', 4): BA 0.8244, kappa 0.7223, 113s
+[done] ('preq', 'insects_gradual', 'SRP', 0): BA 0.6382, kappa 0.7231, 892s
+[done] ('preq', 'insects_gradual', 'SRP', 2): BA 0.6415, kappa 0.7218, 889s
+[done] ('preq', 'insects_gradual', 'SRP', 3): BA 0.6407, kappa 0.7291, 890s
+[done] ('preq', 'insects_gradual', 'SRP', 1): BA 0.6455, kappa 0.7303, 910s
+[done] ('preq', 'insects_gradual', 'SRP', 4): BA 0.6417, kappa 0.7285, 872s
+[done] ('preq', 'insects_gradual', 'ARF', 0): BA 0.6262, kappa 0.7231, 121s
+[done] ('preq', 'insects_gradual', 'PHASE', 0): BA 0.6859, kappa 0.6417, 952s
+[done] ('preq', 'insects_gradual', 'ARF', 1): BA 0.6248, kappa 0.7245, 125s
+[done] ('preq', 'insects_gradual', 'ARF', 2): BA 0.6275, kappa 0.7253, 131s
+[done] ('preq', 'insects_gradual', 'ARF', 3): BA 0.6216, kappa 0.7200, 164s
+[done] ('preq', 'insects_gradual', 'ARF', 4): BA 0.6241, kappa 0.7196, 168s
+[done] ('preq', 'insects_gradual', 'HAT', 0): BA 0.5527, kappa 0.5204, 59s
+[done] ('preq', 'insects_gradual', 'UOB', 0): BA 0.5062, kappa 0.4142, 178s
+[done] ('preq', 'insects_gradual', 'ARF-US', 0): BA 0.5725, kappa 0.5015, 32s
+[done] ('preq', 'insects_gradual', 'OOB', 0): BA 0.5691, kappa 0.5474, 265s
+[done] ('preq', 'insects_gradual', 'ROSE', 0): BA 0.6702, kappa 0.6761, 36s
+[done] ('preq', 'insects_gradual', 'HAT', 1): BA 0.5401, kappa 0.5068, 59s
+[done] ('preq', 'insects_gradual', 'UOB', 1): BA 0.5088, kappa 0.4187, 180s
+[done] ('preq', 'insects_gradual', 'OOB', 1): BA 0.5464, kappa 0.5236, 265s
+[done] ('preq', 'insects_gradual', 'ARF-US', 1): BA 0.5618, kappa 0.4980, 31s
+[done] ('preq', 'insects_gradual', 'ROSE', 1): BA 0.6703, kappa 0.6710, 36s
+[done] ('preq', 'insects_gradual', 'HAT', 2): BA 0.5292, kappa 0.5158, 55s
+[done] ('preq', 'insects_gradual', 'UOB', 2): BA 0.5220, kappa 0.4298, 178s
+[done] ('preq', 'insects_gradual', 'ARF-US', 2): BA 0.5625, kappa 0.5157, 31s
+[done] ('preq', 'insects_gradual', 'PHASE', 2): BA 0.6859, kappa 0.6415, 1147s
+[done] ('preq', 'insects_gradual', 'ROSE', 2): BA 0.6759, kappa 0.6781, 33s
+[done] ('preq', 'insects_gradual', 'OOB', 2): BA 0.5555, kappa 0.5288, 265s
+[done] ('preq', 'insects_gradual', 'HAT', 3): BA 0.5463, kappa 0.5253, 57s
+[done] ('preq', 'insects_gradual', 'PHASE', 1): BA 0.6857, kappa 0.6424, 1238s
+[done] ('preq', 'insects_gradual', 'ARF-US', 3): BA 0.5956, kappa 0.5399, 29s
+[done] ('preq', 'insects_gradual', 'ROSE', 3): BA 0.6683, kappa 0.6728, 36s
+[done] ('preq', 'insects_gradual', 'HAT', 4): BA 0.5420, kappa 0.5261, 54s
+[done] ('preq', 'insects_gradual', 'PHASE', 3): BA 0.6861, kappa 0.6429, 1212s
+[done] ('preq', 'insects_gradual', 'UOB', 3): BA 0.5036, kappa 0.4077, 176s
+[done] ('preq', 'insects_gradual', 'ARF-US', 4): BA 0.5641, kappa 0.4904, 31s
+[done] ('preq', 'sea', 'SRP', 0): skipped
+[done] ('preq', 'sea', 'SRP', 1): skipped
+[done] ('preq', 'sea', 'SRP', 2): skipped
+[done] ('preq', 'sea', 'SRP', 3): skipped
+[done] ('preq', 'sea', 'SRP', 4): skipped
+[done] ('preq', 'sea10', 'SRP', 0): skipped
+[done] ('preq', 'sea10', 'SRP', 1): skipped
+[done] ('preq', 'sea10', 'SRP', 2): skipped
+[done] ('preq', 'sea10', 'SRP', 3): skipped
+[done] ('preq', 'sea10', 'SRP', 4): skipped
+[done] ('preq', 'sea5', 'SRP', 0): skipped
+[done] ('preq', 'sea5', 'SRP', 1): skipped
+[done] ('preq', 'sea5', 'SRP', 2): skipped
+[done] ('preq', 'sea5', 'SRP', 3): skipped
+[done] ('preq', 'sea5', 'SRP', 4): skipped
+[done] ('preq', 'elec2', 'SRP', 0): skipped
+[done] ('preq', 'elec2', 'SRP', 1): skipped
+[done] ('preq', 'elec2', 'SRP', 2): skipped
+[done] ('preq', 'elec2', 'SRP', 3): skipped
+[done] ('preq', 'elec2', 'SRP', 4): skipped
+[done] ('preq', 'insects_gradual', 'PHASE', 4): BA 0.6862, kappa 0.6415, 1231s
+[done] ('preq', 'insects_gradual', 'ROSE', 4): BA 0.6718, kappa 0.6708, 32s
+[done] ('preq', 'insects_gradual', 'OOB', 3): BA 0.5527, kappa 0.5354, 263s
+[done] ('preq', 'insects_gradual', 'UOB', 4): BA 0.5131, kappa 0.4164, 175s
+[done] ('preq', 'sea', 'PHASE-noseg', 4): skipped
+[done] ('preq', 'sea10', 'PHASE-noseg', 0): skipped
+[done] ('preq', 'sea10', 'PHASE-noseg', 1): skipped
+[done] ('preq', 'sea10', 'PHASE-noseg', 2): skipped
+[done] ('preq', 'sea10', 'PHASE-noseg', 3): skipped
+[done] ('preq', 'sea10', 'PHASE-noseg', 4): skipped
+[done] ('preq', 'sea5', 'PHASE-noseg', 0): skipped
+[done] ('preq', 'sea5', 'PHASE-noseg', 1): skipped
+[done] ('preq', 'sea5', 'PHASE-noseg', 2): skipped
+[done] ('preq', 'sea5', 'PHASE-noseg', 3): skipped
+[done] ('preq', 'sea5', 'PHASE-noseg', 4): skipped
+[done] ('preq', 'elec2', 'PHASE-noseg', 0): skipped
+[done] ('preq', 'elec2', 'PHASE-noseg', 1): skipped
+[done] ('preq', 'elec2', 'PHASE-noseg', 2): skipped
+[done] ('preq', 'elec2', 'PHASE-noseg', 3): skipped
+[done] ('preq', 'elec2', 'PHASE-noseg', 4): skipped
+[done] ('preq', 'insects_gradual', 'OOB', 4): BA 0.5604, kappa 0.5241, 266s
+[done] ('preq', 'sea', 'ARF', 0): BA 0.8664, kappa 0.7419, 29s
+[done] ('preq', 'sea', 'PHASE', 0): BA 0.8694, kappa 0.7428, 130s
+[done] ('preq', 'sea', 'PHASE-noseg', 0): BA 0.8446, kappa 0.6952, 256s
+[done] ('preq', 'sea', 'PHASE-noseg', 1): BA 0.8460, kappa 0.6988, 252s
+[done] ('preq', 'sea', 'PHASE-noseg', 2): BA 0.8432, kappa 0.6929, 254s
+[done] ('preq', 'sea', 'ARF', 1): BA 0.8672, kappa 0.7445, 26s
+[done] ('preq', 'sea', 'ARF', 2): BA 0.8689, kappa 0.7479, 27s
+[done] ('preq', 'sea', 'ARF', 3): BA 0.8677, kappa 0.7453, 28s
+[done] ('preq', 'sea', 'PHASE-noseg', 3): BA 0.8467, kappa 0.7001, 254s
+[done] ('preq', 'sea', 'ARF', 4): BA 0.8684, kappa 0.7473, 28s
+[done] ('preq', 'sea', 'PHASE', 1): BA 0.8708, kappa 0.7480, 140s
+[done] ('preq', 'sea10', 'ARF', 0): BA 0.7247, kappa 0.4877, 30s
+[done] ('preq', 'sea', 'PHASE', 2): BA 0.8715, kappa 0.7470, 139s
+[done] ('preq', 'sea10', 'ARF', 1): BA 0.7294, kappa 0.4975, 33s
+[done] ('preq', 'sea', 'PHASE', 3): BA 0.8740, kappa 0.7534, 131s
+[done] ('preq', 'sea10', 'ARF', 2): BA 0.7171, kappa 0.4798, 30s
+[done] ('preq', 'sea', 'PHASE', 4): BA 0.8747, kappa 0.7545, 142s
+[done] ('preq', 'sea10', 'ARF', 3): BA 0.7280, kappa 0.4937, 35s
+[done] ('preq', 'sea10', 'ARF', 4): BA 0.7173, kappa 0.4797, 26s
+[done] ('preq', 'sea5', 'PHASE', 0): skipped
+[done] ('preq', 'sea5', 'ARF', 0): skipped
+[done] ('preq', 'sea5', 'PHASE', 1): skipped
+[done] ('preq', 'sea5', 'ARF', 1): skipped
+[done] ('preq', 'sea5', 'PHASE', 2): skipped
+[done] ('preq', 'sea5', 'ARF', 2): skipped
+[done] ('preq', 'sea5', 'PHASE', 3): skipped
+[done] ('preq', 'sea5', 'ARF', 3): skipped
+[done] ('preq', 'sea5', 'PHASE', 4): skipped
+[done] ('preq', 'sea5', 'ARF', 4): skipped
+[done] ('preq', 'elec2', 'PHASE', 0): skipped
+[done] ('preq', 'elec2', 'ARF', 0): skipped
+[done] ('preq', 'elec2', 'PHASE', 1): skipped
+[done] ('preq', 'elec2', 'ARF', 1): skipped
+[done] ('preq', 'elec2', 'PHASE', 2): skipped
+[done] ('preq', 'elec2', 'ARF', 2): skipped
+[done] ('preq', 'elec2', 'PHASE', 3): skipped
+[done] ('preq', 'elec2', 'ARF', 3): skipped
+[done] ('preq', 'elec2', 'PHASE', 4): skipped
+[done] ('preq', 'elec2', 'ARF', 4): skipped
+[done] ('preq', 'sea10', 'PHASE', 0): BA 0.8567, kappa 0.5626, 176s
+[done] ('preq', 'sea', 'HAT', 0): BA 0.8379, kappa 0.6853, 3s
+[done] ('preq', 'sea10', 'PHASE', 1): BA 0.8607, kappa 0.5771, 154s
+[done] ('preq', 'sea', 'UOB', 0): BA 0.8366, kappa 0.6735, 6s
+[done] ('preq', 'sea', 'OOB', 0): BA 0.8390, kappa 0.6834, 8s
+[done] ('preq', 'sea', 'ROSE', 0): BA 0.8691, kappa 0.7451, 2s
+[done] ('preq', 'sea', 'ARF-US', 0): BA 0.8543, kappa 0.7104, 22s
+[done] ('preq', 'sea', 'HAT', 1): BA 0.8512, kappa 0.7130, 2s
+[done] ('preq', 'sea', 'OOB', 1): BA 0.8295, kappa 0.6671, 8s
+[done] ('preq', 'sea', 'UOB', 1): BA 0.8346, kappa 0.6683, 6s
+[done] ('preq', 'sea10', 'PHASE', 2): BA 0.8605, kappa 0.5726, 182s
+[done] ('preq', 'sea', 'ARF-US', 1): BA 0.8590, kappa 0.7235, 21s
+[done] ('preq', 'sea', 'ROSE', 1): BA 0.8722, kappa 0.7519, 2s
+[done] ('preq', 'sea', 'HAT', 2): BA 0.8465, kappa 0.7026, 3s
+[done] ('preq', 'sea10', 'PHASE', 3): BA 0.8553, kappa 0.5712, 181s
+[done] ('preq', 'sea', 'OOB', 2): BA 0.8360, kappa 0.6784, 8s
+[done] ('preq', 'sea', 'UOB', 2): BA 0.8413, kappa 0.6828, 6s
+[done] ('preq', 'sea', 'ROSE', 2): BA 0.8714, kappa 0.7495, 2s
+[done] ('preq', 'sea10', 'PHASE', 4): BA 0.8588, kappa 0.5824, 176s
+[done] ('preq', 'sea', 'HAT', 3): BA 0.8378, kappa 0.6866, 3s
+[done] ('preq', 'sea', 'ARF-US', 2): BA 0.8609, kappa 0.7260, 21s
+[done] ('preq', 'sea', 'OOB', 3): BA 0.8386, kappa 0.6841, 8s
+[done] ('preq', 'sea', 'UOB', 3): BA 0.8383, kappa 0.6752, 7s
+[done] ('preq', 'sea', 'ROSE', 3): BA 0.8706, kappa 0.7482, 2s
+[done] ('preq', 'sea', 'PHASE-pooled', 0): BA 0.8665, kappa 0.7383, 142s
+[done] ('preq', 'sea', 'HAT', 4): BA 0.8428, kappa 0.6978, 2s
+[done] ('preq', 'sea', 'ARF-US', 3): BA 0.8631, kappa 0.7302, 20s
+[done] ('preq', 'sea', 'OOB', 4): BA 0.8368, kappa 0.6800, 8s
+[done] ('preq', 'sea', 'UOB', 4): BA 0.8434, kappa 0.6864, 7s
+[done] ('preq', 'sea', 'ROSE', 4): BA 0.8729, kappa 0.7531, 2s
+[done] ('preq', 'sea', 'PHASE-pooled', 1): BA 0.8686, kappa 0.7438, 135s
+[done] ('preq', 'sea10', 'HAT', 0): BA 0.6879, kappa 0.4372, 3s
+[done] ('preq', 'sea', 'ARF-US', 4): BA 0.8632, kappa 0.7306, 21s
+[done] ('preq', 'sea10', 'UOB', 0): BA 0.8289, kappa 0.4645, 4s
+[done] ('preq', 'sea10', 'OOB', 0): BA 0.8163, kappa 0.5231, 8s
+[done] ('preq', 'sea10', 'ROSE', 0): BA 0.8261, kappa 0.5892, 2s
+[done] ('preq', 'sea10', 'ARF-US', 0): BA 0.8406, kappa 0.5124, 8s
+[done] ('preq', 'sea10', 'HAT', 1): BA 0.6990, kappa 0.4482, 3s
+[done] ('preq', 'sea10', 'OOB', 1): BA 0.8204, kappa 0.5363, 8s
+[done] ('preq', 'sea10', 'UOB', 1): BA 0.8320, kappa 0.4538, 4s
+[done] ('preq', 'sea10', 'ARF-US', 1): BA 0.8432, kappa 0.5220, 8s
+[done] ('preq', 'sea10', 'ROSE', 1): BA 0.8301, kappa 0.5985, 2s
+[done] ('preq', 'sea', 'PHASE-pooled', 2): BA 0.8707, kappa 0.7461, 148s
+[done] ('preq', 'sea10', 'HAT', 2): BA 0.7067, kappa 0.4589, 3s
+[done] ('preq', 'sea10', 'OOB', 2): BA 0.8212, kappa 0.5389, 8s
+[done] ('preq', 'sea10', 'UOB', 2): BA 0.8309, kappa 0.4661, 4s
+[done] ('preq', 'sea', 'PHASE-pooled', 3): BA 0.8729, kappa 0.7518, 152s
+[done] ('preq', 'sea10', 'ARF-US', 2): BA 0.8404, kappa 0.5059, 8s
+[done] ('preq', 'sea10', 'ROSE', 2): BA 0.8256, kappa 0.5999, 2s
+[done] ('preq', 'sea10', 'HAT', 3): BA 0.7222, kappa 0.4840, 3s
+[done] ('preq', 'sea10', 'OOB', 3): BA 0.8187, kappa 0.5397, 8s
+[done] ('preq', 'sea', 'PHASE-pooled', 4): BA 0.8733, kappa 0.7515, 146s
+[done] ('preq', 'sea10', 'UOB', 3): BA 0.8316, kappa 0.4603, 4s
+[done] ('preq', 'sea10', 'ROSE', 3): BA 0.8180, kappa 0.5846, 2s
+[done] ('preq', 'sea10', 'ARF-US', 3): BA 0.8402, kappa 0.5169, 8s
+[done] ('preq', 'sea10', 'HAT', 4): BA 0.7254, kappa 0.4897, 3s
+[done] ('preq', 'sea10', 'OOB', 4): BA 0.8234, kappa 0.5474, 8s
+[done] ('preq', 'sea10', 'UOB', 4): BA 0.8354, kappa 0.4712, 4s
+[done] ('preq', 'sea10', 'ARF-US', 4): BA 0.8407, kappa 0.5212, 8s
+[done] ('preq', 'sea10', 'ROSE', 4): BA 0.8236, kappa 0.5966, 2s
+[done] ('preq', 'sea10', 'PHASE-pooled', 0): BA 0.8475, kappa 0.5643, 228s
+[done] ('preq', 'sea5', 'HAT', 0): skipped
+[done] ('preq', 'sea5', 'OOB', 0): skipped
+[done] ('preq', 'sea5', 'UOB', 0): skipped
+[done] ('preq', 'sea5', 'ARF-US', 0): skipped
+[done] ('preq', 'sea5', 'ROSE', 0): skipped
+[done] ('preq', 'sea10', 'PHASE-pooled', 1): BA 0.8488, kappa 0.5682, 232s
+[done] ('preq', 'sea5', 'HAT', 1): skipped
+[done] ('preq', 'sea5', 'OOB', 1): skipped
+[done] ('preq', 'sea5', 'UOB', 1): skipped
+[done] ('preq', 'sea5', 'ARF-US', 1): skipped
+[done] ('preq', 'sea5', 'ROSE', 1): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 2): skipped
+[done] ('preq', 'sea5', 'HAT', 2): skipped
+[done] ('preq', 'sea5', 'OOB', 2): skipped
+[done] ('preq', 'sea5', 'UOB', 2): skipped
+[done] ('preq', 'sea5', 'ARF-US', 2): skipped
+[done] ('preq', 'sea5', 'ROSE', 2): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 3): skipped
+[done] ('preq', 'sea5', 'HAT', 3): skipped
+[done] ('preq', 'sea5', 'OOB', 3): skipped
+[done] ('preq', 'sea5', 'UOB', 3): skipped
+[done] ('preq', 'sea5', 'ARF-US', 3): skipped
+[done] ('preq', 'sea5', 'ROSE', 3): skipped
+[done] ('preq', 'sea5', 'PHASE-pooled', 4): skipped
+[done] ('preq', 'sea5', 'HAT', 4): skipped
+[done] ('preq', 'sea5', 'OOB', 4): skipped
+[done] ('preq', 'sea5', 'UOB', 4): skipped
+[done] ('preq', 'sea5', 'ARF-US', 4): skipped
+[done] ('preq', 'sea5', 'ROSE', 4): skipped
+[done] ('preq', 'elec2', 'PHASE-pooled', 0): skipped
+[done] ('preq', 'elec2', 'HAT', 0): skipped
+[done] ('preq', 'elec2', 'OOB', 0): skipped
+[done] ('preq', 'elec2', 'UOB', 0): skipped
+[done] ('preq', 'elec2', 'ARF-US', 0): skipped
+[done] ('preq', 'elec2', 'ROSE', 0): skipped
+[done] ('preq', 'elec2', 'PHASE-pooled', 1): skipped
+[done] ('preq', 'elec2', 'HAT', 1): skipped
+[done] ('preq', 'elec2', 'OOB', 1): skipped
+[done] ('preq', 'elec2', 'UOB', 1): skipped
+[done] ('preq', 'elec2', 'ARF-US', 1): skipped
+[done] ('preq', 'elec2', 'ROSE', 1): skipped
+[done] ('preq', 'elec2', 'PHASE-pooled', 2): skipped
+[done] ('preq', 'elec2', 'HAT', 2): skipped
+[done] ('preq', 'elec2', 'OOB', 2): skipped
+[done] ('preq', 'elec2', 'UOB', 2): skipped
+[done] ('preq', 'elec2', 'ARF-US', 2): skipped
+[done] ('preq', 'elec2', 'ROSE', 2): skipped
+[done] ('preq', 'elec2', 'PHASE-pooled', 3): skipped
+[done] ('preq', 'elec2', 'HAT', 3): skipped
+[done] ('preq', 'elec2', 'OOB', 3): skipped
+[done] ('preq', 'elec2', 'UOB', 3): skipped
+[done] ('preq', 'elec2', 'ARF-US', 3): skipped
+[done] ('preq', 'elec2', 'ROSE', 3): skipped
+[done] ('preq', 'elec2', 'PHASE-pooled', 4): skipped
+[done] ('preq', 'elec2', 'HAT', 4): skipped
+[done] ('preq', 'elec2', 'OOB', 4): skipped
+[done] ('preq', 'elec2', 'UOB', 4): skipped
+[done] ('preq', 'elec2', 'ARF-US', 4): skipped
+[done] ('preq', 'elec2', 'ROSE', 4): skipped
+[done] ('preq', 'sea10', 'PHASE-pooled', 2): BA 0.8502, kappa 0.5659, 230s
+[done] ('preq', 'sea10', 'PHASE-pooled', 3): BA 0.8494, kappa 0.5749, 223s
+[done] ('preq', 'sea10', 'PHASE-pooled', 4): BA 0.8520, kappa 0.5781, 213s
+[done] ('preq', 'sea5', 'PHASE-pooled', 0): BA 0.8449, kappa 0.4239, 205s
+[done] ('preq', 'sea5', 'PHASE-pooled', 1): BA 0.8404, kappa 0.4269, 198s
