@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea1",
+ "name": "SEA-0.01",
+ "method": "ROSE",
+ "seed": 1,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  380,
+  39620
+ ],
+ "test_class_counts": [
+  115,
+  9885
+ ],
+ "time_total_s": 1.5345191955566406,
+ "metrics": {
+  "acc": 0.9865,
+  "ba": 0.5161773438015438,
+  "gmean": 0.18627441924844534,
+  "kappa": 0.05167326983056564,
+  "mcc": 0.06528363339603045,
+  "macro_f1": 0.5245727229410565,
+  "recall": {
+   "0": 0.034782608695652174,
+   "1": 0.9975720789074355
+  },
+  "support": {
+   "0": 115,
+   "1": 9885
+  },
+  "minority_class": 0,
+  "minority_recall": 0.034782608695652174,
+  "confusion": [
+   [
+    4,
+    111
+   ],
+   [
+    24,
+    9861
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

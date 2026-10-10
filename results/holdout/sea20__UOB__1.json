@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea20",
+ "name": "SEA-0.2",
+ "method": "UOB",
+ "seed": 1,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  8058,
+  31942
+ ],
+ "test_class_counts": [
+  1975,
+  8025
+ ],
+ "time_total_s": 2.110062837600708,
+ "metrics": {
+  "acc": 0.8908,
+  "ba": 0.8584818013328601,
+  "gmean": 0.8568182222551096,
+  "kappa": 0.6754525312176325,
+  "mcc": 0.6785669962362063,
+  "macro_f1": 0.8374758535553853,
+  "recall": {
+   "0": 0.8050632911392405,
+   "1": 0.9119003115264798
+  },
+  "support": {
+   "0": 1975,
+   "1": 8025
+  },
+  "minority_class": 0,
+  "minority_recall": 0.8050632911392405,
+  "confusion": [
+   [
+    1590,
+    385
+   ],
+   [
+    707,
+    7318
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

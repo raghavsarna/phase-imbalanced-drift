@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea1",
+ "name": "SEA-0.01",
+ "method": "SRP",
+ "seed": 4,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  384,
+  39616
+ ],
+ "test_class_counts": [
+  105,
+  9895
+ ],
+ "time_total_s": 40.34631896018982,
+ "metrics": {
+  "acc": 0.9895,
+  "ba": 0.5,
+  "gmean": 0.0,
+  "kappa": 0.0,
+  "mcc": 0.0,
+  "macro_f1": 0.4973611460165871,
+  "recall": {
+   "0": 0.0,
+   "1": 1.0
+  },
+  "support": {
+   "0": 105,
+   "1": 9895
+  },
+  "minority_class": 0,
+  "minority_recall": 0.0,
+  "confusion": [
+   [
+    0,
+    105
+   ],
+   [
+    0,
+    9895
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

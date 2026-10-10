@@ -1,0 +1,53 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea20",
+ "name": "SEA-0.2",
+ "method": "ARF-US",
+ "seed": 0,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  7923,
+  32077
+ ],
+ "test_class_counts": [
+  2001,
+  7999
+ ],
+ "time_total_s": 9.456368923187256,
+ "metrics": {
+  "acc": 0.8978,
+  "ba": 0.8791573709332356,
+  "gmean": 0.8786077787534916,
+  "kappa": 0.703726637671303,
+  "mcc": 0.7088503065169856,
+  "macro_f1": 0.8514943792220933,
+  "recall": {
+   "0": 0.8480759620189905,
+   "1": 0.9102387798474809
+  },
+  "support": {
+   "0": 2001,
+   "1": 7999
+  },
+  "minority_class": 0,
+  "minority_recall": 0.8480759620189905,
+  "confusion": [
+   [
+    1697,
+    304
+   ],
+   [
+    718,
+    7281
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}

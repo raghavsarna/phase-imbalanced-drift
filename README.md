@@ -58,9 +58,12 @@ python theory_sim.py                                  # Monte Carlo check of Pro
 python detection_study.py --jobs 4                    # six detectors on SEA -> results/detection/
 python run_experiments.py --protocol holdout --jobs 6 # 8 streams x 19 methods x 5 seeds -> results/holdout/
 python run_experiments.py --protocol preq --jobs 6    # prequential -> results/preq/
+python run_experiments.py --protocol holdout --datasets sea20 sea2 sea1 \
+    --methods PHASE PHASE-pooled PHASE-noseg HAT ARF SRP OOB UOB ARF-US ROSE   # minority-share sweep (Fig. 2(b))
+python timeline.py --datasets sea10                   # per-sample prequential predictions (Fig. 2(a)) -> results/timeline/
 python summarize.py                                   # overview, CSV summaries
 python make_tables.py                                 # LaTeX tables, number macros, Friedman/Nemenyi/Wilcoxon -> results/stats.json
-python make_figures.py                                # Fig. 1
+python make_figures.py                                # Figs. 1 and 2
 ```
 
 - Every run writes one JSON file and is skipped if that file already exists, so the scripts can be resumed.
@@ -106,6 +109,12 @@ All seven baselines are in `results/stats.json` and in Table I of the letter. Ra
   - The class-wise PH bank detects 15 / 13 / 10; pooled PH detects 7 / 5 / 5.
   - Class conditioning lifts ADWIN from 20 to 37 detections and DDM from 15 to 35. Class-wise DDM, however, raises many false alarms.
   - No detector is reliable at 2% or 1%.
+- **Minority-share sweep (hold-out, Fig. 2(b)).** PHASE has the highest BA from the natural share down to 5%. At 2% and 1% few or no changes are detected, and PHASE (82.8 / 82.1) falls below UOB (86.2 / 83.7) and ARF-US (84.0 / 83.3).
+- **Recovery after a minority-only change (Fig. 2(a)).** On SEA-10%, over the 5,000 samples after the change θ: 7 → 9.5, prequential BA is:
+  - PHASE: 83.0%
+  - PHASE with a pooled detector: 77.6%
+  - PHASE without a detector: 77.7%
+  - ROSE: 73.4%
 - **Statistics.**
   - Hold-out: Friedman p < 0.001. PHASE beats 4 baselines by more than the Nemenyi critical difference (3.71).
   - With eight streams, the smallest attainable Holm-adjusted Wilcoxon p-value is 0.055.
@@ -125,9 +134,11 @@ baselines.py         River baselines, OOB/UOB, ARF-US, ROSE runner
 rose/                Java runner for ROSE (RunROSE.java) and build script
 theory_sim.py        Monte Carlo check of the delay and false-alarm bounds
 detection_study.py   detector comparison on SEA
+timeline.py          per-sample prequential predictions for the accuracy-over-time plot
 run_experiments.py   experiment grid (protocol x dataset x method x seed)
-summarize.py, make_tables.py, make_figures.py   analysis, LaTeX tables, statistics, Fig. 1
+summarize.py, make_tables.py, make_figures.py   analysis, LaTeX tables, statistics, Figs. 1-2
 results/holdout/, results/preq/, results/detection/   one JSON per run
+results/timeline/    per-sample predictions (npz) for Fig. 2(a)
 results/archive_v1/  logs of an earlier configuration of the method (stacked meta-learner, three datasets), kept for reference
 ```
 

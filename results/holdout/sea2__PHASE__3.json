@@ -1,0 +1,132 @@
+{
+ "protocol": "holdout",
+ "dataset": "sea2",
+ "name": "SEA-0.02",
+ "method": "PHASE",
+ "seed": 3,
+ "n": 50000,
+ "n_features": 3,
+ "n_classes": 2,
+ "n_train": 40000,
+ "n_test": 10000,
+ "train_class_counts": [
+  859,
+  39141
+ ],
+ "test_class_counts": [
+  206,
+  9794
+ ],
+ "config": {
+  "detector": "class",
+  "test": "ph",
+  "lam": 25.0,
+  "delta": 0.02,
+  "min_inst": 30,
+  "W_ref": 1000,
+  "L_min": 1000,
+  "period": 5000,
+  "use_costs": true,
+  "use_refine": true,
+  "memory": 100,
+  "meta": "never",
+  "gate_trees": 100,
+  "tau": 0.9,
+  "folds": 5,
+  "svm_max": 10000,
+  "km_k": 10,
+  "rf_trees": 500,
+  "seed": 3,
+  "n_jobs": 1
+ },
+ "boundaries": [],
+ "alarms": [],
+ "segments": [
+  {
+   "start": 0,
+   "end": 40000,
+   "n": 40000,
+   "class_counts": {
+    "0": 859,
+    "1": 39141
+   },
+   "b_star": {
+    "DT": 1,
+    "LR": 1,
+    "KM": 1
+   },
+   "W": {
+    "DT": 0.17016007330760893,
+    "LR": 0.16584086410371615,
+    "KM": 0.15016023889731822,
+    "SVM": 0.5138388236913567
+   },
+   "ba_fused": 0.7908695017110612,
+   "ba_oof": {
+    "DT": {
+     "0": 0.5229852110154033,
+     "1": 0.7673995354070338
+    },
+    "LR": {
+     "0": 0.505712980196162,
+     "1": 0.8289912661364383
+    },
+    "KM": {
+     "0": 0.5,
+     "1": 0.7088827149770067
+    }
+   },
+   "svm_admitted": true,
+   "alpha": 0.48616117630864336,
+   "n_memory": 0,
+   "fitted": true
+  }
+ ],
+ "stacked": false,
+ "true_change_points": [
+  10000,
+  20000,
+  30000
+ ],
+ "detection": {
+  "detected": 0,
+  "n_true": 3,
+  "false_alarms": 0,
+  "mean_abs_loc_error": null,
+  "mean_delay": null,
+  "hits": []
+ },
+ "time_total_s": 13.028959035873413,
+ "metrics": {
+  "acc": 0.9268,
+  "ba": 0.831942877648491,
+  "gmean": 0.8260394541178728,
+  "kappa": 0.2679168353524961,
+  "mcc": 0.34218409466859856,
+  "macro_f1": 0.626737125643343,
+  "recall": {
+   "0": 0.7330097087378641,
+   "1": 0.9308760465591178
+  },
+  "support": {
+   "0": 206,
+   "1": 9794
+  },
+  "minority_class": 0,
+  "minority_recall": 0.7330097087378641,
+  "confusion": [
+   [
+    151,
+    55
+   ],
+   [
+    677,
+    9117
+   ]
+  ],
+  "labels": [
+   0,
+   1
+  ]
+ }
+}
