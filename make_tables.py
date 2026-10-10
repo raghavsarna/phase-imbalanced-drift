@@ -232,6 +232,21 @@ def numbers(dfs, det, tests, theory):
             files = sorted(tl.glob(f"sea10__{m}__*.npz"))
             if files:
                 N.append(macro(f"nPost{t}", f"{100 * np.mean([seg_ba(f, 30000, 35000) for f in files]):.1f}"))
+        # the other minority-only change (8 -> 9, samples 10k-15k) and the same window on SEA-5%
+        post = lambda d, m, lo: np.mean([seg_ba(f, lo, lo + 5000) for f in sorted(tl.glob(f"{d}__{m}__*.npz"))])
+        if list(tl.glob("sea10__PHASE-pooled__*.npz")):
+            N.append(macro("nPostEarlyPhase", f"{100 * post('sea10', 'PHASE', 10000):.1f}"))
+            N.append(macro("nPostEarlyPool", f"{100 * post('sea10', 'PHASE-pooled', 10000):.1f}"))
+        if list(tl.glob("sea5__PHASE-pooled__*.npz")):
+            gain = post("sea5", "PHASE", 30000) - post("sea5", "PHASE-pooled", 30000)
+            N.append(macro("nPostGainFive", f"{100 * gain:.1f}"))
+        hits = 0
+        for seed in range(5):
+            f = ROOT / "cache" / f"preq__sea10__class-ph__{seed}.json"
+            if f.exists():
+                b = json.loads(f.read_text())["boundaries"]
+                hits += any(10000 - 500 <= x <= 10000 + 5000 for x in b)
+        N.append(macro("nEightNineHits", str(hits)))
     # Fig. 2(b): hold-out BA at minority shares 2% and 1%
     for d, t in (("sea2", "Two"), ("sea1", "One")):
         for m, mt in (("PHASE", "Phase"), ("UOB", "Uob"), ("ARF-US", "ArfUs"), ("ROSE", "Rose")):
