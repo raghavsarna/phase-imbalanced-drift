@@ -1,5 +1,12 @@
 # Class-conditional Page–Hinkley detection of minority-only drift
 
+> **Revised version (resubmission).** The code and logs for *"Label-Routed CUSUM Detection of Minority-Class Drift in Imbalanced Data Streams"* are in [`v2/`](v2/README.md), with their results in `results_v2/`. That folder holds:
+> - the label-routed Bernoulli CUSUM bank and every baseline (DDM-OCI, LFR, RBM-IM, and others)
+> - the matched-ARL benchmark, simulations, and robustness studies
+> - the scripts that generate all tables and figures of the revised letter and supplement
+>
+> The rest of this README describes the first version.
+
 Code and experiment logs for the letter *"Class-Conditional Page–Hinkley Detection of Minority-Only Drift in Imbalanced Data Streams"* by Raghav Sarna and Gittaly Dhingra (Plaksha University).
 
 When a concept change affects only a rare class, a drift detector that watches a classifier's pooled error barely notices it, because the change is scaled by the class prior. This repository implements and evaluates two things:

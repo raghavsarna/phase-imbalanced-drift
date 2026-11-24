@@ -1,0 +1,11 @@
+sea5 RF BA=0.816 mu=0.301 p=0.450 g=0.0490 bound=3197.9932483706157 delay=2294 multi=3118
+sea5 RF-500 BA=0.763 mu=0.411 p=0.512 g=0.0108 bound=15144.553973964174 delay=5766 multi=7642
+sea5 tree-d2 BA=0.773 mu=0.294 p=0.384 g=0.0088 bound=18026.409943331088 delay=9440 multi=8217
+sea5 logistic BA=0.828 mu=0.155 p=0.197 g=-0.0079 bound=None delay=103545 multi=72942
+sea5 naive-bayes BA=0.825 mu=0.166 p=0.205 g=-0.0115 bound=None delay=108739 multi=61224
+gauss5 RF BA=0.840 mu=0.296 p=0.627 g=0.1757 bound=760.5077314554131 delay=747 multi=691
+gauss5 RF-500 BA=0.809 mu=0.355 p=0.667 g=0.1583 bound=788.8772041634128 delay=716 multi=744
+gauss5 tree-d2 BA=0.751 mu=0.281 p=0.463 g=0.0733 bound=2460.0604068881985 delay=2865 multi=2737
+gauss5 logistic BA=0.896 mu=0.111 p=0.401 g=0.1728 bound=1005.9367699835328 delay=994 multi=843
+gauss5 naive-bayes BA=0.896 mu=0.109 p=0.405 g=0.1777 bound=958.7368328711214 delay=927 multi=653
+wrote /Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/results_v2/robust.json

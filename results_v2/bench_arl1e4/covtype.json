@@ -1,0 +1,4710 @@
+{
+ "family": "covtype",
+ "arl": 10000.0,
+ "det": {
+  "bank": {
+   "knob": 5.924800872802734,
+   "cal_rate": 0.0001,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2563,
+     "horizon": 400000,
+     "loc_err": 2136
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 5253,
+     "horizon": 400000,
+     "loc_err": 2005
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 3161,
+     "horizon": 400000,
+     "loc_err": -25969
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 7872,
+     "horizon": 400000,
+     "loc_err": -998
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5606,
+     "horizon": 400000,
+     "loc_err": 760
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 8216,
+     "horizon": 400000,
+     "loc_err": 258
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5352,
+     "horizon": 400000,
+     "loc_err": 5017
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 5400,
+     "horizon": 400000,
+     "loc_err": 13
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 7416,
+     "horizon": 400000,
+     "loc_err": 5093
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 895,
+     "horizon": 400000,
+     "loc_err": 711
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 650,
+     "horizon": 400000,
+     "loc_err": 566
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4530,
+     "horizon": 400000,
+     "loc_err": -1490
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 165,
+     "horizon": 400000,
+     "loc_err": -37
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2234,
+     "horizon": 400000,
+     "loc_err": 2106
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2091,
+     "horizon": 400000,
+     "loc_err": 1967
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4931,
+     "horizon": 400000,
+     "loc_err": 4499
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 8921,
+     "horizon": 400000,
+     "loc_err": -5063
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 9976,
+     "horizon": 400000,
+     "loc_err": 9842
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 6420,
+     "horizon": 400000,
+     "loc_err": -5437
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 19687,
+     "horizon": 400000,
+     "loc_err": -33
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 8813,
+     "horizon": 400000,
+     "loc_err": 865
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 4661,
+     "horizon": 400000,
+     "loc_err": 4545
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 3875,
+     "horizon": 400000,
+     "loc_err": -917
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4078,
+     "horizon": 400000,
+     "loc_err": -78
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 48,
+     "horizon": 400000,
+     "loc_err": -75
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4558,
+     "horizon": 400000,
+     "loc_err": 3879
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 3169,
+     "horizon": 400000,
+     "loc_err": 3080
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 3977,
+     "horizon": 400000,
+     "loc_err": 3850
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 1290,
+     "horizon": 400000,
+     "loc_err": 1116
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 6393,
+     "horizon": 400000,
+     "loc_err": -6844
+    }
+   ],
+   "null": [
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 56,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 57,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 70,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 30,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    }
+   ]
+  },
+  "bank-oracle": {
+   "knob": 5.944690704345703,
+   "cal_rate": 0.0001,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2563,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4324,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 3161,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 3999,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 2211,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 3026,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2288,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 3609,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5602,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 895,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 655,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 2619,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 165,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2234,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2091,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4931,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 6442,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 9937,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2196,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 20860,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 3957,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 4661,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2194,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 1423,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 48,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4558,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2315,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 3977,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 1290,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4880,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 56,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 68,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 54,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    }
+   ]
+  },
+  "bank-multi": {
+   "knob": 7.17198371887207,
+   "cal_rate": 9.992424242424242e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 6473,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4848,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 3509,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5433,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 3022,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 5007,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5289,
+     "horizon": 400000
+    },
+    {
+     "fa": 10,
+     "detected": true,
+     "delay": 4018,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 8042,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 748,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 3766,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 3452,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 6168,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 2908,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 5312,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 4939,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 3423,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 10166,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 6728,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 20860,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 970,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 4661,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 2644,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 1792,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 48,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 4372,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 3334,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 3979,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 9990,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 6190,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 67,
+     "any": true
+    },
+    {
+     "fa": 56,
+     "any": true
+    },
+    {
+     "fa": 54,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 73,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 68,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 57,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 61,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    }
+   ]
+  },
+  "pooled": {
+   "knob": 0.20149547576904295,
+   "cal_rate": 9.992424242424242e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 11068,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4246,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 6637,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 13612,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2484,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 9397,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 350,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 58,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 211,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 9170,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11397,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 43195,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 14728,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 32674,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2087,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 5625,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 422,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5425,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3532,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 1198,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5687,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 5631,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 687,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 1431,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 4142,
+     "horizon": 400000
+    },
+    {
+     "fa": 9,
+     "detected": true,
+     "delay": 1106,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 8235,
+     "horizon": 400000
+    },
+    {
+     "fa": 9,
+     "detected": true,
+     "delay": 2528,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1251,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 5401,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 80,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 62,
+     "any": true
+    },
+    {
+     "fa": 18,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 29,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 57,
+     "any": true
+    },
+    {
+     "fa": 68,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 83,
+     "any": true
+    },
+    {
+     "fa": 25,
+     "any": true
+    },
+    {
+     "fa": 31,
+     "any": true
+    },
+    {
+     "fa": 61,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 79,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 69,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 16,
+     "any": true
+    }
+   ]
+  },
+  "ra": {
+   "knob": 5.8907470703125,
+   "cal_rate": 0.0001,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 11659,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 11507,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 14099,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11121,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 17300,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3041,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 849,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 14115,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4153,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 19944,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 626,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 32100,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 167,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 2182,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4298,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1853,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3670,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 9108,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 16364,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3974,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 14244,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 12399,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 27728,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 7169,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 5848,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 49,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 16819,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11281,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 857,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 7088,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 66,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 64,
+     "any": true
+    },
+    {
+     "fa": 54,
+     "any": true
+    },
+    {
+     "fa": 54,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 57,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 60,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 61,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 29,
+     "any": true
+    }
+   ]
+  },
+  "ph-bank": {
+   "knob": 5.195356369018555,
+   "cal_rate": 9.984848484848484e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 6490,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 5009,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 3899,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 10379,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 4397,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 10449,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 22033,
+     "horizon": 400000
+    },
+    {
+     "fa": 9,
+     "detected": true,
+     "delay": 9875,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 11398,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 748,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 6080,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 7117,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 12414,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11725,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 7644,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 12415,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 26604,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 56454,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 12656,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 26295,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 970,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 4661,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 4909,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 9409,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2751,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5847,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4454,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 3979,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11094,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 10179,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 57,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 35,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 62,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 56,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    }
+   ]
+  },
+  "ph-pooled": {
+   "knob": 41.46892738342285,
+   "cal_rate": 0.0001,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 7497,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4052,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5186,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 16087,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 11913,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 773,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 583,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 25285,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 202,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 9172,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 11509,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 4607,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 10880,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 127,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 2192,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 5603,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 546,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 5394,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3517,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1859,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5635,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 477,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 777,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 884,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2751,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 8419,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 8394,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 90812,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 35225,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3708,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 50,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    }
+   ]
+  },
+  "ddm-bank": {
+   "knob": 2.7625503540039062,
+   "cal_rate": 9.68939393939394e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 9232,
+     "horizon": 400000
+    },
+    {
+     "fa": 16,
+     "detected": true,
+     "delay": 5253,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 13256,
+     "horizon": 400000
+    },
+    {
+     "fa": 26,
+     "detected": true,
+     "delay": 1779,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 5511,
+     "horizon": 400000
+    },
+    {
+     "fa": 12,
+     "detected": true,
+     "delay": 2466,
+     "horizon": 400000
+    },
+    {
+     "fa": 19,
+     "detected": true,
+     "delay": 835,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3167,
+     "horizon": 400000
+    },
+    {
+     "fa": 15,
+     "detected": true,
+     "delay": 1873,
+     "horizon": 400000
+    },
+    {
+     "fa": 27,
+     "detected": true,
+     "delay": 2898,
+     "horizon": 400000
+    },
+    {
+     "fa": 11,
+     "detected": true,
+     "delay": 7284,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 4626,
+     "horizon": 400000
+    },
+    {
+     "fa": 14,
+     "detected": true,
+     "delay": 5597,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 2587,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 7644,
+     "horizon": 400000
+    },
+    {
+     "fa": 34,
+     "detected": true,
+     "delay": 175,
+     "horizon": 400000
+    },
+    {
+     "fa": 26,
+     "detected": true,
+     "delay": 146,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 10166,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 11815,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 15841,
+     "horizon": 400000
+    },
+    {
+     "fa": 10,
+     "detected": true,
+     "delay": 10344,
+     "horizon": 400000
+    },
+    {
+     "fa": 23,
+     "detected": true,
+     "delay": 71841,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 3710,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 928,
+     "horizon": 400000
+    },
+    {
+     "fa": 25,
+     "detected": true,
+     "delay": 97493,
+     "horizon": 400000
+    },
+    {
+     "fa": 13,
+     "detected": true,
+     "delay": 1970,
+     "horizon": 400000
+    },
+    {
+     "fa": 22,
+     "detected": true,
+     "delay": 1402,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 10478,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3460,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 8118,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 16,
+     "any": true
+    },
+    {
+     "fa": 2,
+     "any": true
+    },
+    {
+     "fa": 67,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 12,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 3,
+     "any": true
+    },
+    {
+     "fa": 23,
+     "any": true
+    },
+    {
+     "fa": 88,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 14,
+     "any": true
+    },
+    {
+     "fa": 8,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 112,
+     "any": true
+    },
+    {
+     "fa": 164,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 74,
+     "any": true
+    },
+    {
+     "fa": 3,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 27,
+     "any": true
+    },
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 66,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 78,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    }
+   ]
+  },
+  "ddm-pooled": {
+   "knob": 1.94976806640625,
+   "cal_rate": 7.227272727272727e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 62,
+     "detected": true,
+     "delay": 11657,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 83228,
+     "horizon": 400000
+    },
+    {
+     "fa": 39,
+     "detected": true,
+     "delay": 43308,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 25352,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 29857,
+     "horizon": 400000
+    },
+    {
+     "fa": 64,
+     "detected": true,
+     "delay": 2513,
+     "horizon": 400000
+    },
+    {
+     "fa": 65,
+     "detected": true,
+     "delay": 48987,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 1517,
+     "horizon": 400000
+    },
+    {
+     "fa": 46,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 182,
+     "detected": true,
+     "delay": 23,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 242216,
+     "horizon": 400000
+    },
+    {
+     "fa": 53,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 84,
+     "detected": true,
+     "delay": 20780,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 31793,
+     "horizon": 400000
+    },
+    {
+     "fa": 114,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 544,
+     "horizon": 400000
+    },
+    {
+     "fa": 45,
+     "detected": true,
+     "delay": 5192,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 41,
+     "detected": true,
+     "delay": 14316,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 43,
+     "detected": true,
+     "delay": 37245,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 142,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 182,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 5,
+     "any": true
+    },
+    {
+     "fa": 20,
+     "any": true
+    },
+    {
+     "fa": 205,
+     "any": true
+    },
+    {
+     "fa": 113,
+     "any": true
+    },
+    {
+     "fa": 64,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 131,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 252,
+     "any": true
+    },
+    {
+     "fa": 5,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 222,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 114,
+     "any": true
+    },
+    {
+     "fa": 89,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 475,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 243,
+     "any": true
+    },
+    {
+     "fa": 0,
+     "any": false
+    }
+   ]
+  },
+  "adwin-bank": {
+   "knob": 0.4125225067138672,
+   "cal_rate": 9.931818181818182e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 933,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 5566,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2011,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 16304,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 28824,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 2764,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 5361,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 16603,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 1942,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2827,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 18363,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 32242,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 5486,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 8113,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 23829,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 1283,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 23691,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 11308,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 6175,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 12367,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 17306,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 6480,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 16609,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2660,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 63,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 5167,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 557,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11582,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3498,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 8702,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    }
+   ]
+  },
+  "adwin-pooled": {
+   "knob": 0.43357315063476565,
+   "cal_rate": 9.984848484848484e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 1055,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 21919,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 2879,
+     "horizon": 400000
+    },
+    {
+     "fa": 8,
+     "detected": true,
+     "delay": 20927,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 50527,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 895,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 607,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 17759,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 14303,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 19967,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 639,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 34783,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 19007,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2271,
+     "horizon": 400000
+    },
+    {
+     "fa": 10,
+     "detected": true,
+     "delay": 5887,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 10303,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 58207,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 4479,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 20703,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 7583,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 16031,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 12415,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 10239,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 2943,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 12895,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 8479,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 29023,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 11391,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3967,
+     "horizon": 400000
+    },
+    {
+     "fa": 1,
+     "detected": true,
+     "delay": 7103,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 55,
+     "any": true
+    },
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 32,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    }
+   ]
+  },
+  "ddm-oci": {
+   "knob": 4.085224151611328,
+   "cal_rate": 0.0001,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 182,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 9137,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 10499,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 306,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 799,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 464,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 12351,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 565,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 1229,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4744,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3281,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 7401,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 3944,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 2908,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 774,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 13688,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 8921,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3724,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1142,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3749,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1289,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 231,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 11888,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4564,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 56,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1029,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3334,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 9722,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 3200,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 45,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    }
+   ]
+  },
+  "lfr": {
+   "knob": 2.7695560455322266,
+   "cal_rate": 9.787878787878787e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3001,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4896,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3596,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 18302,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2211,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 4151,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 16064,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 6725,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 690,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4262,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 7519,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 4530,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 5034,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 2908,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 8180,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 8812,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3037,
+     "horizon": 400000
+    },
+    {
+     "fa": 9,
+     "detected": true,
+     "delay": 2586,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 786,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 9713,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 10177,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 7069,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 1567,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 58,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 4840,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 4375,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1347,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 7898,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 990,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 4880,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 58,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 30,
+     "any": true
+    },
+    {
+     "fa": 30,
+     "any": true
+    },
+    {
+     "fa": 54,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 35,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 61,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 31,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 68,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 45,
+     "any": true
+    },
+    {
+     "fa": 29,
+     "any": true
+    },
+    {
+     "fa": 60,
+     "any": true
+    },
+    {
+     "fa": 30,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 28,
+     "any": true
+    },
+    {
+     "fa": 33,
+     "any": true
+    },
+    {
+     "fa": 46,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 53,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 59,
+     "any": true
+    },
+    {
+     "fa": 26,
+     "any": true
+    }
+   ]
+  },
+  "rbmim": {
+   "knob": 3.1235504150390625,
+   "cal_rate": 9.992424242424242e-05,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 599,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 11599,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 8099,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 12749,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1299,
+     "horizon": 400000
+    },
+    {
+     "fa": 9,
+     "detected": true,
+     "delay": 3999,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 9699,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 8999,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 3949,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 5899,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 49,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 29349,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 3449,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 13699,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 23699,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 16349,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 2599,
+     "horizon": 400000
+    },
+    {
+     "fa": 5,
+     "detected": true,
+     "delay": 12399,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 29749,
+     "horizon": 400000
+    },
+    {
+     "fa": 7,
+     "detected": true,
+     "delay": 449,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 5799,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 9699,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 4699,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 6849,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 26049,
+     "horizon": 400000
+    },
+    {
+     "fa": 3,
+     "detected": true,
+     "delay": 2149,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 1049,
+     "horizon": 400000
+    },
+    {
+     "fa": 2,
+     "detected": true,
+     "delay": 5849,
+     "horizon": 400000
+    },
+    {
+     "fa": 6,
+     "detected": true,
+     "delay": 7199,
+     "horizon": 400000
+    },
+    {
+     "fa": 4,
+     "detected": true,
+     "delay": 8099,
+     "horizon": 400000
+    }
+   ],
+   "null": [
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 51,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 43,
+     "any": true
+    },
+    {
+     "fa": 49,
+     "any": true
+    },
+    {
+     "fa": 31,
+     "any": true
+    },
+    {
+     "fa": 39,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 48,
+     "any": true
+    },
+    {
+     "fa": 42,
+     "any": true
+    },
+    {
+     "fa": 40,
+     "any": true
+    },
+    {
+     "fa": 52,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 38,
+     "any": true
+    },
+    {
+     "fa": 47,
+     "any": true
+    },
+    {
+     "fa": 37,
+     "any": true
+    },
+    {
+     "fa": 41,
+     "any": true
+    },
+    {
+     "fa": 36,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 34,
+     "any": true
+    },
+    {
+     "fa": 44,
+     "any": true
+    }
+   ]
+  },
+  "bank-theory": {
+   "knob": 16.68340946000838,
+   "cal_rate": null,
+   "cal_ok": true,
+   "runs": [
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 46767,
+     "horizon": 400000,
+     "loc_err": 2868
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 20856,
+     "horizon": 400000,
+     "loc_err": 3187
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 15584,
+     "horizon": 400000,
+     "loc_err": 952
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 36094,
+     "horizon": 400000,
+     "loc_err": -998
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 29433,
+     "horizon": 400000,
+     "loc_err": 760
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 123558,
+     "horizon": 400000,
+     "loc_err": 258
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 48709,
+     "horizon": 400000,
+     "loc_err": -1389
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 25566,
+     "horizon": 400000,
+     "loc_err": 13
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 42542,
+     "horizon": 400000,
+     "loc_err": 1050
+    },
+    {
+     "fa": 0,
+     "detected": false,
+     "delay": null,
+     "horizon": 400000
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 48182,
+     "horizon": 400000,
+     "loc_err": -605
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 24509,
+     "horizon": 400000,
+     "loc_err": -525
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 39142,
+     "horizon": 400000,
+     "loc_err": 3207
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 47232,
+     "horizon": 400000,
+     "loc_err": -300
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 28200,
+     "horizon": 400000,
+     "loc_err": 453
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 26668,
+     "horizon": 400000,
+     "loc_err": -949
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 138530,
+     "horizon": 400000,
+     "loc_err": 1363
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 94446,
+     "horizon": 400000,
+     "loc_err": 2895
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 24505,
+     "horizon": 400000,
+     "loc_err": -464
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 83438,
+     "horizon": 400000,
+     "loc_err": 9067
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 52090,
+     "horizon": 400000,
+     "loc_err": 865
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 95314,
+     "horizon": 400000,
+     "loc_err": 2849
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 17894,
+     "horizon": 400000,
+     "loc_err": -2552
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 16811,
+     "horizon": 400000,
+     "loc_err": -6063
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 58241,
+     "horizon": 400000,
+     "loc_err": -537
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 32632,
+     "horizon": 400000,
+     "loc_err": 2327
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 43000,
+     "horizon": 400000,
+     "loc_err": -151
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 59492,
+     "horizon": 400000,
+     "loc_err": 143
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 29060,
+     "horizon": 400000,
+     "loc_err": 37
+    },
+    {
+     "fa": 0,
+     "detected": true,
+     "delay": 29403,
+     "horizon": 400000,
+     "loc_err": -542
+    }
+   ],
+   "null": [
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    },
+    {
+     "fa": 0,
+     "any": false
+    }
+   ]
+  }
+ },
+ "oracle": {
+  "dc": 0.29749295874500487,
+  "dpool": 0.0009234999999999993
+ },
+ "share": 0.004728333333333334,
+ "mu_pre_target": 0.145724370310965,
+ "n_mon": 440000,
+ "n_cal": 30,
+ "null_post": null,
+ "n_eval": 30
+}

@@ -1,0 +1,4 @@
+covtype rbmim BA_post=0.765 BA_all=0.817 retrains=4.1
+covtype none BA_post=0.762 BA_all=0.768 retrains=0.0
+covtype periodic BA_post=0.803 BA_all=0.825 retrains=23.0
+covtype oracle BA_post=0.803 BA_all=0.826 retrains=1.0

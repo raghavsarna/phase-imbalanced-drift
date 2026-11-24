@@ -1,0 +1,72 @@
+gauss5     bank-r1.5     arl_target=5e+04 knob=   7.7723 arl=    50000 ok=True det=1.00 (4s)
+gauss5     bank-r3       arl_target=5e+04 knob=   8.1693 arl=    50000 ok=True det=1.00 (2s)
+gauss5 done in 144s
+sea5       bank-r1.5     arl_target=5e+04 knob=   6.5540 arl=    50000 ok=True det=1.00 (2s)
+sea5       bank-r3       arl_target=5e+04 knob=   7.8000 arl=    50000 ok=True det=1.00 (2s)
+sea5 done in 178s
+sea2       bank-r1.5     arl_target=5e+04 knob=   6.9567 arl=    50000 ok=True det=1.00 (2s)
+sea10      bank-r1.5     arl_target=5e+04 knob=   6.8602 arl=    50000 ok=True det=1.00 (2s)
+sea2       bank-r3       arl_target=5e+04 knob=   7.5735 arl=    50000 ok=True det=1.00 (2s)
+sea2 done in 206s
+sea10      bank-r3       arl_target=5e+04 knob=   7.6252 arl=    50000 ok=True det=1.00 (2s)
+sea10 done in 207s
+gauss1     bank-r1.5     arl_target=5e+04 knob=   7.3362 arl=    50000 ok=True det=1.00 (1s)
+gauss1     bank-r3       arl_target=5e+04 knob=   7.5006 arl=    50000 ok=True det=1.00 (1s)
+gauss1 done in 227s
+sea1       bank-r1.5     arl_target=5e+04 knob=   6.6509 arl=    50000 ok=True det=1.00 (1s)
+sea1       bank-r3       arl_target=5e+04 knob=   7.5990 arl=    50000 ok=True det=1.00 (1s)
+sea1 done in 247s
+gmm5       bank-r1.5     arl_target=5e+04 knob=   9.0198 arl=    50000 ok=True det=1.00 (1s)
+gmm5       bank-r3       arl_target=5e+04 knob=   8.7929 arl=    50000 ok=True det=1.00 (1s)
+gmm5 done in 297s
+credit     bank-r1.5     arl_target=5e+04 knob=   1.5091 arl=    50381 ok=True det=1.00 (1s)
+credit     bank-r3       arl_target=5e+04 knob=   2.9477 arl=    50381 ok=True det=1.00 (1s)
+credit done in 592s
+insects    bank-r1.5     arl_target=5e+04 knob=   7.0554 arl=    50000 ok=True det=1.00 (2s)
+insects    bank-r3       arl_target=5e+04 knob=   8.4368 arl=    50000 ok=True det=1.00 (2s)
+insects done in 842s
+covtype    bank-r1.5     arl_target=5e+04 knob=   6.6493 arl=    50000 ok=True det=1.00 (3s)
+covtype    bank-r3       arl_target=5e+04 knob=   8.3731 arl=    50000 ok=True det=1.00 (3s)
+covtype done in 1049s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib64/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 276, in run_family
+    ev = [prepare(family, s, True, None, need_X) for s in range(n_eval)]
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 61, in prepare
+    z = np.load(f, allow_pickle=True)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 471, in load
+    ret = NpzFile(fid, own_fid=own_fid, allow_pickle=allow_pickle,
+                  pickle_kwargs=pickle_kwargs,
+                  max_header_size=max_header_size)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 197, in __init__
+    _zip = zipfile_factory(fid)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 112, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/zipfile/__init__.py", line 1401, in __init__
+    self._RealGetContents()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/zipfile/__init__.py", line 1468, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 318, in <module>
+    main()
+    ~~~~^^
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 314, in main
+    f.result()
+    ~~~~~~~~^^
+  File "/usr/lib64/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+zipfile.BadZipFile: File is not a zip file

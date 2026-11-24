@@ -1,0 +1,3 @@
+sea20      bank-r1.5     arl_target=5e+04 knob=   7.6215 arl=    50000 ok=True det=1.00 (1s)
+sea20      bank-r3       arl_target=5e+04 knob=   8.2186 arl=    50000 ok=True det=1.00 (1s)
+sea20 done in 3s

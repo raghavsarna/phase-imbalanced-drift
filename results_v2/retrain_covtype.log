@@ -1,0 +1,30 @@
+covtype bank BA_post=0.778 BA_all=0.820 retrains=4.3
+covtype pooled BA_post=0.771 BA_all=0.807 retrains=3.2
+covtype ph-pooled BA_post=0.773 BA_all=0.817 retrains=4.9
+covtype ddm-pooled BA_post=0.767 BA_all=0.790 retrains=0.8
+covtype adwin-pooled BA_post=0.772 BA_all=0.817 retrains=4.3
+covtype ddm-oci BA_post=0.794 BA_all=0.818 retrains=1.4
+covtype lfr BA_post=0.783 BA_all=0.821 retrains=1.7
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 104, in <module>
+    main()
+    ~~~~^^
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 95, in main
+    runs = [run(fam, s, pol, res) for s in SEEDS]
+            ~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 65, in run
+    al = B.DETECTORS[policy][0](ctx, res["det"][policy]["knob"], o)
+                                     ~~~~~~~~~~^^^^^^^^
+KeyError: 'rbmim'
+covtype lfr BA_post=0.783 BA_all=0.821 retrains=1.7
+Traceback (most recent call last):
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 104, in <module>
+    main()
+    ~~~~^^
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 95, in main
+    runs = [run(fam, s, pol, res) for s in SEEDS]
+            ~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/raghav_sarna/Desktop/Drive/Plaksha/Semester 7/drift_paper/Code_v2/v2/retrain.py", line 65, in run
+    al = B.DETECTORS[policy][0](ctx, res["det"][policy]["knob"], o)
+                                     ~~~~~~~~~~^^^^^^^^
+KeyError: 'rbmim'

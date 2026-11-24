@@ -1,0 +1,13 @@
+credit bank BA_post=0.793 BA_all=0.843 retrains=1.7
+credit pooled BA_post=0.792 BA_all=0.839 retrains=1.6
+credit ph-pooled BA_post=0.798 BA_all=0.843 retrains=1.9
+credit ddm-pooled BA_post=0.782 BA_all=0.803 retrains=0.9
+credit adwin-pooled BA_post=0.779 BA_all=0.825 retrains=0.9
+credit ddm-oci BA_post=0.790 BA_all=0.837 retrains=1.4
+credit lfr BA_post=0.797 BA_all=0.844 retrains=1.7
+credit rbmim BA_post=0.778 BA_all=0.821 retrains=1.3
+credit none BA_post=0.770 BA_all=0.781 retrains=0.0
+credit periodic BA_post=0.803 BA_all=0.856 retrains=12.0
+credit oracle BA_post=0.801 BA_all=0.846 retrains=1.0
+=12.0
+credit oracle BA_post=0.801 BA_all=0.846 retrains=1.0

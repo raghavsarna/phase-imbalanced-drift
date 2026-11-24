@@ -1,0 +1,192 @@
+gauss5     bank          arl_target=1e+04 knob=   5.1810 arl=    10000 ok=True det=1.00 (3s)
+gauss5     bank-oracle   arl_target=1e+04 knob=   5.4229 arl=    10000 ok=True det=1.00 (1s)
+gauss5     bank-multi    arl_target=1e+04 knob=   6.5016 arl=    10000 ok=True det=1.00 (3s)
+gauss5     pooled        arl_target=1e+04 knob=   3.2488 arl=    10000 ok=True det=1.00 (1s)
+gauss5     ra            arl_target=1e+04 knob=   4.8735 arl=    10000 ok=True det=1.00 (2s)
+gauss5     ph-bank       arl_target=1e+04 knob=   3.1045 arl=    10061 ok=True det=1.00 (3s)
+gauss5     ph-pooled     arl_target=1e+04 knob=  11.9953 arl=    10000 ok=True det=1.00 (2s)
+gauss5     ddm-bank      arl_target=1e+04 knob=   2.4764 arl=    10543 ok=True det=1.00 (3s)
+gauss5     ddm-pooled    arl_target=1e+04 knob=   2.2450 arl=    10185 ok=True det=0.97 (2s)
+sea2       bank          arl_target=1e+04 knob=   4.8822 arl=    10000 ok=True det=1.00 (2s)
+sea2       bank-oracle   arl_target=1e+04 knob=   4.8678 arl=    10000 ok=True det=1.00 (1s)
+sea10      bank          arl_target=1e+04 knob=   5.1645 arl=    10000 ok=True det=1.00 (2s)
+sea10      bank-oracle   arl_target=1e+04 knob=   5.1868 arl=    10000 ok=True det=1.00 (2s)
+sea2       bank-multi    arl_target=1e+04 knob=   6.2795 arl=    10000 ok=True det=1.00 (2s)
+sea2       pooled        arl_target=1e+04 knob=   2.3754 arl=    10000 ok=True det=1.00 (1s)
+sea10      bank-multi    arl_target=1e+04 knob=   6.5604 arl=    10000 ok=True det=1.00 (2s)
+sea2       ra            arl_target=1e+04 knob=   4.7735 arl=    10000 ok=True det=1.00 (1s)
+sea10      pooled        arl_target=1e+04 knob=   2.4124 arl=    10000 ok=True det=1.00 (1s)
+sea10      ra            arl_target=1e+04 knob=   5.1706 arl=    10000 ok=True det=1.00 (1s)
+sea2       ph-bank       arl_target=1e+04 knob=   4.1392 arl=    10092 ok=True det=1.00 (2s)
+sea10      ph-bank       arl_target=1e+04 knob=   5.2396 arl=    10000 ok=True det=1.00 (2s)
+sea2       ph-pooled     arl_target=1e+04 knob=  13.8729 arl=    10000 ok=True det=1.00 (2s)
+sea10      ph-pooled     arl_target=1e+04 knob=  17.8397 arl=    10000 ok=True det=1.00 (1s)
+sea2       ddm-bank      arl_target=1e+04 knob=   2.4155 arl=    10345 ok=True det=0.97 (2s)
+sea10      ddm-bank      arl_target=1e+04 knob=   2.4520 arl=    11037 ok=True det=1.00 (1s)
+sea2       ddm-pooled    arl_target=1e+04 knob=   2.2892 arl=    10000 ok=True det=0.83 (2s)
+sea10      ddm-pooled    arl_target=1e+04 knob=   2.2633 arl=    10000 ok=True det=0.80 (1s)
+gauss5     adwin-bank    arl_target=1e+04 knob=   0.3002 arl=    13750 ok=True det=1.00 (61s)
+gauss1     bank          arl_target=1e+04 knob=   4.1600 arl=    10000 ok=True det=1.00 (2s)
+gauss1     bank-oracle   arl_target=1e+04 knob=   4.2195 arl=    10000 ok=True det=1.00 (1s)
+gauss1     bank-multi    arl_target=1e+04 knob=   5.5024 arl=    10000 ok=True det=1.00 (2s)
+gauss1     pooled        arl_target=1e+04 knob=   1.4887 arl=    10000 ok=True det=1.00 (1s)
+sea20      bank          arl_target=1e+04 knob=   5.5624 arl=    10000 ok=True det=1.00 (2s)
+gauss1     ra            arl_target=1e+04 knob=   3.9886 arl=    10000 ok=True det=1.00 (1s)
+sea20      bank-oracle   arl_target=1e+04 knob=   5.6040 arl=    10000 ok=True det=1.00 (1s)
+gauss1     ph-bank       arl_target=1e+04 knob=   1.9828 arl=    10000 ok=True det=1.00 (2s)
+sea20      bank-multi    arl_target=1e+04 knob=   6.8432 arl=    10000 ok=True det=1.00 (2s)
+gauss1     ph-pooled     arl_target=1e+04 knob=  10.3555 arl=    10123 ok=True det=1.00 (2s)
+sea20      pooled        arl_target=1e+04 knob=   3.5527 arl=    10000 ok=True det=1.00 (1s)
+sea20      ra            arl_target=1e+04 knob=   5.3551 arl=    10000 ok=True det=1.00 (1s)
+gauss1     ddm-bank      arl_target=1e+04 knob=   2.5358 arl=    11620 ok=True det=0.97 (2s)
+sea20      ph-bank       arl_target=1e+04 knob=   5.5703 arl=    10000 ok=True det=1.00 (2s)
+gauss1     ddm-pooled    arl_target=1e+04 knob=   2.4399 arl=    11579 ok=True det=0.87 (2s)
+sea20      ph-pooled     arl_target=1e+04 knob=  14.1030 arl=    10000 ok=True det=1.00 (1s)
+sea20      ddm-bank      arl_target=1e+04 knob=   2.4536 arl=    11661 ok=True det=1.00 (2s)
+sea20      ddm-pooled    arl_target=1e+04 knob=   2.2344 arl=    12595 ok=True det=0.97 (1s)
+sea1       bank          arl_target=1e+04 knob=   4.8408 arl=    10000 ok=True det=1.00 (1s)
+sea1       bank-oracle   arl_target=1e+04 knob=   4.7733 arl=    10000 ok=True det=1.00 (1s)
+sea1       bank-multi    arl_target=1e+04 knob=   6.2153 arl=    10000 ok=True det=1.00 (2s)
+sea1       pooled        arl_target=1e+04 knob=   2.5232 arl=    10030 ok=True det=1.00 (1s)
+sea1       ra            arl_target=1e+04 knob=   4.8253 arl=    10000 ok=True det=1.00 (1s)
+sea1       ph-bank       arl_target=1e+04 knob=   4.1011 arl=    10000 ok=True det=1.00 (1s)
+sea1       ph-pooled     arl_target=1e+04 knob=  12.7329 arl=    10000 ok=True det=1.00 (1s)
+sea1       ddm-bank      arl_target=1e+04 knob=   2.4871 arl=    10784 ok=True det=0.83 (2s)
+sea1       ddm-pooled    arl_target=1e+04 knob=   2.3622 arl=    10891 ok=True det=0.77 (1s)
+sea2       adwin-bank    arl_target=1e+04 knob=   0.3002 arl=    14602 ok=True det=1.00 (50s)
+gauss5     adwin-pooled  arl_target=1e+04 knob=   0.3002 arl=    13866 ok=True det=1.00 (51s)
+gauss5     ddm-oci       arl_target=1e+04 knob=  29.4535 arl=    10000 ok=True det=0.70 (1s)
+sea10      adwin-bank    arl_target=1e+04 knob=   0.3002 arl=    12132 ok=True det=1.00 (54s)
+gauss1     adwin-bank    arl_target=1e+04 knob=   0.3002 arl=    26613 ok=True det=1.00 (51s)
+sea20      adwin-bank    arl_target=1e+04 knob=   0.3242 arl=    10061 ok=True det=1.00 (47s)
+gauss5     lfr           arl_target=1e+04 knob=   3.8401 arl=    10000 ok=True det=1.00 (19s)
+gmm5       bank          arl_target=1e+04 knob=   6.2857 arl=    10000 ok=True det=1.00 (2s)
+gmm5       bank-oracle   arl_target=1e+04 knob=   6.3719 arl=    10000 ok=True det=1.00 (1s)
+gmm5       bank-multi    arl_target=1e+04 knob=   7.6412 arl=    10000 ok=True det=1.00 (1s)
+gmm5       pooled        arl_target=1e+04 knob=   3.0121 arl=    10029 ok=True det=1.00 (1s)
+gmm5       ra            arl_target=1e+04 knob=   6.0045 arl=    10000 ok=True det=1.00 (1s)
+gmm5       ph-bank       arl_target=1e+04 knob=   3.1456 arl=    10000 ok=True det=1.00 (2s)
+gmm5       ph-pooled     arl_target=1e+04 knob=  23.0929 arl=    10000 ok=True det=1.00 (1s)
+gmm5       ddm-bank      arl_target=1e+04 knob=   2.8615 arl=    11311 ok=True det=1.00 (1s)
+gmm5       ddm-pooled    arl_target=1e+04 knob=   2.1233 arl=    10681 ok=True det=0.83 (1s)
+sea1       adwin-bank    arl_target=1e+04 knob=   0.3002 arl=    15566 ok=True det=1.00 (50s)
+sea2       adwin-pooled  arl_target=1e+04 knob=   0.3002 arl=    15068 ok=True det=1.00 (46s)
+sea2       ddm-oci       arl_target=1e+04 knob=  12.5388 arl=    10000 ok=True det=1.00 (1s)
+sea10      adwin-pooled  arl_target=1e+04 knob=   0.3167 arl=    10092 ok=True det=1.00 (46s)
+sea10      ddm-oci       arl_target=1e+04 knob=  61.5538 arl=    10000 ok=True det=0.90 (1s)
+sea2       lfr           arl_target=1e+04 knob=   3.7447 arl=    10000 ok=True det=1.00 (18s)
+sea20      adwin-pooled  arl_target=1e+04 knob=   0.3680 arl=    10092 ok=True det=1.00 (45s)
+gauss1     adwin-pooled  arl_target=1e+04 knob=   0.3002 arl=    25000 ok=True det=1.00 (46s)
+gauss1     ddm-oci       arl_target=1e+04 knob=   6.4231 arl=    10000 ok=True det=1.00 (0s)
+sea20      ddm-oci       arl_target=1e+04 knob= 117.3009 arl=    10030 ok=True det=0.73 (1s)
+sea10      lfr           arl_target=1e+04 knob=   3.8523 arl=    10061 ok=True det=1.00 (18s)
+sea1       adwin-pooled  arl_target=1e+04 knob=   0.3002 arl=    15865 ok=True det=1.00 (46s)
+gauss1     lfr           arl_target=1e+04 knob=   3.5384 arl=    10000 ok=True det=1.00 (18s)
+sea1       ddm-oci       arl_target=1e+04 knob=   6.3455 arl=    10000 ok=True det=1.00 (1s)
+sea20      lfr           arl_target=1e+04 knob=   3.8508 arl=    10061 ok=True det=1.00 (18s)
+gmm5       adwin-bank    arl_target=1e+04 knob=   0.3922 arl=    10177 ok=True det=1.00 (49s)
+sea1       lfr           arl_target=1e+04 knob=   3.6872 arl=    10000 ok=True det=1.00 (17s)
+gmm5       adwin-pooled  arl_target=1e+04 knob=   0.4354 arl=    10000 ok=True det=1.00 (44s)
+gmm5       ddm-oci       arl_target=1e+04 knob=  26.9740 arl=    10000 ok=True det=0.77 (1s)
+gmm5       lfr           arl_target=1e+04 knob=   3.6440 arl=    10000 ok=True det=1.00 (19s)
+gauss5     rbmim         arl_target=1e+04 knob=   2.6857 arl=    10030 ok=True det=1.00 (165s)
+gauss5 done in 456s
+sea2       rbmim         arl_target=1e+04 knob=   2.5683 arl=    10000 ok=True det=1.00 (151s)
+sea2 done in 484s
+gauss1     rbmim         arl_target=1e+04 knob=   2.4921 arl=    10000 ok=True det=1.00 (138s)
+gauss1 done in 490s
+sea10      rbmim         arl_target=1e+04 knob=   2.6321 arl=    10000 ok=True det=1.00 (161s)
+sea10 done in 498s
+sea20      rbmim         arl_target=1e+04 knob=   2.7809 arl=    10000 ok=True det=1.00 (146s)
+sea20 done in 499s
+sea1       rbmim         arl_target=1e+04 knob=   2.4909 arl=    10030 ok=True det=1.00 (139s)
+sea1 done in 507s
+credit     bank          arl_target=1e+04 knob=   1.0860 arl=    10007 ok=True det=1.00 (1s)
+credit     bank-oracle   arl_target=1e+04 knob=   1.2780 arl=    10007 ok=True det=1.00 (1s)
+credit     bank-multi    arl_target=1e+04 knob=   1.8031 arl=    10042 ok=True det=1.00 (1s)
+credit     pooled        arl_target=1e+04 knob=   0.9102 arl=    10007 ok=True det=1.00 (1s)
+credit     ra            arl_target=1e+04 knob=   1.1359 arl=    10007 ok=True det=1.00 (1s)
+credit     ph-bank       arl_target=1e+04 knob=   0.8932 arl=    23377 ok=True det=1.00 (2s)
+credit     ph-pooled     arl_target=1e+04 knob=   1.9341 arl=    10007 ok=True det=1.00 (2s)
+credit     ddm-bank      arl_target=1e+04 knob= 400.0000 arl=     5775 ok=False det=0.87 (0s)
+credit     ddm-pooled    arl_target=1e+04 knob= 400.0000 arl=     6044 ok=False det=0.27 (0s)
+gmm5       rbmim         arl_target=1e+04 knob=   3.5007 arl=    10000 ok=True det=1.00 (203s)
+gmm5 done in 621s
+credit     adwin-bank    arl_target=1e+04 knob=   0.3002 arl=  1948070 ok=True det=1.00 (54s)
+credit     adwin-pooled  arl_target=1e+04 knob=   0.3002 arl=   649357 ok=True det=0.87 (56s)
+credit     ddm-oci       arl_target=1e+04 knob=   1.0015 arl=    19744 ok=True det=1.00 (1s)
+credit     lfr           arl_target=1e+04 knob=   2.0000 arl=    64222 ok=True det=1.00 (30s)
+insects    bank          arl_target=1e+04 knob=   6.0027 arl=    10000 ok=True det=1.00 (2s)
+insects    bank-oracle   arl_target=1e+04 knob=   6.0265 arl=    10000 ok=True det=1.00 (2s)
+insects    bank-multi    arl_target=1e+04 knob=   7.2464 arl=    10000 ok=True det=1.00 (2s)
+insects    pooled        arl_target=1e+04 knob=   1.0161 arl=    10000 ok=True det=1.00 (1s)
+insects    ra            arl_target=1e+04 knob=   5.9257 arl=    10000 ok=True det=1.00 (1s)
+insects    ph-bank       arl_target=1e+04 knob=   8.4338 arl=    10010 ok=True det=1.00 (3s)
+insects    ph-pooled     arl_target=1e+04 knob=  38.3295 arl=    10042 ok=True det=1.00 (3s)
+insects    ddm-bank      arl_target=1e+04 knob=   2.5601 arl=    10503 ok=True det=1.00 (2s)
+insects    ddm-pooled    arl_target=1e+04 knob=   2.0243 arl=    12198 ok=True det=0.60 (3s)
+insects    adwin-bank    arl_target=1e+04 knob=   0.4334 arl=    10073 ok=True det=1.00 (73s)
+credit     rbmim         arl_target=1e+04 knob=   2.3847 arl=    10007 ok=True det=1.00 (212s)
+credit done in 954s
+insects    adwin-pooled  arl_target=1e+04 knob=   0.4410 arl=    10000 ok=True det=1.00 (74s)
+insects    ddm-oci       arl_target=1e+04 knob=  10.6057 arl=    10000 ok=True det=0.73 (1s)
+insects    lfr           arl_target=1e+04 knob=   3.7986 arl=    10000 ok=True det=1.00 (31s)
+covtype    bank          arl_target=1e+04 knob=   5.9248 arl=    10000 ok=True det=1.00 (3s)
+covtype    bank-oracle   arl_target=1e+04 knob=   5.9447 arl=    10000 ok=True det=1.00 (3s)
+covtype    bank-multi    arl_target=1e+04 knob=   7.1720 arl=    10008 ok=True det=1.00 (3s)
+covtype    pooled        arl_target=1e+04 knob=   0.2015 arl=    10008 ok=True det=1.00 (1s)
+covtype    ra            arl_target=1e+04 knob=   5.8907 arl=    10000 ok=True det=1.00 (1s)
+covtype    ph-bank       arl_target=1e+04 knob=   5.1954 arl=    10015 ok=True det=1.00 (5s)
+covtype    ph-pooled     arl_target=1e+04 knob=  41.4689 arl=    10000 ok=True det=1.00 (4s)
+covtype    ddm-bank      arl_target=1e+04 knob=   2.7626 arl=    10321 ok=True det=1.00 (3s)
+covtype    ddm-pooled    arl_target=1e+04 knob=   1.9498 arl=    13836 ok=True det=0.53 (4s)
+covtype    adwin-bank    arl_target=1e+04 knob=   0.4125 arl=    10069 ok=True det=1.00 (106s)
+covtype    adwin-pooled  arl_target=1e+04 knob=   0.4336 arl=    10015 ok=True det=1.00 (109s)
+covtype    ddm-oci       arl_target=1e+04 knob=   4.0852 arl=    10000 ok=True det=1.00 (2s)
+covtype    lfr           arl_target=1e+04 knob=   2.7696 arl=    10217 ok=True det=1.00 (44s)
+insects    rbmim         arl_target=1e+04 knob=   3.1233 arl=    10031 ok=True det=1.00 (675s)
+insects done in 1719s
+covtype    rbmim         arl_target=1e+04 knob=   3.1236 arl=    10008 ok=True det=1.00 (1082s)
+covtype done in 2418s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib64/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 277, in run_family
+    nul = [prepare(family, s, False, None, need_X) for s in range(n_eval)]
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 61, in prepare
+    z = np.load(f, allow_pickle=True)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 471, in load
+    ret = NpzFile(fid, own_fid=own_fid, allow_pickle=allow_pickle,
+                  pickle_kwargs=pickle_kwargs,
+                  max_header_size=max_header_size)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 197, in __init__
+    _zip = zipfile_factory(fid)
+  File "/data/interns/studentiotlab/drift/venv/lib64/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 112, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/zipfile/__init__.py", line 1401, in __init__
+    self._RealGetContents()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/zipfile/__init__.py", line 1468, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 318, in <module>
+    futs = [ex.submit(run_family, f, a.detectors, a.arl, a.out, a.n_eval) for f in a.families]
+    ^^
+  File "/data/interns/studentiotlab/drift/Code_v2/v2/bench.py", line 314, in main
+    ap.add_argument("--n-eval", type=int, default=30)
+            ^^^^^^^^^^
+  File "/usr/lib64/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib64/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+zipfile.BadZipFile: File is not a zip file

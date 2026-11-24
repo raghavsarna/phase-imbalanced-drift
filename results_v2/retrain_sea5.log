@@ -1,0 +1,14 @@
+sea5 bank BA_post=0.812 BA_all=0.817 retrains=3.8
+sea5 pooled BA_post=0.796 BA_all=0.813 retrains=1.8
+sea5 ph-pooled BA_post=0.802 BA_all=0.817 retrains=5.6
+sea5 ddm-pooled BA_post=0.771 BA_all=0.779 retrains=1.1
+sea5 adwin-pooled BA_post=0.774 BA_all=0.802 retrains=4.5
+sea5 ddm-oci BA_post=0.746 BA_all=0.758 retrains=0.8
+sea5 lfr BA_post=0.786 BA_all=0.813 retrains=4.4
+sea5 rbmim BA_post=0.804 BA_all=0.819 retrains=13.7
+sea5 none BA_post=0.746 BA_all=0.751 retrains=0.0
+sea5 periodic BA_post=0.812 BA_all=0.819 retrains=10.0
+sea5 oracle BA_post=0.814 BA_all=0.819 retrains=1.0
+sea5 none BA_post=0.746 BA_all=0.751 retrains=0.0
+sea5 periodic BA_post=0.812 BA_all=0.819 retrains=10.0
+sea5 oracle BA_post=0.814 BA_all=0.819 retrains=1.0

@@ -1,0 +1,22 @@
+credit   lfr           knob=   3.0000 arl=   389614 ok=True det=0.83 (5s)
+credit done in 6s
+insects  lfr           knob=   4.3979 arl=    53333 ok=True det=1.00 (7s)
+insects done in 7s
+gauss1   lfr           knob=   4.3010 arl=    51000 ok=True det=1.00 (8s)
+sea2     lfr           knob=   4.4034 arl=    51000 ok=True det=0.97 (8s)
+gauss1 done in 8s
+sea1     lfr           knob=   4.3373 arl=    51000 ok=True det=1.00 (8s)
+sea2 done in 8s
+gauss5   lfr           knob=   4.6108 arl=    51864 ok=True det=1.00 (8s)
+sea10    lfr           knob=   4.6778 arl=    50164 ok=True det=1.00 (8s)
+sea1 done in 8s
+sea5     lfr           knob=   4.6021 arl=    51000 ok=True det=1.00 (8s)
+gauss5 done in 8s
+gmm5     lfr           knob=   4.3326 arl=    50656 ok=True det=1.00 (8s)
+sea10 done in 8s
+sea5 done in 8s
+sea20    lfr           knob=   4.6778 arl=    50164 ok=True det=1.00 (8s)
+gmm5 done in 9s
+sea20 done in 9s
+covtype  lfr           knob=   3.5361 arl=    50769 ok=True det=1.00 (9s)
+covtype done in 10s

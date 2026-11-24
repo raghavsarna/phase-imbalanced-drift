@@ -1,0 +1,13 @@
+gauss5 bank BA_post=0.687 BA_all=0.694 retrains=3.1
+gauss5 pooled BA_post=0.680 BA_all=0.689 retrains=2.2
+gauss5 ph-pooled BA_post=0.683 BA_all=0.689 retrains=12.8
+gauss5 ddm-pooled BA_post=0.682 BA_all=0.691 retrains=1.4
+gauss5 adwin-pooled BA_post=0.676 BA_all=0.686 retrains=6.7
+gauss5 ddm-oci BA_post=0.666 BA_all=0.674 retrains=0.3
+gauss5 lfr BA_post=0.681 BA_all=0.691 retrains=5.4
+gauss5 rbmim BA_post=0.683 BA_all=0.693 retrains=23.4
+gauss5 none BA_post=0.662 BA_all=0.671 retrains=0.0
+gauss5 periodic BA_post=0.680 BA_all=0.688 retrains=10.0
+gauss5 oracle BA_post=0.681 BA_all=0.689 retrains=1.0
+gauss5 periodic BA_post=0.680 BA_all=0.688 retrains=10.0
+gauss5 oracle BA_post=0.681 BA_all=0.689 retrains=1.0

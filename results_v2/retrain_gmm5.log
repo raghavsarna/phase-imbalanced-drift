@@ -1,0 +1,13 @@
+gmm5 bank BA_post=0.704 BA_all=0.710 retrains=3.3
+gmm5 pooled BA_post=0.701 BA_all=0.710 retrains=1.3
+gmm5 ph-pooled BA_post=0.701 BA_all=0.709 retrains=6.1
+gmm5 ddm-pooled BA_post=0.689 BA_all=0.697 retrains=1.0
+gmm5 adwin-pooled BA_post=0.701 BA_all=0.710 retrains=4.4
+gmm5 ddm-oci BA_post=0.691 BA_all=0.698 retrains=1.0
+gmm5 lfr BA_post=0.703 BA_all=0.711 retrains=6.5
+gmm5 rbmim BA_post=0.687 BA_all=0.698 retrains=5.6
+gmm5 none BA_post=0.673 BA_all=0.681 retrains=0.0
+gmm5 periodic BA_post=0.694 BA_all=0.708 retrains=10.0
+gmm5 oracle BA_post=0.703 BA_all=0.709 retrains=1.0
+eriodic BA_post=0.694 BA_all=0.708 retrains=10.0
+gmm5 oracle BA_post=0.703 BA_all=0.709 retrains=1.0
